@@ -1,0 +1,1287 @@
+{
+ "settings": {
+  "site": {
+   "title": "엠테크",
+   "description": "유량계, 신호변환기, 산업전자 제품 개발 및 제어 계측 솔루션 - 엠테크",
+   "subVisual": "/images/design/visual_mt1.jpg",
+   "logo": "/images/design/logo.png"
+  },
+  "company": {
+   "name": "엠테크",
+   "nameEn": "MTECH.INC",
+   "ceo": "백종석",
+   "phone": "010 - 3717 - 2879",
+   "email": "mtech-js@hanmail.net",
+   "address": "인천광역시 부평구 안남로 425-10 4층 (청천동)",
+   "bizNo": "",
+   "copyright": "Copyright © 2018 MTECH.INC All rights reserved."
+  },
+  "home": {
+   "banner": {
+    "image": "/images/main/Mcontent1_mt1.jpg",
+    "link": "/product/vortex/mvt-3000f"
+   },
+   "cards": [
+    {
+     "title": "Flow Measurement",
+     "subtitle": "유량계 제품소개",
+     "image": "/images/main/Mcontent2_mt1.jpg",
+     "link": "/product/magnetic"
+    },
+    {
+     "title": "Electronic Control",
+     "subtitle": "전자제어 제품소개",
+     "image": "/images/main/Mcontent3_mt1.jpg",
+     "link": "/product/converter"
+    }
+   ],
+   "newsTitle": "Company News",
+   "customerCenter": {
+    "title": "Customer Center",
+    "phone": "010. 3717. 2879",
+    "tel": "010-3717-2879",
+    "hours": "평일 am 10:00 ~ pm 6:00 (주말 및 공휴일 휴무)",
+    "buttons": [
+     {
+      "label": "1:1문의",
+      "link": "/contact"
+     },
+     {
+      "label": "Q&A",
+      "link": "/customer/qna"
+     }
+    ]
+   }
+  },
+  "greeting": {
+   "title": "최고의 품질과 완벽한 서비스를 자랑하는 기업",
+   "subtitle": "앞서가는 기술력으로 최고의 품질을 고객과 파트너들에게 제공는 엠테크 입니다.",
+   "body": "1995년에 설립된 엠테크는 각종 유량계 신호변환기 산업전자 제품 개발 및 제어 계측 각종 솔루션을 개발하고 고객의 요구에 맞는 제품을 공급하고 있습니다.\n세계 각국에서 생산되고 있는 우수한 품질과 경쟁력을 갖춘 유량계 전문회사와 대리점 계약을 체결하여 공급하고 있으며 M-METER 상표로 직접 제품생산하여 품질 및 가격 경쟁력을 갖추고 국내 산업 현장에 공급하고 있습니다.\n최고의 품질과 완벽한 서비스로 성장해 가는 엠테크가 되겠습니다.\n감사합니다.",
+   "signImage": "/images/company/si.gif",
+   "image": "/images/design/sub1_img1.jpg"
+  },
+  "history": {
+   "title": "HISTORY",
+   "subtitle": "Since 1995"
+  },
+  "location": {
+   "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25315.534576933773!2d126.69215762505677!3d37.52108105759723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b7dc39bb07031%3A0x441f80787405ff05!2z7J247LKc6rSR7Jet7IucIOu2gO2Pieq1rCDslYjrgqjroZwgNDI1LTEw!5e0!3m2!1sko!2skr!4v1521710546870",
+   "address": "인천광역시 부평구 안남로 425-10 4층 (청천동)",
+   "phone": "010 - 3717 - 2879",
+   "email": "mtech-js@hanmail.net",
+   "directions": [
+    {
+     "label": "지하철",
+     "text": "인천지하철 1호선 갈산역 하차. 1번 출구에서 버스 12번 승차후, 외환은행 정류장에서 하차"
+    }
+   ]
+  },
+  "contact": {
+   "title": "문의사항을 남겨주세요.",
+   "subtitle": "내용을 상세히 기재해주시면 보다 정확한 답변을 드릴 수 있습니다.",
+   "privacy": "▶ 개인정보의 수집 및 이용목적\n\n- 서비스 이용에 따른 본인식별, 실명확인, 가입의사 확인, 연령제한 서비스 이용\n\n- 고지사항 전달, 불만처리 의사소통 경로 확보, 물품배송 시 정확한 배송지 정보 확보\n\n- 신규 서비스 등 최신정보 안내 및 개인맞춤서비스 제공을 위한 자료\n\n- 기타 원활한 양질의 서비스 제공 등\n\n\n\n▶ 수집하는 개인정보의 항목\n\n- 이름, 이메일, 주민등록번호, 주소, 연락처, 핸드폰번호, 그 외 선택항목\n\n\n\n▶ 개인정보의 보유 및 이용기간\n\n- 원칙적으로 개인정보의 수집 또는 제공받은 목적 달성 시 지체 없이 파기합니다.\n\n- 다만, 원활한 서비스의 상담을 위해 상담 완료 후 내용을 3개월간 보유할 수 있으며\n\n   전자상거래에서의 소비자보호에 관한 법률 등 타법률에 의해 보존할 필요가 있는 경우에는 일정기간 보존합니다.",
+   "notifyEmail": "mtech-js@hanmail.net"
+  },
+  "notice": {
+   "title": "새로운 소식을 알려드립니다.",
+   "subtitle": "상상 그 이상을 실현하는 회사, 엠테크 입니다."
+  },
+  "qna": {
+   "title": "질문을 남기시면 답변드리겠습니다.",
+   "subtitle": "상상 그 이상을 실현하는 회사, 엠테크 입니다."
+  },
+  "menu": {
+   "showQna": false
+  }
+ },
+ "slides": [
+  {
+   "link": "/product/magnetic",
+   "image": "/images/main/slider1.jpg",
+   "textImage": "/images/main/txt1.png",
+   "sortOrder": 1
+  },
+  {
+   "link": "/product/magnetic",
+   "image": "/images/main/slider2.jpg",
+   "textImage": "/images/main/txt2.png",
+   "sortOrder": 2
+  },
+  {
+   "link": "/product/magnetic",
+   "image": "/images/main/slider3.jpg",
+   "textImage": "/images/main/txt3.png",
+   "sortOrder": 3
+  }
+ ],
+ "history": [
+  {
+   "year": "2018",
+   "month": "01",
+   "content": "다중 복합환경센서 및 특성 모니터링 개발용역 수행-ETRI",
+   "sortOrder": 1
+  },
+  {
+   "year": "2017",
+   "month": "03",
+   "content": "m-meter 직접생산 유량계 공급",
+   "sortOrder": 2
+  },
+  {
+   "year": "2016",
+   "month": "05",
+   "content": "레이저 레벨미터, 초음파 레벨미터 공급",
+   "sortOrder": 3
+  },
+  {
+   "year": "2016",
+   "month": "05",
+   "content": "압력, 차압 트랜스미터 공급",
+   "sortOrder": 4
+  },
+  {
+   "year": "2015",
+   "month": "10",
+   "content": "각종 수입유량계 공급",
+   "sortOrder": 5
+  },
+  {
+   "year": "2015",
+   "month": "03",
+   "content": "초음파 유량계, 열식 질량 유량계 전자 유량계등 공급",
+   "sortOrder": 6
+  },
+  {
+   "year": "2008",
+   "month": "08",
+   "content": "태양광 추적 시스템 개발 및 시판",
+   "sortOrder": 7
+  },
+  {
+   "year": "2008",
+   "month": "01",
+   "content": "2Wire Transmetter (Multi Input) 개발 및 시판",
+   "sortOrder": 8
+  },
+  {
+   "year": "2007",
+   "month": "09",
+   "content": "Dual Large Indicator (MT-W200) 개발 및 시판",
+   "sortOrder": 9
+  },
+  {
+   "year": "2007",
+   "month": "02",
+   "content": "고용량 피뢰기 개발 및 시판",
+   "sortOrder": 10
+  },
+  {
+   "year": "2006",
+   "month": "06",
+   "content": "Data Logger 개발 및 시판",
+   "sortOrder": 11
+  },
+  {
+   "year": "2006",
+   "month": "03",
+   "content": "정류기용 DAQ Module 개발 및 시판",
+   "sortOrder": 12
+  },
+  {
+   "year": "2005",
+   "month": "08",
+   "content": "Slim Type (MTSC-Series) Converter CE 인증획득",
+   "sortOrder": 13
+  },
+  {
+   "year": "2005",
+   "month": "06",
+   "content": "Program AC Signal Alarm Setter 개발 및 시판",
+   "sortOrder": 14
+  },
+  {
+   "year": "2004",
+   "month": "08",
+   "content": "분사 및 공장 확장이전\n서울특별시 금천구 가산동 481-11 대륭테크노타운 8차 608호",
+   "sortOrder": 15
+  },
+  {
+   "year": "2004",
+   "month": "06",
+   "content": "Slim Type (MTSC-Series) 개발 및 시판",
+   "sortOrder": 16
+  },
+  {
+   "year": "2004",
+   "month": "03",
+   "content": "Programmable Converter 개발 및 시판",
+   "sortOrder": 17
+  },
+  {
+   "year": "2003",
+   "month": "02",
+   "content": "대형 지시계 개발 및 시판\n다기능 연산계 개발 및 시판",
+   "sortOrder": 18
+  },
+  {
+   "year": "2002",
+   "month": "04",
+   "content": "인터넷 제어 시스템 설치",
+   "sortOrder": 19
+  },
+  {
+   "year": "2002",
+   "month": "02",
+   "content": "신형 Digital Indicator 개발",
+   "sortOrder": 20
+  },
+  {
+   "year": "1995",
+   "month": "07",
+   "content": "신호변환기, 지시계 및 Arrester 판매 개시",
+   "sortOrder": 21
+  },
+  {
+   "year": "1995",
+   "month": "05",
+   "content": "에스콘 엔지니어링 설립",
+   "sortOrder": 22
+  }
+ ],
+ "categories": [
+  {
+   "slug": "magnetic",
+   "name": "전자기유량계",
+   "title": "전자기유량계",
+   "engTitle": "Magnetic Flowmeter",
+   "intro": "관경에 마그네틱 자장을 형성하여 배관에 전도도를 가진 유체가 통과하며 발생되는 전압을 전극을 통해 측정하는 계측기를 전자유량계라 한다.\n전도성 유체가 배관 내를 통과할 때 발생하는 신호 기전력을 이용하여 관내에 흐르는 부피 유량을 측정한다.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "설치비용이 저렴하다.\n정밀도가 높다. (±0.5% of R.D.)\n유량 범위가 광범위하다.(Turn Down Ratio 50:1)\n다양한 재질 선택 (Linning, Electrode, Flange)\n사용 유체가 광범위하다.\n다양한 출력 및 통신 (Analog, Pulse, RS485)\n가격이 저렴하다.\n방수형 IP68등급으로 수중에서도 유량 측정이 가능 (Option)"
+    },
+    {
+     "title": "적용",
+     "body": "정수, 하수, 오수, 상하수도 관련 플랜트\n부식성 화학 액체\n부유물질 액체\n보일러 순환수"
+    },
+    {
+     "title": "공통사양",
+     "body": "연결 규격 : NPT, Flange(ANSI, DIN, KS)\n사용 전원 : AC 85~250V, 50/60 Hz, 또는 DC 24V\n출력 사양 : 4~20 mA.DC, Pulse\n정 밀 도 : ±0.5% of R.D.\n측정 구경 : 3 mm ~ 2,000 mm\n사용 압력 : 40 kg/cm2 (max.)\n사용 온도 : -30 ℃ ~ 180 ℃\nEnclosure : IP65, IP68(Option)"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "slug": "vortex",
+   "name": "와류식유량계",
+   "title": "와류식유량계",
+   "engTitle": "Vortex Flowmeter",
+   "intro": "측정 원리는 배관 내부의 설치된 방해물(Shedding) 때문에 파이프를 통해 액체 또는 가스가 흐를 때 소용돌이가 생성된다.\nBLUFF의 한쪽에서 다른 한쪽으로 번갈아 형성되는 저압력의 소용돌이 이다.\n이 때 BLUFF CODY 반대편의 저압력에 상응하는 고압력의 Pulse가 형성된다. 이 펄스는 주어진 속도에 비례한다.\n각 펄스는 주어진 라인 사이즈에 대해 주어진 유체의 용적 단위를 나타낸다.\n이 때 출력은 유량에 비례한다. 이것은 카르만 법칙에 의거한 측정 기술이다.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "정밀도가 높다.(±1.0% of R.D.)\n유량 범위가 광범위하다. (Turn Down Ratio 70:1)\n사용유체가 광범위하다.\n안정적인 신호와 긴 수명의 첨단 기능 (Plug & Play)\n온도 범위가 넓다. (-40℃ ~ 350℃)\n4~20mA DC(2-Wire)방식으로 기존 유량계 교체가 용이하다.\nMass Flow 기능 (온도,압력, 유량센서 일체형 또는 Flowcomputer를 적용하여 외장 센서형으로 구성이 가능)\n포화증기에 적용할 경우 온도 보상 기본 탑재"
+    },
+    {
+     "title": "적용",
+     "body": "Utility 가스 (도시가스, 수소, 질소, 산소, 아르곤, 공기 등)\n스팀\n보일러 컨트롤\n윤활유\n부식성 가스\n냉, 온수"
+    },
+    {
+     "title": "공통사양",
+     "body": "연결 규격 : Flange(KS,ANSI,DIN)\n사용 전원 : 24V DC\n출력 사양 : 4~20mA, Scale Pulse\n통신 사양 : RS485 Modbus RTU 또는 HART\n정밀도 : Liquid ±0.7% of R.D. Gas, Steam ±1.0% of R.D.\n측정 규격 : 2.5mm ~ 300mm\n사용 압력 : 78 kg/cm2 (max.)\n사용 온도 : -40 ℃ ~ 350 ℃\n측정 범위 : TURN DOWN RATIO 70:1\nEnclosure : IP65"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "slug": "ultrasonic",
+   "name": "초음파유량계",
+   "title": "초음파유량계",
+   "engTitle": "Ultrasonic Flowmeter",
+   "intro": "전송 시간 차 방법 이용\n유체를 통하여 흐르는 두 개의 초음파 펄스 : 하나는 유체방향으로, 하나는 유체 반대 방향\n파이프 교차 섹션에서 평균 유량 속도를 얻기 위해 프로파일 교정이 실행 : 부피는 순간 유량에 비례.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "설치시에 배관 작업이 불필요하므로, 공사비용 절감이 탁월하다.(배관 외벽 설치 방식)\n최고 속도에 민감하지 않음\n오랜 시간의 안정적인 유량 측정\n최고 측정 순간 유량, 빠른 응답 속도\n높은 측정 다이나믹의 정확한 양방향 유량 측정\nPC없이도 계기에서 직접적인 운영"
+    },
+    {
+     "title": "적용",
+     "body": "정수, 하수, 오수, 상하수도 관련 플랜트\n부식성 화학 액체\n보일러 순환수\n그 밖의 광범위한 액체 유체분야"
+    },
+    {
+     "title": "공통사양",
+     "body": "사용 전원 : AC220V, DC24V\n출력 사양 : 4~20 mA, Pulse\n통신 사양 : RS485 Modbus RTU (옵션)\n정 밀 도 : ±0.5% of R.D.\n측정 구경 : 10mm ~ 2500mm\n사용 온도 : -20℃ ~ 50℃\n측정 범위 : 0.01 ~ 25 m/s (Turndown Ratio 100:1)"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "slug": "coriolis",
+   "name": "코리올리유량계",
+   "title": "코리올리유량계",
+   "engTitle": "Coriolis",
+   "intro": "회전하고 있는 물체 위에서 운동하는 물체를 생각할 대 상정(想定)되는 겉보기의 힘으로 전향이라고도 한다.\n원심력(遠心力)과 마찬가지로 회전하는 물체 위에서 그 운동을 보는 경우에 나타나는 가상적(假想的)인 힘으로, 그 크기는 운동체의 비례하고 운동방향에 수직으로 작용한다.\n1828년 프랑스의 G.G. 코리올 리가 발견한 힘, 즉 코리올리 힘을 이용한 유량계가 코리올리 질량 유량계이다.\n코리올리 질량 유량계는 보통 U자형 튜브로 구성되어 있는데, 이 U자형 튜브는 위 아래로 강제 진동을 반복하고 있다. 이 때 U자형 튜브내로 유체를 흘리면 입구와 출구에서 서로 반대 방향의 코리올리 힘이 발생하고 결국 튜브에 비틀림을 주게 된다. U자형 튜브의 입구와 출구에 전자 픽업 장치를 설치하여 비틀림양을 시간차 검출을 이용하여 측정하면 검출되는 시간차는 질량 유량에 정확히 비례하므로 튜브를 통과하는 질량 유량이 직접 측정된다.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "직접 질량 유량을 측정할 수 있다.\n정확도가 높다. 0.1%, 0.2%, 0.5% 선택가능)\n측정 범위가 넓다.\n제한된 압력 및 온도 범위에서 거의 모든 유체의 측정이 가능하다.\n검출센서가 유체중에 일체 노출되지 않는다.\n유량외의 밀도의 측정도 가능하다.\n유체의 온도측정도 가능하다\n원리적으로 점도나 밀도의 영향을 받지 않는다."
+    },
+    {
+     "title": "적용",
+     "body": "Oil Exploration\nCustody Transfer\nHigh viscosity Media\nLoading of Boats, Veseels, Rail Tank wagons\nInjection\nFiling\nGeneral Flow Control\nBatching\nDosing"
+    },
+    {
+     "title": "공통사양",
+     "body": "Measurement of liquids and gas\nFlow rates from 0.016 ~ 2,500 t/h\nDiameters : 8 ~ 250 mm\nOutput : 4~20 mA DC, Frequency (active)\nCommunication : RS485 Modbus RTU\nTemperature : -40℃ ~ 180℃\nPressure : 78 kg/cm2 (max.)\nProtection class : IP65"
+    }
+   ],
+   "sortOrder": 4
+  },
+  {
+   "slug": "thermal",
+   "name": "열식질량유량계",
+   "title": "열식질량유량계",
+   "engTitle": "Thermal mass Flowmeter",
+   "intro": "이 유량계는 Thermal dispersion type으로 플라티늄 RTD로 구성되어 있다.\n하나의 sensor는 유속측정과 heating 기능을 가지고 있고, 다른 하나는 유체를 측정한다.\n이 때 가열된 sensor는 가스에 의해 열이 소모되기 때문에, 전류 요구량이 증가된다.\n이 전류 요구량은 유량에 비례하여 증가됨으로 이 때 흐르는 유체(가스)의 질량을 직접 측정한다.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "하나의 유량계로 4개의 각각 다른 공정의 유량을 측정할 수 있다.\n온도 범위가 넓다 (-40℃ ∼ 400℃)\n정확도와 신뢰성이 높다 (지시값의 ±1.0%)\n저유속의 유체 흐름에도 원활한 작동을 한다. (0.07m/sec)\n유량측정 범위가 광범위하다 (Turn down Ratio Max 1.000 : 1)\n설치가 간편하고 BY-PASS가 필요없다 (Ball valve Retractor 기능)\n온도는 자동 보상되고 압력 보상은 불필요하다.\nSensor 또는 MP Board를 현장에서 교체 가능하다.\n온도, 압력 변화에 영향을 받지 않고, 유체의 유량을 측정한다.\n별도의 공장 재교정 불필요"
+    },
+    {
+     "title": "적용",
+     "body": "Utility 가스 ( 도시가스, 수소, 질소, 산소, 아르곤, 공기 등)\nStack 배기 가스 (굴뚝, 대형 덕트)\n자동차회사, 반도체, 석유화학, 철강, 하수처리장 등\n연구소, 실험실\nHAVC"
+    },
+    {
+     "title": "공통사양",
+     "body": "연결 규격 : NPT, Flange (ANSI, DIN, JIS등) Insertion NPT\n측정 구경 : 6mm ∼ 5,000mm\n사용 전원 : 24VDC 또는 AC110 또는 AC220V, 60Hz\n사용 압력 : 0 ∼ 35 kg/cm²\n출력 사양 : 4-20mA, DC, Pulse, Relay, RS232/485\n사용 온도 : -40℃ ∼ 400℃\n정밀도 : 0.5% of F.S\n측정 범위 : Turn Down Ration 300:1"
+    }
+   ],
+   "sortOrder": 5
+  },
+  {
+   "slug": "positive",
+   "name": "PD유량계",
+   "title": "PD유량계",
+   "engTitle": "Positive Displacement Flowmeters",
+   "intro": "측정 원리는 계량실 내부의 운동자가 유체의 통과에 의해 운동을 하고 계량실과 운동자에 따라 주기적으로 공간을 구성, 이 공간의 충만 배출의 횟수를 적산해서, 유체의 부피를 측정한다.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "고정밀도로 미소유량 측정이 가능\n직관부가 필요없다.\n신뢰할 수 있는 디자인\n다양한 액세서리 : 적산/지시계, 다양한 Pick-up등"
+    },
+    {
+     "title": "적용",
+     "body": "오일, 윤활유, 기름, 잉크\n물"
+    },
+    {
+     "title": "공통사양",
+     "body": "연결 규격 : Flange(KS)\n재질: G, SUS304, SUS316\n사용 전원 : 옵션 사용시 DC 24V\n출력사양 : 4~20 mA.DC, Pulse (옵션사항)\n정밀도 : ±0.1%\n측정 구경 : 8 mm ~ 400 mm\n사용 압력 : 64 bar.A (max.)\n사용 온도 : -30 ℃ ~ 250 ℃\n동작 온도 : -40 ℃ ~ 80 ℃\nViscosity : 0 ~ 20,000 cp\nEnclosure : IP65"
+    }
+   ],
+   "sortOrder": 6
+  },
+  {
+   "slug": "mf",
+   "name": "FLOW COMPUTER",
+   "title": "FLOW COMPUTER",
+   "engTitle": "Multi-Function Flow Computer",
+   "intro": "MT-100시리즈 Flowcomputer는 외부의 유량계 신호가 입력되어, 유량을 표시하는 장치이다. 판넬 설치를 위한 Simple한 디자인이며, MT-100의 Processor는 외부로부터 다양한 신호 입력을 받아 User가 원하는 연산을 실행할 수 있다.",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "Gas, Steam 의 온압 보상 기능\nWater 의 열량 계산 기능\n신뢰할 수 있는 디자인\n다양한 입력 기능 : 4~20mA, 0~5V, PT100, Frequency signal등"
+    },
+    {
+     "title": "적용",
+     "body": "Gas, Steam용 유량 측정 (와유량계 온압 보상)\nWater용 열량 측정 (전자유량계, 와유량계)"
+    },
+    {
+     "title": "공통사양",
+     "body": "사용 전원 : AC220V 50/60Hz\n입력 사양: 4~20mA, 0~5V, PT100,Cu100, Frequency signal\n출력 사양 : 4~20 mA.DC, 0~5VDC, Alram pulse\n통 신 : RS485 Modbus RTU\nDisplay : 3.5\"matrix 128*64 LCD screen with backlight\n작동 온도 : 0 ~ 50 ℃\n설치 형식 : Standard panel mounted"
+    }
+   ],
+   "sortOrder": 7
+  },
+  {
+   "slug": "valve",
+   "name": "밸브",
+   "title": "밸브",
+   "engTitle": "Valaves",
+   "intro": "",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "탁월한 견고성 및 높은 신뢰성 밸브제품군\n부식과 마모에 우수한 내성을 가짐\nDIN, ANSI, BS 및 JIS 에 적합한 Flange 사용\n모든 Diaphragm valve와 호환 대체 가능"
+    },
+    {
+     "title": "적용",
+     "body": "화학공정, 화학 물질 저장 및 배분공정\n제약산업\n광물 및 금속 처리\n상수도 및 폐수처리\n매립, 발전, 농화학, 염소-알칼리 및 특수 화학물질\n유체를 취급하는 폐수처리, 강철 포집라인 및 안료공장"
+    }
+   ],
+   "sortOrder": 8
+  },
+  {
+   "slug": "transmitter",
+   "name": "압력차압전송기",
+   "title": "압력차압전송기",
+   "engTitle": "Smart Pressure Transmitter - ALIA",
+   "intro": "",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "높은 정밀도와 안정성\n키패드 통해 직접 Parameter 설정 가능\n4-20mA 출력 과 digital HART communication 가능\n버튼식 자동 영정 교정"
+    },
+    {
+     "title": "적용",
+     "body": "보일러"
+    },
+    {
+     "title": "공통사양",
+     "body": "정밀도 : +/- 0.075% of span\n정작업 온도 : -25 ~ 95℃\n정공급 전원 : - ~ 36VDC"
+    }
+   ],
+   "sortOrder": 9
+  },
+  {
+   "slug": "level",
+   "name": "레벨전송기",
+   "title": "레벨전송기",
+   "engTitle": "LEVEL METER",
+   "intro": "",
+   "sections": [
+    {
+     "title": "Ultrasonic Level Meter 특징",
+     "body": "Integrated design, installed conveniently\nProtected in the excessive voltage and current\nProtected in the thunder and lightning\nThe big show window of LCD is easy to debug and observe\nOver-voltage over-current protection, lightning protection\nAdvanced since the clamp type terminal, to ensure that wiring never loose\nIntellectual signal treatment technology, guarantee that the instrument meets various kinds of operating occasion\nAll plastic probe, acid and alkali resistant, adapt to bad environment"
+    },
+    {
+     "title": "Radar Level Meter 특징",
+     "body": "Small antenna size, easy to install; Non-contact radar, no wear, no pollution.\nAlmost no corrosion, bubble effect; almost not affected by water vapor in the atmosphere, the emperature and pressure changes.\nSerious dust environment on the high level meter work has little effect.\nA shorter wavelength, the reflection of solid surface inclination is better.\nThe measuring range is smaller, for a measurement will yield good results.\nBeam angle is small, the energy is concentrated, can enhance the ability of echo and to avoid interference.\nHigh signal-to-noise ratio, the level fluctuation state can obtain better performance.\nHigh frequency, measurement of solid and low dielectric constant of the best choice."
+    }
+   ],
+   "sortOrder": 10
+  },
+  {
+   "slug": "turbine",
+   "name": "터빈유량계",
+   "title": "터빈유량계",
+   "engTitle": "TURBINE FLOWMETERS",
+   "intro": "",
+   "sections": [
+    {
+     "title": "특징",
+     "body": "Smart solution for liquid\nPrecision measuring instrument\nSimple insertion design\nSS304 or SS316 Body Meterial\nDC 24V or Lithium Battery type\n4-20mA, Modbus RS485, Pulse output, or HART Communication can be selected"
+    }
+   ],
+   "sortOrder": 11
+  },
+  {
+   "slug": "converter",
+   "name": "Converter",
+   "title": "Converter",
+   "engTitle": "",
+   "intro": "",
+   "sections": [],
+   "sortOrder": 12
+  },
+  {
+   "slug": "indicator",
+   "name": "Indicator",
+   "title": "Indicator & Intergrator",
+   "engTitle": "",
+   "intro": "",
+   "sections": [],
+   "sortOrder": 13
+  },
+  {
+   "slug": "arrester",
+   "name": "Arrester",
+   "title": "Arrester",
+   "engTitle": "",
+   "intro": "",
+   "sections": [],
+   "sortOrder": 14
+  }
+ ],
+ "products": [
+  {
+   "categorySlug": "magnetic",
+   "slug": "mtm-200c",
+   "name": "MTM-200C",
+   "listName": "MTM-200C",
+   "subtitle": "Flange type",
+   "thumbnail": "/images/product/mtm_200c_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Lining meterial</th>\n<th>Fluid temperature<br/><br/><br/>&nbsp;</th>\n<th>Ambient Temperature</th>\n<th>Conductivity</th>\n<th>Power supply<br/>&nbsp;</th>\n<th>Display<br/><br/>&nbsp;</th>\n<th>Output<br/>&nbsp;</th>\n<th>Communication</th>\n<th>Protection class</th>\n<th>Test & diagnosis</th>\n<th>Special Function</th>\n<th>Option</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTM-200C</td>\n<td>3 ~ 2000mm</td>\n<td>Flange type KS, ANSI, DiN</td>\n<td>±0.5%，±0.3%or±0.2% are selectable</td>\n<td>0.1 ~ 15m/s</td>\n<td>PTFE, PFA, Neoprene, POLY</td>\n<td>PTFE(PFA) :  -40~130℃ <br/> Neoprene :  -20~70℃ <br/>Poly :   -10~60℃ <br/>Remote :  -40~180℃</td>\n<td>-25~60℃</td>\n<td>20 μs / cm</td>\n<td>AC 85 ~ 250V, 50/60HZ <br/>DC 24V ± 10%</td>\n<td>Flowrate(5-digit) <br/>Totalizer(9-digit) <br/>With backlight</td>\n<td>Analog : DC 4~20mA <br/>Pulse : 8~30V(open collector)</td>\n<td>RS-485(MODBUS, RTU), RS-232</td>\n<td>IP65 / IP68(optional)</td>\n<td>Self-diagnosis, Fail record, Current output test, Control input/output test, Emulation test mode, ETC</td>\n<td>-</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Dimension",
+     "html": "<div><img src=\"/images/product/mtm200c_dimension.jpg\" alt=\"\"/> </div>\n<div>\n<table class=\"rtable\">\n<thead>\n<tr>\n<th rowspan=\"2\">Nominal</th>\n<th rowspan=\"2\">pressure</th>\n<th colspan=\"4\">External Dimension</th>\n<th>reference </th>\n</tr>\n<tr>\n<th>PTFE/PFA</th>\n<th>Neoprene</th>\n<th>L</th>\n<th>H</th>\n<th>weight</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td rowspan=\"14\">4</td>\n<td colspan=\"2\">200(PFA)</td>\n<td>90</td>\n<td>220</td>\n<td>4</td>\n</tr>\n<tr>\n<td>6</td>\n<td colspan=\"2\">200(PFA)</td>\n<td>90</td>\n<td>220</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10</td>\n<td>200</td>\n<td>/</td>\n<td>90</td>\n<td>220</td>\n<td>6</td>\n</tr>\n<tr>\n<td>15</td>\n<td>200</td>\n<td>/</td>\n<td>95</td>\n<td>220</td>\n<td>8</td>\n</tr>\n<tr>\n<td>20</td>\n<td>200</td>\n<td>/</td>\n<td>105</td>\n<td>220</td>\n<td>10</td>\n</tr>\n<tr>\n<td>25</td>\n<td>200</td>\n<td>/</td>\n<td>115</td>\n<td>223</td>\n<td>12</td>\n</tr>\n<tr>\n<td>32</td>\n<td>200</td>\n<td>/</td>\n<td>140</td>\n<td>240</td>\n<td>13</td>\n</tr>\n<tr>\n<td>40</td>\n<td>200</td>\n<td>200</td>\n<td>150</td>\n<td>250</td>\n<td>14</td>\n</tr>\n<tr>\n<td>50</td>\n<td>200</td>\n<td>200</td>\n<td>165</td>\n<td>263</td>\n<td>15</td>\n</tr>\n<tr>\n<td>65</td>\n<td>250</td>\n<td>250</td>\n<td>185</td>\n<td>283</td>\n<td>18</td>\n</tr>\n<tr>\n<td>80</td>\n<td>250</td>\n<td>250</td>\n<td>200</td>\n<td>290</td>\n<td>20</td>\n</tr>\n<tr>\n<td>100</td>\n<td>250</td>\n<td>250</td>\n<td>235</td>\n<td>318</td>\n<td>25</td>\n</tr>\n<tr>\n<td>125</td>\n<td>250</td>\n<td>250</td>\n<td>270</td>\n<td>350</td>\n<td>28</td>\n</tr>\n<tr>\n<td>150</td>\n<td>300</td>\n<td>300</td>\n<td>300</td>\n<td>380</td>\n<td>30</td>\n</tr>\n<tr>\n<td>200</td>\n<td rowspan=\"8\">1.6</td>\n<td>350</td>\n<td>350</td>\n<td>340</td>\n<td>430</td>\n<td>50</td>\n</tr>\n<tr>\n<td>250</td>\n<td>450</td>\n<td>450</td>\n<td>405</td>\n<td>495</td>\n<td>70</td>\n</tr>\n<tr>\n<td>300</td>\n<td>500</td>\n<td>500</td>\n<td>460</td>\n<td>547</td>\n<td>95</td>\n</tr>\n<tr>\n<td>350</td>\n<td>550</td>\n<td>550</td>\n<td>520</td>\n<td>602</td>\n<td>120</td>\n</tr>\n<tr>\n<td>400</td>\n<td>600</td>\n<td>600</td>\n<td>580</td>\n<td>665</td>\n<td>140</td>\n</tr>\n<tr>\n<td>450</td>\n<td>600</td>\n<td>600</td>\n<td>640</td>\n<td>720</td>\n<td>160</td>\n</tr>\n<tr>\n<td>500</td>\n<td>600</td>\n<td>600</td>\n<td>715</td>\n<td>783</td>\n<td>200</td>\n</tr>\n<tr>\n<td>600</td>\n<td>600</td>\n<td>600</td>\n<td>840</td>\n<td>897</td>\n<td>280</td>\n</tr>\n<tr>\n<td>700</td>\n<td rowspan=\"4\">1</td>\n<td>700</td>\n<td>700</td>\n<td>895</td>\n<td>982</td>\n<td>350</td>\n</tr>\n<tr>\n<td>800</td>\n<td>800</td>\n<td>800</td>\n<td>1015</td>\n<td>1092</td>\n<td>400</td>\n</tr>\n<tr>\n<td>900</td>\n<td>900</td>\n<td>900</td>\n<td>1115</td>\n<td>1192</td>\n<td>480</td>\n</tr>\n<tr>\n<td>1000</td>\n<td>1000</td>\n<td>1000</td>\n<td>1230</td>\n<td>1299</td>\n<td>550</td>\n</tr>\n<tr>\n<td>1200</td>\n<td rowspan=\"5\">0.6</td>\n<td>1200</td>\n<td>1200</td>\n<td>1405</td>\n<td>1488</td>\n<td>660</td>\n</tr>\n<tr>\n<td>1400</td>\n<td>1400</td>\n<td>1400</td>\n<td>1630</td>\n<td>1700</td>\n<td>750</td>\n</tr>\n<tr>\n<td>1600</td>\n<td>1600</td>\n<td>1600</td>\n<td>1830</td>\n<td>1924</td>\n<td>850</td>\n</tr>\n<tr>\n<td>1800</td>\n<td>1800</td>\n<td>1800</td>\n<td>2045</td>\n<td>2134</td>\n<td>980</td>\n</tr>\n<tr>\n<td>2000</td>\n<td>2000</td>\n<td>2000</td>\n<td>2265</td>\n<td>2344</td>\n<td>1200</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "Display & Drawing",
+     "html": "<img src=\"/images/product/mtm200c_display.jpg\" alt=\"\"/>\n<img src=\"/images/product/mtm200c_drawing.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtm200_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtm200_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Structure Circuit of Converter",
+     "html": "<img src=\"/images/product/mtm200c_structure.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Installation",
+     "html": "<img src=\"/images/product/mtm200_installation1.jpg\" alt=\"\" width=\"100%\"/>\n<img src=\"/images/product/mtm200_installation2.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "mtm-200r",
+   "name": "MTM-200R",
+   "listName": "MTM-200R",
+   "subtitle": "Remote type",
+   "thumbnail": "/images/product/mtm_200r_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Lining meterial</th>\n<th>Fluid temperature<br/><br/><br/>&nbsp;</th>\n<th>Ambient Temperature</th>\n<th>Conductivity</th>\n<th>Power supply<br/>&nbsp;</th>\n<th>Display<br/><br/>&nbsp;</th>\n<th>Output<br/>&nbsp;</th>\n<th>Communication</th>\n<th>Protection class</th>\n<th>Test & diagnosis</th>\n<th>Special Function</th>\n<th>Option</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTM-200R</td>\n<td>3 ~ 2000mm</td>\n<td>Flange type KS, ANSI, DiN</td>\n<td>±0.5%，±0.3%or±0.2% are selectable</td>\n<td>0.1 ~ 15m/s</td>\n<td>PTFE, PFA, Neoprene, POLY</td>\n<td>PTFE(PFA) :  -40~130℃ <br/> Neoprene :  -20~70℃ <br/>Poly :   -10~60℃ <br/>Remote :  -40~180℃</td>\n<td>-25~60℃</td>\n<td>20 μs / cm</td>\n<td>AC 85 ~ 250V, 50/60HZ <br/>DC 24V ± 10%</td>\n<td>Flowrate(5-digit) <br/>Totalizer(9-digit) <br/>With backlight</td>\n<td>Analog : DC 4~20mA <br/>Pulse : 8~30V(open collector)</td>\n<td>RS-485(MODBUS, RTU), RS-232</td>\n<td>IP65 / IP68(optional)</td>\n<td>Self-diagnosis, Fail record, Current output test, Control input/output test, Emulation test mode, ETC</td>\n<td>-</td>\n<td>Cable length 10m(standard)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Display & Drawing",
+     "html": "<img src=\"/images/product/mtm200r_display.jpg\" alt=\"\"/>\n<img src=\"/images/product/mtm200r_drawing.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtm200_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtm200_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Structure Circuit of Converter",
+     "html": "<img src=\"/images/product/mtm200r_structure.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Installation",
+     "html": "<img src=\"/images/product/mtm200_installation1.jpg\" alt=\"\" width=\"100%\"/>\n<img src=\"/images/product/mtm200_installation2.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "mtm-200h",
+   "name": "MTM-200H",
+   "listName": "MTM-200H",
+   "subtitle": "Heat flow function",
+   "thumbnail": "/images/product/mtm_200h_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Lining meterial</th>\n<th>Fluid temperature<br/><br/><br/>&nbsp;</th>\n<th>Ambient Temperature</th>\n<th>Conductivity</th>\n<th>Power supply<br/>&nbsp;</th>\n<th>Display<br/><br/>&nbsp;</th>\n<th>Output<br/>&nbsp;</th>\n<th>Communication</th>\n<th>Protection class</th>\n<th>Test & diagnosis</th>\n<th>Special Function</th>\n<th>Option</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTM-200H</td>\n<td>3 ~ 2000mm</td>\n<td>Flange type KS, ANSI, DiN</td>\n<td>±0.5%，±0.3%or±0.2% are selectable</td>\n<td>0.1 ~ 15m/s</td>\n<td>PTFE, PFA, Neoprene, POLY</td>\n<td>PTFE(PFA) :  -40~130℃ <br/> Neoprene :  -20~70℃ <br/>Poly :   -10~60℃ <br/>Remote :  -40~180℃</td>\n<td>-25~60℃</td>\n<td>20 μs / cm</td>\n<td>AC 85 ~ 250V, 50/60HZ <br/>DC 24V ± 10%</td>\n<td>Flowrate(5-digit) <br/>Totalizer(9-digit) <br/>With backlight</td>\n<td>Analog : DC 4~20mA <br/>Pulse : 8~30V(open collector)</td>\n<td>RS-485(MODBUS, RTU), RS-232</td>\n<td>IP65 / IP68(optional)</td>\n<td>-</td>\n<td>Heat flow</td>\n<td>Cable length 10m(standard)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Display & Drawing",
+     "html": "<img src=\"/images/product/mtm200h_display.jpg\" alt=\"\"/>\n<img src=\"/images/product/mtm200h_drawing.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtm200_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtm200_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Structure Circuit of Converter",
+     "html": "<img src=\"/images/product/mtm200h_structure.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Installation",
+     "html": "<img src=\"/images/product/mtm200_installation1.jpg\" alt=\"\" width=\"100%\"/>\n<img src=\"/images/product/mtm200_installation2.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "mtm-200in",
+   "name": "MTM-200IN",
+   "listName": "MTM-200IN",
+   "subtitle": "Insertion type",
+   "thumbnail": "/images/product/mtm_200in_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Lining meterial</th>\n<th>Fluid temperature<br/>&nbsp;</th>\n<th>Ambient Temperature</th>\n<th>Conductivity</th>\n<th>Power supply<br/>&nbsp;</th>\n<th>Display<br/><br/>&nbsp;</th>\n<th>Output<br/>&nbsp;</th>\n<th>Communication</th>\n<th>Protection class</th>\n<th>Test & diagnosis</th>\n<th>Special Function</th>\n<th>Option</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTM-200IN</td>\n<td>100 ~ 2000mm</td>\n<td>Flange type KS, ANSI, DiN</td>\n<td>±0.5%，±0.3%or±0.2% are selectable</td>\n<td>0.1 ~ 15m/s</td>\n<td>PTFE, PFA, Neoprene, POLY</td>\n<td>ABS : -10~60℃<br/>POLY : -10~60℃</td>\n<td>-25~60℃</td>\n<td>20 μs / cm</td>\n<td>AC 85 ~ 250V, 50/60HZ <br/>DC 24V ± 10%</td>\n<td>Flowrate(5-digit) <br/>Totalizer(9-digit) <br/>With backlight</td>\n<td>Analog : DC 4~20mA <br/>Pulse : 8~30V(open collector)</td>\n<td>RS-485(MODBUS, RTU), RS-232</td>\n<td>IP65 / IP68(optional)</td>\n<td>-</td>\n<td>-</td>\n<td>Cable length 10m(standard)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Dimension",
+     "html": "<img src=\"/images/product/mtm200in_dimension.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtm200_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtm200_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Structure Circuit of Converter",
+     "html": "<img src=\"/images/product/mtm200in_structure.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Installation",
+     "html": "<img src=\"/images/product/mtm200_installation1.jpg\" alt=\"\" width=\"100%\"/>\n<img src=\"/images/product/mtm200_installation2.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 4
+  },
+  {
+   "categorySlug": "vortex",
+   "slug": "mvt-3000f",
+   "name": "MVT-3000F",
+   "listName": "MVT-3000F",
+   "subtitle": "Vortex flowmeter - Flange type",
+   "thumbnail": "/images/product/mvt_3000f_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Repeatablilty</th>\n<th>temperature</th>\n<th>Ambient Temperature</th>\n<th>Pressure</th>\n<th>Power supply</th>\n<th>Display<br/><br/>&nbsp;</th>\n<th>Output<br/>&nbsp;</th>\n<th>Protection class</th>\n<th>Communication</th>\n<th>Special Function</th>\n<th>Option<br/><br/>&nbsp;</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MVT-3000F</td>\n<td>15 ~ 300mm</td>\n<td>Flange type(KS, ANSI, DIN)</td>\n<td>Liquid : ±0.7% of reading, Gas, steam : ±1.0% of reading </td>\n<td>1.6  ~ 540,000 kg/h</td>\n<td>±0.2% of reading</td>\n<td>-40~350℃(standard)</td>\n<td>-25~60℃</td>\n<td>78Kg/cm2(Max.)</td>\n<td>DC 12~32V</td>\n<td>Flowrate(6-digit) <br/>Totalizer(8-digit) <br/>2line LCD</td>\n<td>Analog : DC 4~20mA(Passive)  <br/>Pulse : Scale pulse</td>\n<td>IP65 </td>\n<td>HART or RS-485(MODBUS)</td>\n<td>-</td>\n<td>Temperature, Pressure compensation <br/>Temperature : PT1000Ω <br/> Pressure : 0 ~30mV DC</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Dimension",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th rowspan=\"2\">(mm)</th>\n<th>Inner diameter</th>\n<th>Length L</th>\n<th>Height H</th>\n</tr>\n<tr>\n<th>D1(mm)</th>\n<th>(mm)</th>\n<th>(mm)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>25</td>\n<td>25</td>\n<td>170</td>\n<td>460</td>\n</tr>\n<tr>\n<td>32</td>\n<td>32</td>\n<td>170</td>\n<td>460</td>\n</tr>\n<tr>\n<td>40</td>\n<td>40</td>\n<td>190</td>\n<td>460</td>\n</tr>\n<tr>\n<td>50</td>\n<td>50</td>\n<td>190</td>\n<td>475</td>\n</tr>\n<tr>\n<td>65</td>\n<td>65</td>\n<td>220</td>\n<td>488</td>\n</tr>\n<tr>\n<td>80</td>\n<td>80</td>\n<td>220</td>\n<td>510</td>\n</tr>\n<tr>\n<td>100</td>\n<td>100</td>\n<td>240</td>\n<td>530</td>\n</tr>\n<tr>\n<td>125</td>\n<td>125</td>\n<td>260</td>\n<td>560</td>\n</tr>\n<tr>\n<td>150</td>\n<td>150</td>\n<td>280</td>\n<td>585</td>\n</tr>\n<tr>\n<td>200</td>\n<td>200</td>\n<td>300</td>\n<td>645</td>\n</tr>\n<tr>\n<td>250</td>\n<td>250</td>\n<td>360</td>\n<td>710</td>\n</tr>\n<tr>\n<td>300</td>\n<td>300</td>\n<td>400</td>\n<td>770</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Drawing",
+     "html": "<img src=\"/images/product/mvt_3000f_drawing.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<div class=\"title3 mt10\">Water &amp; Gas Flow Range</div>\n<div class=\"title5\">&nbsp;</div>\n<div>\n<table class=\"rtable\">\n<thead>\n<tr>\n<th rowspan=\"2\">Size(mm)</th>\n<th>Water</th>\n<th>Normal pressure and temperature air(NPT Air)</th>\n</tr>\n<tr>\n<th>standard measuring range(m3/h)</th>\n<th>standard measuring range(m3/h)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>15</td>\n<td>0.8 ∼ 6</td>\n<td>6 ∼ 40</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1 ∼ 8</td>\n<td>8 ∼ 50</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1.5 ~ 25</td>\n<td>10 ~ 80</td>\n</tr>\n<tr>\n<td>32</td>\n<td>1.7 ~ 14</td>\n<td>16 ~ 120</td>\n</tr>\n<tr>\n<td>40</td>\n<td>2.5 ~ 30</td>\n<td>25 ~ 200</td>\n</tr>\n<tr>\n<td>50</td>\n<td>3 ~ 50</td>\n<td>30 ~ 300</td>\n</tr>\n<tr>\n<td>65</td>\n<td>5 ~ 80</td>\n<td>50 ~ 500</td>\n</tr>\n<tr>\n<td>80</td>\n<td>8 ~ 120</td>\n<td>80 ~ 800</td>\n</tr>\n<tr>\n<td>100</td>\n<td>12 ~ 200</td>\n<td>120 ~ 1200</td>\n</tr>\n<tr>\n<td>125</td>\n<td>20 ~ 300</td>\n<td>160 ~ 1600</td>\n</tr>\n<tr>\n<td>150</td>\n<td>30 ~ 400</td>\n<td>250 ~ 2500</td>\n</tr>\n<tr>\n<td>200</td>\n<td>50 ~ 800</td>\n<td>400 ~ 4000</td>\n</tr>\n<tr>\n<td>250</td>\n<td>80 ~ 1200</td>\n<td>600 ~ 6000</td>\n</tr>\n<tr>\n<td>300</td>\n<td>100 ~ 1600</td>\n<td>1000 ~ 10000</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt30\">Saturated Steam Flow Range</div>\n<div class=\"title5\">&nbsp;</div>\n<div>\n<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">SIZE</th>\n<th colspan=\"6\">Max. Flow Range (kg/h)</th>\n</tr>\n<tr>\n<th>mm</th>\n<th>inch</th>\n<th>1KG/CM2.G</th>\n<th>2KG/CM2.G</th>\n<th>4KG/CM2.G</th>\n<th>6KG/CM2.G</th>\n<th>8KG/CM2.G</th>\n<th>10KG/CM2.G</th>\n</tr>\n<thead>\n<tbody>\n<tr>\n<td>15</td>\n<td>1/2”</td>\n<td>3 ∼ 35</td>\n<td>4 ∼ 52</td>\n<td>5 ∼ 83</td>\n<td>6 ∼ 114</td>\n<td>7 ∼ 145</td>\n<td>8 ∼ 176</td>\n</tr>\n<tr>\n<td>20</td>\n<td>¾”</td>\n<td>6 ∼ 63</td>\n<td>7 ∼ 92</td>\n<td>10 ∼ 149</td>\n<td>11 ∼ 204</td>\n<td>13 ∼ 259</td>\n<td>14 ∼ 313</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1”</td>\n<td>10 ∼ 93</td>\n<td>12 ∼ 144</td>\n<td>15 ∼ 232</td>\n<td>18 ∼ 319</td>\n<td>20 ∼ 405</td>\n<td>22 ∼ 490</td>\n</tr>\n<tr>\n<td>32</td>\n<td>1 2/4\"</td>\n<td>16 ∼ 162</td>\n<td>20 ∼ 232</td>\n<td>25 ∼ 381</td>\n<td>30 ∼ 523</td>\n<td>33 ∼ 663</td>\n<td>37 ∼ 803</td>\n</tr>\n<tr>\n<td>40</td>\n<td>1-1/2”</td>\n<td>23 ∼ 305</td>\n<td>28 ∼ 444</td>\n<td>36 ∼ 715</td>\n<td>42 ∼ 980</td>\n<td>47 ∼ 1244</td>\n<td>52 ∼ 1505</td>\n</tr>\n<tr>\n<td>50</td>\n<td>2”</td>\n<td>36 ∼ 476</td>\n<td>44 ∼ 694</td>\n<td>56 ∼ 1117</td>\n<td>66 ∼ 1532</td>\n<td>74 ∼ 1944</td>\n<td>82 ∼ 2352</td>\n</tr>\n<tr>\n<td>65</td>\n<td>2-1/2”</td>\n<td>62 ∼ 805</td>\n<td>75 ∼ 1173</td>\n<td>95 ∼ 1889</td>\n<td>111 ∼ 2590</td>\n<td>126 ∼ 3285</td>\n<td>138 ∼ 3976</td>\n</tr>\n<tr>\n<td>80</td>\n<td>3”</td>\n<td>94 ∼ 1220</td>\n<td>114 ∼ 1777</td>\n<td>144 ∼ 2861</td>\n<td>169 ∼ 3923</td>\n<td>190 ∼ 4977</td>\n<td>210 ∼ 6023</td>\n</tr>\n<tr>\n<td>100</td>\n<td>4”</td>\n<td>147 ∼ 1906</td>\n<td>178 ∼ 2777</td>\n<td>226 ∼ 4471</td>\n<td>264 ∼ 6130</td>\n<td>298 ∼ 7776</td>\n<td>328 ∼ 9411</td>\n</tr>\n<tr>\n<td>125</td>\n<td>5”</td>\n<td>230∼2979</td>\n<td>278∼4339</td>\n<td>353∼6987</td>\n<td>414∼9579</td>\n<td>466∼12515</td>\n<td>512∼14704</td>\n</tr>\n<tr>\n<td>150</td>\n<td>6”</td>\n<td>332∼4289</td>\n<td>401∼6248</td>\n<td>509∼10061</td>\n<td>596∼13794</td>\n<td>671∼17497</td>\n<td>738∼21174</td>\n</tr>\n<tr>\n<td>200</td>\n<td>8”</td>\n<td>591∼7626</td>\n<td>713∼11108</td>\n<td>905∼17887</td>\n<td>1059∼24523</td>\n<td>1193∼31107</td>\n<td>1313∼37644</td>\n</tr>\n<tr>\n<td>250</td>\n<td>10”</td>\n<td>923∼11916</td>\n<td>1114∼17356</td>\n<td>1414∼27948</td>\n<td>1656∼38317</td>\n<td>1865∼48605</td>\n<td>2051∼58819</td>\n</tr>\n<tr>\n<td>300</td>\n<td>12”</td>\n<td>1329∼17159</td>\n<td>1604∼24993</td>\n<td>2036∼40245</td>\n<td>2384∼55177</td>\n<td>2685∼69991</td>\n<td>2954∼84699</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mvt_3000_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Installation",
+     "html": "<img src=\"/images/product/mvt_3000_installation.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "vortex",
+   "slug": "mvt-3000in",
+   "name": "MVT-3000IN",
+   "listName": "MVT-3000IN",
+   "subtitle": "Vortex flowmeter - Insertion type",
+   "thumbnail": "/images/product/mvt_3000in_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Repeatablilty</th>\n<th>temperature</th>\n<th>Ambient Temperature</th>\n<th>Pressure</th>\n<th>Power supply</th>\n<th>Display<br/><br/>&nbsp;</th>\n<th>Output<br/>&nbsp;</th>\n<th>Protection class</th>\n<th>Communication</th>\n<th>Special Function</th>\n<th>Option</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MVT-3000IN</td>\n<td>100~2000mm</td>\n<td>Insertion type</td>\n<td>Liquid : ±0.7% of reading, Gas, steam : ±1.0% of reading </td>\n<td>1.6  ~ 540,000 kg/h</td>\n<td>±0.2% of reading</td>\n<td>-40~350℃(standard)</td>\n<td>-25~60℃</td>\n<td>78Kg/cm2(Max.)</td>\n<td>DC 12~32V</td>\n<td>Flowrate(6-digit) <br/>Totalizer(8-digit) <br/>2line LCD</td>\n<td>Analog : DC 4~20mA(Passive)  <br/>Pulse : Scale pulse</td>\n<td>IP65 </td>\n<td>HART or RS-485(MODBUS)</td>\n<td>-</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Dimension",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>D(Ø)</th>\n<th>L(mm)</th>\n<th>Height H(mm)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>90</td>\n<td>90</td>\n<td>740</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Drawing",
+     "html": "<img src=\"/images/product/mvt_3000in_drawing.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<div class=\"title3 mt10\">Water &amp; Gas Flow Range</div>\n<div class=\"title5\">&nbsp;</div>\n<div>\n<table class=\"rtable\">\n<thead>\n<tr>\n<th rowspan=\"2\">Size(mm)</th>\n<th>Water</th>\n<th>Normal pressure and temperature air(NPT Air)</th>\n</tr>\n<tr>\n<th>standard measuring range(m3/h)</th>\n<th>standard measuring range(m3/h)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>15</td>\n<td>0.8 ∼ 6</td>\n<td>6 ∼ 40</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1 ∼ 8</td>\n<td>8 ∼ 50</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1.5 ~ 25</td>\n<td>10 ~ 80</td>\n</tr>\n<tr>\n<td>32</td>\n<td>1.7 ~ 14</td>\n<td>16 ~ 120</td>\n</tr>\n<tr>\n<td>40</td>\n<td>2.5 ~ 30</td>\n<td>25 ~ 200</td>\n</tr>\n<tr>\n<td>50</td>\n<td>3 ~ 50</td>\n<td>30 ~ 300</td>\n</tr>\n<tr>\n<td>65</td>\n<td>5 ~ 80</td>\n<td>50 ~ 500</td>\n</tr>\n<tr>\n<td>80</td>\n<td>8 ~ 120</td>\n<td>80 ~ 800</td>\n</tr>\n<tr>\n<td>100</td>\n<td>12 ~ 200</td>\n<td>120 ~ 1200</td>\n</tr>\n<tr>\n<td>125</td>\n<td>20 ~ 300</td>\n<td>160 ~ 1600</td>\n</tr>\n<tr>\n<td>150</td>\n<td>30 ~ 400</td>\n<td>250 ~ 2500</td>\n</tr>\n<tr>\n<td>200</td>\n<td>50 ~ 800</td>\n<td>400 ~ 4000</td>\n</tr>\n<tr>\n<td>250</td>\n<td>80 ~ 1200</td>\n<td>600 ~ 6000</td>\n</tr>\n<tr>\n<td>300</td>\n<td>100 ~ 1600</td>\n<td>1000 ~ 10000</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt30\">Saturated Steam Flow Range</div>\n<div class=\"title5\">&nbsp;</div>\n<div>\n<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">SIZE</th>\n<th colspan=\"6\">Max. Flow Range (kg/h)</th>\n</tr>\n<tr>\n<th>mm</th>\n<th>inch</th>\n<th>1KG/CM2.G</th>\n<th>2KG/CM2.G</th>\n<th>4KG/CM2.G</th>\n<th>6KG/CM2.G</th>\n<th>8KG/CM2.G</th>\n<th>10KG/CM2.G</th>\n</tr>\n<thead>\n<tbody>\n<tr>\n<td>15</td>\n<td>1/2”</td>\n<td>3 ∼ 35</td>\n<td>4 ∼ 52</td>\n<td>5 ∼ 83</td>\n<td>6 ∼ 114</td>\n<td>7 ∼ 145</td>\n<td>8 ∼ 176</td>\n</tr>\n<tr>\n<td>20</td>\n<td>¾”</td>\n<td>6 ∼ 63</td>\n<td>7 ∼ 92</td>\n<td>10 ∼ 149</td>\n<td>11 ∼ 204</td>\n<td>13 ∼ 259</td>\n<td>14 ∼ 313</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1”</td>\n<td>10 ∼ 93</td>\n<td>12 ∼ 144</td>\n<td>15 ∼ 232</td>\n<td>18 ∼ 319</td>\n<td>20 ∼ 405</td>\n<td>22 ∼ 490</td>\n</tr>\n<tr>\n<td>32</td>\n<td>1 2/4\"</td>\n<td>16 ∼ 162</td>\n<td>20 ∼ 232</td>\n<td>25 ∼ 381</td>\n<td>30 ∼ 523</td>\n<td>33 ∼ 663</td>\n<td>37 ∼ 803</td>\n</tr>\n<tr>\n<td>40</td>\n<td>1-1/2”</td>\n<td>23 ∼ 305</td>\n<td>28 ∼ 444</td>\n<td>36 ∼ 715</td>\n<td>42 ∼ 980</td>\n<td>47 ∼ 1244</td>\n<td>52 ∼ 1505</td>\n</tr>\n<tr>\n<td>50</td>\n<td>2”</td>\n<td>36 ∼ 476</td>\n<td>44 ∼ 694</td>\n<td>56 ∼ 1117</td>\n<td>66 ∼ 1532</td>\n<td>74 ∼ 1944</td>\n<td>82 ∼ 2352</td>\n</tr>\n<tr>\n<td>65</td>\n<td>2-1/2”</td>\n<td>62 ∼ 805</td>\n<td>75 ∼ 1173</td>\n<td>95 ∼ 1889</td>\n<td>111 ∼ 2590</td>\n<td>126 ∼ 3285</td>\n<td>138 ∼ 3976</td>\n</tr>\n<tr>\n<td>80</td>\n<td>3”</td>\n<td>94 ∼ 1220</td>\n<td>114 ∼ 1777</td>\n<td>144 ∼ 2861</td>\n<td>169 ∼ 3923</td>\n<td>190 ∼ 4977</td>\n<td>210 ∼ 6023</td>\n</tr>\n<tr>\n<td>100</td>\n<td>4”</td>\n<td>147 ∼ 1906</td>\n<td>178 ∼ 2777</td>\n<td>226 ∼ 4471</td>\n<td>264 ∼ 6130</td>\n<td>298 ∼ 7776</td>\n<td>328 ∼ 9411</td>\n</tr>\n<tr>\n<td>125</td>\n<td>5”</td>\n<td>230∼2979</td>\n<td>278∼4339</td>\n<td>353∼6987</td>\n<td>414∼9579</td>\n<td>466∼12515</td>\n<td>512∼14704</td>\n</tr>\n<tr>\n<td>150</td>\n<td>6”</td>\n<td>332∼4289</td>\n<td>401∼6248</td>\n<td>509∼10061</td>\n<td>596∼13794</td>\n<td>671∼17497</td>\n<td>738∼21174</td>\n</tr>\n<tr>\n<td>200</td>\n<td>8”</td>\n<td>591∼7626</td>\n<td>713∼11108</td>\n<td>905∼17887</td>\n<td>1059∼24523</td>\n<td>1193∼31107</td>\n<td>1313∼37644</td>\n</tr>\n<tr>\n<td>250</td>\n<td>10”</td>\n<td>923∼11916</td>\n<td>1114∼17356</td>\n<td>1414∼27948</td>\n<td>1656∼38317</td>\n<td>1865∼48605</td>\n<td>2051∼58819</td>\n</tr>\n<tr>\n<td>300</td>\n<td>12”</td>\n<td>1329∼17159</td>\n<td>1604∼24993</td>\n<td>2036∼40245</td>\n<td>2384∼55177</td>\n<td>2685∼69991</td>\n<td>2954∼84699</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mvt_3000_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Installation",
+     "html": "<img src=\"/images/product/mvt_3000_installation.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "ultrasonic",
+   "slug": "mul-800",
+   "name": "MUL-800",
+   "listName": "MUL-800",
+   "subtitle": "Ultrsonic Flowmeter",
+   "thumbnail": "/images/product/mul_800_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<img src=\"/images/product/mul_800_spec.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "Mounting accessores for Transducer",
+     "html": "<img src=\"/images/product/mul_800_mounting.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "Drawing",
+     "html": "<img src=\"/images/product/mul_800_drawing.jpg\" alt=\"\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "coriolis",
+   "slug": "mtm-9000",
+   "name": "MTM-9000",
+   "listName": "MTM-9000",
+   "subtitle": "",
+   "thumbnail": "/images/product/mtm_9000_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<img src=\"/images/product/mtm_coriolis_1.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Operation Temperature</th>\n<th>temperature</th>\n<th>Power supply</th>\n<th>Pressure</th>\n<th>Communication</th>\n<th>Output<br/>&nbsp;</th>\n<th>Protection class</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTM-9000</td>\n<td>8 ~ 250mm</td>\n<td>Flange type(KS, ANSI, DIN)</td>\n<td>0.1%, 0.2%, 0.5% selectable </td>\n<td>0.016 ~2500 t/h</td>\n<td>-50 ~ 125 ℃</td>\n<td>-40 ~ 180℃ (standard)</td>\n<td>24VDC or 220VAC</td>\n<td>78Kg/cm2(Max.)</td>\n<td>RS485 MODBUS RTU</td>\n<td>Analog : DC 4~20mA <br/>Frequency output(active)</td>\n<td>IP65 </td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtm_9000_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mtm_9000_dimension.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtm_coriolis_model.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "coriolis",
+   "slug": "mtm-6000",
+   "name": "MTM-6000",
+   "listName": "MTM-6000",
+   "subtitle": "",
+   "thumbnail": "/images/product/mtm_6000_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<img src=\"/images/product/mtm_coriolis_1.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Process connection</th>\n<th>Accuracy</th>\n<th>Measuring range</th>\n<th>Operation Temperature</th>\n<th>temperature</th>\n<th>Power supply</th>\n<th>Pressure</th>\n<th>Communication</th>\n<th>Output<br/>&nbsp;</th>\n<th>Protection class</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTM-6000</td>\n<td>10 ~ 25mm</td>\n<td>Flange type(KS, ANSI, DIN)</td>\n<td>±0.1%</td>\n<td>0.016 ~ 6 t/h</td>\n<td>-50 ~ 125 ℃</td>\n<td>-40 ~ 180℃ (standard)</td>\n<td>24VDC or 220VAC</td>\n<td>78Kg/cm2(Max.)</td>\n<td>RS485 MODBUS RTU</td>\n<td>Analog : DC 4~20mA <br/>Frequency output(active)</td>\n<td>IP65 </td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtm_6000_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mtm_6000_dimension.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtm_coriolis_model.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "thermal",
+   "slug": "mtm-8000",
+   "name": "MTM-8000",
+   "listName": "MTM-8000",
+   "subtitle": "Thermal mass flowmeters",
+   "thumbnail": "/images/product/mtm_8000_s1.jpg",
+   "sections": [
+    {
+     "title": "SPECIFICATION",
+     "html": "<img src=\"/images/product/mtm_8000_spec.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mtm_8000_dimension.jpg\" alt=\"\"/>"
+    },
+    {
+     "title": "MODEL SELECTION GUIDE",
+     "html": "<img src=\"/images/product/mtm_8000_model.jpg\" alt=\"\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "positive",
+   "slug": "mtp-300",
+   "name": "MTP-300",
+   "listName": "MTP-300",
+   "subtitle": "",
+   "thumbnail": "/images/product/mtp_300_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Model</th>\n<th>Size</th>\n<th>Accuracy</th>\n<th>Operating pressure</th>\n<th>Process temperature</th>\n<th>Body Material</th>\n<th>Viscosity</th>\n<th>Enclosure rating</th>\n<th>Working Temperature</th>\n<th>Repeatability</th>\n<th>Pulse Output</th>\n<th>Current Output</th>\n<th>Communication<br/>&nbsp;</th>\n<th>Display</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTP-300</td>\n<td>8 ~ 400mm</td>\n<td>±0.1%</td>\n<td>max. 64 bar</td>\n<td>-30°～ 250°C</td>\n<td>Stainless Steel 304 and Carbon Steel</td>\n<td>0～20,000 cP</td>\n<td>NEMA 4 (IP 65)</td>\n<td>-40°～80°C</td>\n<td>±0.01%</td>\n<td>24VDC±5％, VH≥20V,) VL<1V and output load ＜200Ω)Totalizer (8-digit)</td>\n<td>Current Output: 4-20mA</td>\n<td>RS485/RS232 communication with Modbus RTU (powered by 24VDC±5％ and &lt; 60mA) <br/> HART or RS-485(MODBUS RTU) </td>\n<td>rate, total, low flow cut-off, battery consumption</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "FLOW RANGE TABLE",
+     "html": "<img src=\"/images/product/mtp_300_flow.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Pressure Drop",
+     "html": "<img src=\"/images/product/mtp_300_pressure.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Output Options",
+     "html": "<img src=\"/images/product/mtp_300_output1.jpg\" alt=\"\" width=\"100%\"/>\n<img src=\"/images/product/mtp_300_output2.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mtp_300_dimension1.jpg\" alt=\"\" width=\"100%\"/>\n<img src=\"/images/product/mtp_300_dimension2.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mtp_300_model.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "mf",
+   "slug": "mfc-100",
+   "name": "MFC-100",
+   "listName": "MFC-100",
+   "subtitle": "MULTI FUNCTION FLOW COMPUTER",
+   "thumbnail": "/images/product/mfc_100_s1.jpg",
+   "sections": [
+    {
+     "title": "Specification",
+     "html": "<div class=\"title3 mt10\"><span class=\"point_color\">Measurement</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Input signal<br/><br/><br/><br/>)<br/>&nbsp;</th>\n<th>Output signal<br/><br/><br/>&nbsp;</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\nCurrent : 0-20mA, 0-10mA, 4-20mA(Impedance≤100Ω)<br/>\nVoltage : 0-5V, 1-5V, 0-10V(Impedance≤100Ω)<br/>\nThermal resistance : Pt100, Cu50, Cu53, Cu100<br/>\nLinear resistance : 0-400Ω<br/>\nThermocouple : B, S, K, E, T, J, R, N, F2, Wre3-25, Wre5-26<br/>\nFrequency signal : range:0-10KHz\n</td>\n<td>\nAnalog output : 4-20mA/ 0-20mA, 0-10mA, 1-5V, 0-5V, 0-10V<br/>\nAlarm output : relay control output : AC220V/2A, DC24V/2A<br/>\nFeed output : DC24V±1<br/>\nCommunication : RS485 / RS232, MODBUSRTU\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">Parameters</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Setting mode</th>\n<th>Display mode</th>\n<th>Record interval</th>\n<th>Storage time</th>\n<th>Operating environment</th>\n<th>Power supply</th>\n<th>Power consumption</th>\n<th>Structure</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\nLight touch control panel for setting parameter, which will be stored permanently even in case of power failure, and can be locked &amp; protected with password.\n</td>\n<td>3.5”matrix128*64LCD screen with backlight.</td>\n<td>9options (1s,2s,4s,6s,15s,30s,60s,120s,240s)</td>\n<td>3days(record interval of 1s)</td>\n<td>Ambient temperature : 0-50℃</td>\n<td>AC100-240V ,50/60HZ</td>\n<td>≤5W</td>\n<td>Standard panel mounted</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "Model Selection Guide",
+     "html": "<img src=\"/images/product/mfc_100_model.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Dimension",
+     "html": "<img src=\"/images/product/mfc_100_dimension.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Wiring Diagram",
+     "html": "<img src=\"/images/product/mfc_100_wiring.jpg\" alt=\"\" width=\"100%\"/>"
+    },
+    {
+     "title": "Signal",
+     "html": "<img src=\"/images/product/mfc_100_signal.jpg\" alt=\"\" width=\"100%\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "valve",
+   "slug": "v-ball",
+   "name": "Ball Valve",
+   "listName": "Ball Valve",
+   "subtitle": "GRPP/PVDF/PVD-U/ABS",
+   "thumbnail": "/images/product/v_ball_s1.jpg",
+   "sections": [
+    {
+     "title": "in GRPP(Glass Reinforced PolyPropylene)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_ball_grpp.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>2-way</th>\n<th>3-way</th>\n<th>4-way</th>\n<th>5-way</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>Removable union nuts<br/>&nbsp;</th>\n<th>Seat</th>\n<th>O-rings seals</th>\n<th>Options<br/>&nbsp;</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN10</td>\n<td>-10℃ to +100℃</td>\n<td>&nbsp;</td>\n<td>DN15 to DN150(1/2\" to 6\")</td>\n<td>DN15 to DN100(1/2\" to 4\")</td>\n<td>DN50(2\")</td>\n<td>DN50(2\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI 150, BS10/Table D</td>\n<td>for bonding, welding, end-to-end<br/>welding, tapped, threaded</td>\n<td>PTFE</td>\n<td>EPDM, FKM, PTFE</td>\n<td>Exists in PP ATFE<br/>Electric or pneumatic actuated</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "in PVDF(PolyVinylidene Fluoride)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td colspan=\"3\"><img src=\"/images/product/v_ball_pvdf1.jpg\" alt=\"\" /></td>\n</tr>\n<tr>\n<td align=\"center\"><img src=\"/images/product/v_ball_pvdf2.jpg\" alt=\"\" /></td>\n<td colspan=\"2\" align=\"center\"><img src=\"/images/product/v_ball_pvdf3.jpg\" alt=\"\" /></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>2-way</th>\n<th>3-way</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>Removable union nuts<br/>&nbsp;</th>\n<th>Seat</th>\n<th>O-rings seals</th>\n<th>Options<br/>&nbsp;</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN10</td>\n<td>-20℃ to +120℃</td>\n<td>&nbsp;</td>\n<td>DN15 to DN150(1/2\" to 6\")</td>\n<td>DN50(2\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI 150, BS10/Table D</td>\n<td>Female for welding, end-to-end<br/>welding, tapped, threaded</td>\n<td>PTFE</td>\n<td>EPDM, FKM, PTFE</td>\n<td>Exists in PP ATFE<br/>Electric or pneumatic actuated</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "in PVC-U(PolyVinyl Chloride)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_ball_pvc1.jpg\" alt=\"\"/>\n</td>\n<td>\n<img src=\"/images/product/v_ball_pvc2.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>2-way</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>Removable union nuts</th>\n<th>Seat</th>\n<th>O-rings seals</th>\n<th>Options<br/>&nbsp;</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN10</td>\n<td>0℃ to +60℃</td>\n<td>&nbsp;</td>\n<td>DN15 to DN150(1/2\" to 6\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI 150</td>\n<td>for bonding, threaded</td>\n<td>PTFE</td>\n<td>EPDM, FKM</td>\n<td>Double union<br/>Electric or pneumatic</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    },
+    {
+     "title": "in ABS(Acrylonitrile Butadiene Styrene)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_ball_abs.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>2-way</th>\n<th>End fittings</th>\n<th>Removable union nuts</th>\n<th>Seat</th>\n<th>O-rings seals</th>\n<th>Options</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN10</td>\n<td>-20℃ to +60℃</td>\n<td>&nbsp;</td>\n<td>DN15 to DN50(1/2\" to 2\")</td>\n<td>&nbsp;</td>\n<td>for bonding, threaded</td>\n<td>PTFE</td>\n<td>EPDM, food grade EPDM, FKM, NBR</td>\n<td>Electric or pneumatic actuated</td>\n</tr>\n</tbody>\n</table>\n</div>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "valve",
+   "slug": "v-diaphragm",
+   "name": "Diaphragm Valve",
+   "listName": "Diaphragm Valve",
+   "subtitle": "PPH/PVDF/PVC-U",
+   "thumbnail": "/images/product/v_diaphragm_s1.jpg",
+   "sections": [
+    {
+     "title": "in PPH(Polypropylene)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_diaphragm_pph.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>End pieces</th>\n<th>Diaphragm</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN 10*</td>\n<td>0℃ to + 90℃</td>\n<td>DN15 to DN250(1/2\" to 10\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI/150</td>\n<td>Male for push-on polyfusion</td>\n<td>EPDM, FKM, PTFE</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title6\">* up to DN65(2\"1/2)</div>"
+    },
+    {
+     "title": "in PVDF(PolyVinylidene Fluoride)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td colspan=\"3\"><img src=\"/images/product/v_diaphragm_pvdf.jpg\" alt=\"\" /></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>End pieces</th>\n<th>Diaphragm</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN 10*</td>\n<td>-20℃ to +120℃</td>\n<td>DN15 to DN250(1/2\" to 10\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI/150</td>\n<td>Male for push-on polyfusion</td>\n<td>EPDM, FKM, PTFE</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title6\">* up to DN65(2\" 1/2)</div>"
+    },
+    {
+     "title": "in PVC-U(PolyVinyl Chloride)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_diaphragm_pvc.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>End pieces</th>\n<th>Diaphragm</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN 10*</td>\n<td>0℃ to +60℃</td>\n<td>DN15 to DN250(1/2\" to 10\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI/150</td>\n<td>Male for bonding</td>\n<td>EPDM, FKM, PTFE</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title6\">* up to DN65(2\" 1/2)</div>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "valve",
+   "slug": "v-butterfly",
+   "name": "Butterfly Valve",
+   "listName": "Butterfly Valve",
+   "subtitle": "PPH/PVDF/PVC-U/PVC-C",
+   "thumbnail": "/images/product/v_butterfly_s1.jpg",
+   "sections": [
+    {
+     "title": "in PPH(Polypropylene)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_butterfly_pph1.jpg\" alt=\"\"/>\n</td>\n<td><img src=\"/images/product/v_butterfly_div.jpg\" alt=\"\" /></td>\n<td>\n<img src=\"/images/product/v_butterfly_pph2.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>Control<br/>&nbsp;</th>\n<th>Seals</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN 10*</td>\n<td>0℃ to + 90℃</td>\n<td>DN50 to DN600(2\" to 24\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI/150</td>\n<td>Manual by lever from DN50 to DN150<br/>By handwheel gearbox from DN200 to DN600</td>\n<td>EPDM, FKM</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title6\">* up to DIN150(6\")</div>"
+    },
+    {
+     "title": "in PVDF(PolyVinylidene Fluoride)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td><img src=\"/images/product/v_butterfly_pvdf1.jpg\" alt=\"\" /></td>\n<td><img src=\"/images/product/v_butterfly_div.jpg\" alt=\"\" /></td>\n<td><img src=\"/images/product/v_butterfly_pvdf2.jpg\" alt=\"\" /></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>Control<br/>&nbsp;</th>\n<th>Seals</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN 10*</td>\n<td>-20℃ to +120℃</td>\n<td>DN50 to DN600(2\" to 24\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI/150</td>\n<td>Manual by lever from DN50 to DN150<br/>By handwheel gearbox from DN200 to DN600</td>\n<td>EPDM, FKM</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title6\">* up to DN150(6\")</div>"
+    },
+    {
+     "title": "in PVC-U(PolyVinyl Chloride)",
+     "html": "<div>\n<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/v_butterfly_pvc1.jpg\" alt=\"\"/>\n</td>\n<td><img src=\"/images/product/v_butterfly_div.jpg\" alt=\"\" /></td>\n<td>\n<img src=\"/images/product/v_butterfly_pvc2.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title3 mt10\"><span class=\"point_color\">SPECIFICATION</span></div>\n<div>\n<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Pressure</th>\n<th>Temperature</th>\n<th>Dimensions</th>\n<th>End fittings</th>\n<th>Flanges in compliance with standards</th>\n<th>Control<br/>&nbsp;</th>\n<th>Seals</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PN 10*</td>\n<td>0℃ to +60℃</td>\n<td>DN50 to DN500(2\" to 20\")</td>\n<td>&nbsp;</td>\n<td>DIN PN10, ANSI/150</td>\n<td>Manual by lever from DN50 to DN150<br/>By handwheel gearbox from DN200 to DN500</td>\n<td>EPDM, FKM</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"title6\">* up to DN150(6\")</div>"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "mdp-600",
+   "name": "MDP-600",
+   "listName": "MDP-600",
+   "subtitle": "Differential Pressure Transmitter",
+   "thumbnail": "/images/product/mdp_600_s1.jpg",
+   "sections": [
+    {
+     "title": "SPECIFICATION",
+     "html": "<img src=\"/images/product/mdp_600_spec.jpg\" alt=\"\" width=\"615px\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mdp_600_dimension.jpg\" alt=\"\"  width=\"430px\"/>"
+    },
+    {
+     "title": "MODEL SELECTION GUIDE",
+     "html": "<img src=\"/images/product/mdp_600_model.jpg\" alt=\"\" width=\"760px\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "mpt-500",
+   "name": "MPT-500",
+   "listName": "MPT-500",
+   "subtitle": "Pressure Transmitter",
+   "thumbnail": "/images/product/mpt_500_s1.jpg",
+   "sections": [
+    {
+     "title": "SPECIFICATION",
+     "html": "<img src=\"/images/product/mpt_500_spec.jpg\" alt=\"\" width=\"440px\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mpt_500_dimension.jpg\" alt=\"\"  width=\"275px\"/>"
+    },
+    {
+     "title": "MODEL SELECTION GUIDE",
+     "html": "<img src=\"/images/product/mpt_500_model.jpg\" alt=\"\" width=\"582px\"/>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "level",
+   "slug": "mul-100",
+   "name": "MUL-100",
+   "listName": "MUL-100",
+   "subtitle": "Ultrasonic Level Meter",
+   "thumbnail": "/images/product/mul_100_s1.jpg",
+   "sections": [
+    {
+     "title": "SPECIFICATION",
+     "html": "<img src=\"/images/product/mul_100_spec.jpg\" alt=\"\" width=\"481px\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mul_100_dimension1.jpg\" alt=\"\"  width=\"214px\"/>\n<img src=\"/images/product/mul_100_dimension2.jpg\" alt=\"\"  width=\"205px\"/>\n<img src=\"/images/product/mul_100_dimension3.jpg\" alt=\"\"  width=\"272px\"/>"
+    },
+    {
+     "title": "DISPLAY LAYOUT",
+     "html": "<img src=\"/images/product/mul_100_display.jpg\" alt=\"\" width=\"760px\"/>"
+    },
+    {
+     "title": "MODEL SELECTION GUIDE",
+     "html": "<img src=\"/images/product/mul_100_model.jpg\" alt=\"\" width=\"760px\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "level",
+   "slug": "mrl-300",
+   "name": "MRL-300",
+   "listName": "MRL-300",
+   "subtitle": "Radar Level Meter",
+   "thumbnail": "/images/product/mrl_300_s1.jpg",
+   "sections": [
+    {
+     "title": "SPECIFICATION",
+     "html": "<img src=\"/images/product/mrl_300_spec.jpg\" alt=\"\" width=\"530px\"/>\n<img src=\"/images/product/mrl_300_spec2.jpg\" alt=\"\" width=\"537px\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mrl_300_dimension.jpg\" alt=\"\"  width=\"700px\"/>"
+    },
+    {
+     "title": "MODEL SELECTION GUIDE",
+     "html": "<img src=\"/images/product/mrl_300_model1.jpg\" alt=\"\" width=\"646px\"/>\n<img src=\"/images/product/mrl_300_model2.jpg\" alt=\"\" width=\"700px\"/>\n<img src=\"/images/product/mrl_300_model3.jpg\" alt=\"\" width=\"700px\"/>\n<img src=\"/images/product/mrl_300_model4.jpg\" alt=\"\" width=\"700px\"/>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "turbine",
+   "slug": "mtt-200",
+   "name": "MTT-200",
+   "listName": "MTT-200",
+   "subtitle": "Turbine Flowmeters",
+   "thumbnail": "/images/product/mtt_200_s1.jpg",
+   "sections": [
+    {
+     "title": "SPECIFICATION",
+     "html": "<img src=\"/images/product/mtt_200_spec.jpg\" alt=\"\" width=\"557px\"/>"
+    },
+    {
+     "title": "DIMENSION",
+     "html": "<img src=\"/images/product/mtt_200_dimension.jpg\" alt=\"\"  width=\"636px\"/>"
+    },
+    {
+     "title": "MODEL SELECTION GUIDE",
+     "html": "<img src=\"/images/product/mtt_200_model.jpg\" alt=\"\" width=\"700px\"/>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "converter",
+   "slug": "con-plug",
+   "name": "Plug-In Type",
+   "listName": "Plug-In Type",
+   "subtitle": "유량 압력 온도 레벨 센서등에 계량기기의 출력신호를 절연된 AC Signal로 변환 전송하여 Noise나 Surge의 영향의 보호를 위해서도 사용되어 집니다.",
+   "thumbnail": "/images/product/converter_plugin_type_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/converter_plugin_type.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Input<br/><br/><br/> <br/></th>\n<th>Output</th>\n<th>Power</th>\n<th>Isolation</th>\n<th>Accuracy</th>\n<th>Response Time</th>\n<th>Insulation Resistance</th>\n<th>Dielectric Strength</th>\n<th>Operating Temperature</th>\n<th>Operating Humidity</th>\n<th>Dimension</th>\n<th>Weight</th>\n<th>Housing Material</th>\n<th>Mounting</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\nPT 100Ω , 2-Wire Transmitter , DC Signal , AC Voltage<br/>\nAC Current 2 input Adder Subtracter , Multiplier<br/>\nReverser , Square Root Extractor T/C Load-Cell<br/>\nFrequency , Peak-Holder Sample-Holder etc<br/>\n</td>\n<td>12V max , 30mA DC max , 750 Ω max</td>\n<td>AC110/220V 50/60Hz DC 24V (Option)</td>\n<td>Input to Output to Power</td>\n<td>I 0.15% of Full Scale</td>\n<td>0.5Sec or less , 0∼90% Normal</td>\n<td>Greater than 100MΩ 500VDC</td>\n<td>1500VAC @ 1minute (Input to Output to Power)</td>\n<td>0∼50℃</td>\n<td>90% RH max (Non-Condensing)</td>\n<td>83(H)mm x 51(W)mm x 102(D)mm</td>\n<td>about 400g</td>\n<td>Plastic ABS Black</td>\n<td>Wall or Rail Mounting</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MT-IPT</td>\n<td>Isolated Power Distributer</td>\n<td align=\"center\"><a href=/pdf/MT-IPT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MT-DAS</td>\n<td>DIGITAL ALARM SET CONVERTER</td>\n<td align=\"center\"><a href=/pdf/MT-DAS.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</tr>\n<tr>\n<td>MT-ACT</td>\n<td>AC CURRENT TRANSDUCER</td>\n<td align=\"center\"> <a href=/pdf/MT-ACT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-AVT</td>\n<td>AC VOLTAGE TRANSDUCER</td>\n<td align=\"center\"> <a href=/pdf/MT-AVT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-DSM</td>\n<td>DC SIGNAL MULTIPLIER</td>\n<td align=\"center\"> <a href=/pdf/MT-DSM.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<td>MT-DSA</td>\n<td>DC SIGNAL ADDER</td>\n<td align=\"center\"> <a href=/pdf/MT-DSA.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<td>MT-DSD</td>\n<td>ANALOG DC SIGNAL DIVIDER</td>\n<td align=\"center\"> <a href=/pdf/MT-DSD.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<td>MT-DST-D</td>\n<td>DUAL CHANNEL IN/OUT SIGNAL ISOLATOR</td>\n<td align=\"center\"> <a href=/pdf/MT-DST-D.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<td>MT-DST</td>\n<td>DC SIGNAL TRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-DST.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-DST3</td>\n<td>3 CHANNEL DC SIGNAL TRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-DST3.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-PMT</td>\n<td>POTENTIOMETER TRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-PMT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-RST</td>\n<td>RTD SENSOR TRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-RST.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-SQT</td>\n<td>ISOLATED SQUARE ROOT EXTRACTOR</td>\n<td align=\"center\"> <a href=/pdf/MT-SQT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-SLT</td>\n<td>STRAIN GAUGE / LOAD-CELL TRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-SLT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-TCT</td>\n<td>THERMO-COUPLE MRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-TCT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-FDT</td>\n<td>FREQUENCY to DC TRANSDUCER</td>\n<td align=\"center\"> <a href=/pdf/MT-FDT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-DFT</td>\n<td>DC to FREQUENCY TRANSDUCER</td>\n<td align=\"center\"> <a href=/pdf/MT-DFT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-LPT</td>\n<td>LOW PULSE TRANSMITTER</td>\n<td align=\"center\"> <a href=/pdf/MT-LPT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-PDC</td>\n<td>PULSE DIVIDE CONVERTER</td>\n<td align=\"center\"> <a href=/pdf/MT-PDC.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n<tr>\n<td>MT-FFT</td>\n<td>FREQUENCY SCALER</td>\n<td align=\"center\"> <a href=/pdf/MT-FFT.pdf><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a> </td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "converter",
+   "slug": "con-slim",
+   "name": "Slim Type",
+   "listName": "Slim Type",
+   "subtitle": "소형 경량의 디자인으로 좁은 공간 및 많은 수량이 필요할 때 사용함이 편리합니다.",
+   "thumbnail": "/images/product/converter_slim_type_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/converter_slim_type.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Input</th>\n<th>Output<br/><br/> </th>\n<th>Power</th>\n<th>Isolation</th>\n<th>Response Time</th>\n<th>Insulation Resistance</th>\n<th>Dielectric Strength</th>\n<th>Operating Temperature</th>\n<th>Operating Humidity</th>\n<th>Mouting</th>\n<th>Dimension</th>\n<th>Weight</th>\n<th>Housing Material</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2Wire Loop , DC Signal , RTD , T/C</td>\n<td>\nDC Voltage 12V max<br/>\nDC Current 30mA max<br/>\nPotentiometer , Frequency , etc\n</td>\n<td>DC 24 AC 90∼250V 50/60Hz (Option)</td>\n<td>input to output to power supply</td>\n<td>0.5sec , 0 ∼ 90%</td>\n<td>Greater than 100MΩ with 500VDC</td>\n<td>1500VAC @ 1Minute (Input to Output to Power)</td>\n<td>0∼50℃</td>\n<td>90% RH Max.(non Condensing)</td>\n<td> </td>\n<td>75(H)mm x 25.5(W)mm x 100(D)mm</td>\n<td>about 100g</td>\n<td>Gray polyamide UL94.V2</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n</tr>\n<tr>\n<td>MTSC-DS</td>\n<td>SLIM TYPE DC SIGNAL TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTSC-DS.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTSC-IPT</td>\n<td>SLIM TYPE POWER DISTRIBUTED TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTSC-IPT.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTSC-RTD</td>\n<td>SLIM TYPE RTD SENSOR TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTSC-RTD.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTSC-PMC</td>\n<td>SLIM TYPE POTENTIOMETER TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTSC-PMC.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "converter",
+   "slug": "con-2wire",
+   "name": "2Wire Transmitter",
+   "listName": "2Wire Transmitter",
+   "subtitle": "RTD , T/C , mA , mV , Potentiometer 등을 입력으로 받아 4∼20mA로 변환하는 2Wire Transmitter입니다.",
+   "thumbnail": "/images/product/converter_2wire_type_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/converter_2wire_type.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Insulation Resistance</th>\n<th>Convention Accuracy</th>\n<th>Operating Temperature</th>\n<th>Non Operating Temperature</th>\n<th>Operating Humidity</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Greater than 100MΩ with 500VDC</td>\n<td>0.2% max</td>\n<td>0∼50℃</td>\n<td>-20∼80℃</td>\n<td>90% RH max (Non-Condensing)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTSC-2W</td>\n<td>HEAD TYPE MULTI INPUT 2WIRE TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTSC-2W.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "categorySlug": "converter",
+   "slug": "con-wall",
+   "name": "Wall-Mounting Type",
+   "listName": "Wall-Mounting Type",
+   "subtitle": "Isolated 1/2/4/6 Output Converter 출력으로 각종 Signal을 Input으로 받아 절연될 신호도 (Multi Point Output) 전송하는 컨버터입니다.",
+   "thumbnail": "/images/product/converter_wall_type_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/converter_wall_type.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Input<br/> </th>\n<th>Output<br/> </th>\n<th>Power</th>\n<th>Conversion Accuracy</th>\n<th>Response Time</th>\n<th>Insulation Resistance</th>\n<th>Dielectric Strength</th>\n<th>Operating Temperature</th>\n<th>Non Operating Temperature</th>\n<th>Dimension<br/><br/> </th>\n<th>Weight</th>\n<th>Housing Material</th>\n<th>Mounting</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n2-Wire Transmitter DC Signal, RTD, T/C<br/>\nPotentiometer Frequency\n</td>\n<td>\nDC Current 0∼20mA<br/>\nDC Voltage -10∼+12V\n</td>\n<td>AC 110/220V 50/60Hz , AC 24V (Option)</td>\n<td>0.15% max</td>\n<td>0∼90% 0.5 Sec</td>\n<td>Greater than 100MΩ with 500VDC</td>\n<td>1500VAC @ 1minute (Input to Output to Power)</td>\n<td>0∼50℃</td>\n<td>-20∼80℃</td>\n<td>\n1/2 out - 120(W)mm x 42(W)mm x 116(D)mm<br/>\n4out - 135(H)mm x 75(W)mm x 159(D)mm<br/>\n6out - 135(H)mm x 61(W)mm x 162(D)mm\n</td>\n<td>about 400g , 4out & 6out about 900g</td>\n<td>Aluminum (black) case</td>\n<td>Wall mounting (M4 Screw)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTW-DST</td>\n<td>SIGNAL TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTW-DST.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTW-IPT</td>\n<td>POWER DISTRIBUTER</td>\n<td align=\"center\">\n<a href='/pdf/MTW-IPT.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTW-FDT</td>\n<td>FREQUENCY to DC TRANSMITTER</td>\n<td align=\"center\">\n<a href='/pdf/MTW-FDT.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 4
+  },
+  {
+   "categorySlug": "indicator",
+   "slug": "in-digital",
+   "name": "Digital Totalizer Integrator",
+   "listName": "Digital Totalizer Integrator",
+   "subtitle": "지시적산계 & 적산계\nMulti 입력을 받아 지시, 적산기능의 디지털 적산계\n\nPulse 입력전용 단순 카운터\n- 10Digit Total 적산이 가능하고 4Digit Rate Display 가능\n\n고성능, 고정도 V/F Converter를 사용함으로서 신뢰성이 향상되었음\n다양한 Batch 기능을 내장하고 있어 여러 가지 용도로 사용 가능\nRS-485 통신기능을 장착 할 수 있어 원격 감시 및 제어가 가능\n경보출력 2Point Alarm을 장착 할 수 있으며, Rate Alarm, Batch Function으로 설정가능\n절연된 전류출력을 장착 할 수 있으며 출력 Scaling이 가능",
+   "thumbnail": "/images/product/indicator_digital_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/indicator_digital.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "indicator",
+   "slug": "in-multi",
+   "name": "Multi Input",
+   "listName": "Multi Input",
+   "subtitle": "",
+   "thumbnail": "/images/product/indicator_multi_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/indicator_multi.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>측정 및 표시주기</th>\n<th>입력저항</th>\n<th>신호원 저항</th>\n<th>Common Mode Rejection Ratio</th>\n<th>Normal Mode Rejection Ratio<br/> </th>\n<th>Senor Power 내장</th>\n<th>Temperature Coefficient</th>\n<th>정도</th>\n<th>절연 전류 출력 (Option)</th>\n<th>접점 출력 형태</th>\n<th>접점 허용 부하</th>\n<th>사용 조건</th>\n<th>보존 온, 습도</th>\n<th>전원 전압</th>\n<th>소비 전력</th>\n<th>절연 저항</th>\n<th>통신 사양 (Option)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>200ms(mV, Volt, mA Type), 400ms(T/C, RTD Type)</td>\n<td>Volt Type은 400KΩ 그 외 Type은 1MΩ</td>\n<td>Pt100Ω ~ 30Ω/Line , 기타 Type 300Ω/Line</td>\n<td>140Ω 이상</td>\n<td>60dB 이상<br/>이동 평균 Filter 내장</td>\n<td>DV24V/30mA/+-0.5%이내</td>\n<td>0.015%/℃</td>\n<td>±0.2% FS</td>\n<td>전류 4~20mA/DC, 최대전류저항 : 600Ω</td>\n<td>Normal Open / Normal Close는 주문 시 선택</td>\n<td>0.5A /125VA, 2A / 30VDC</td>\n<td>동작 온 , 습도 : -10~60℃, 10~90%RH</td>\n<td>-20~70℃, 5~95%RH</td>\n<td>AC90~250V(50/60Hz) or DC24V(Option)</td>\n<td>4VA max</td>\n<td>100MΩ / 500VDC (FG-Input, FG-Power, Power-Input, Input-Output)</td>\n<td>RS485 (2선), 통신속도 : 4800bps, ID(Address)설정 0~15</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MT2500/MT2000</td>\n<td>MULTI INPUT DIGITAL INDICATORS WITH ALARM</td>\n<td align=\"center\">\n<a href='/pdf/MT2000_2500_manual.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "indicator",
+   "slug": "in-large",
+   "name": "Large Indicator",
+   "listName": "Large Indicator",
+   "subtitle": "온, 습도지시계 & 방폭형지시계\n온, 습도를 동시에 확인 할 수 있는 디지털 지시계\n대형 방폭형 지시계",
+   "thumbnail": "/images/product/indicator_large_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/indicator_large.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MT-W200</td>\n<td>LARGE INDICATOR</td>\n<td align=\"center\">\n<a href='/pdf/MT-W200.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MT-W200</td>\n<td>LARGE SIZE BCD METER</td>\n<td align=\"center\">\n<a href='/pdf/MT-W200-2.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "categorySlug": "arrester",
+   "slug": "arr-high",
+   "name": "고용량",
+   "listName": "고용량",
+   "subtitle": "High Energy 전원용 Surge Protector\n써지, 고압노이즈 낙뢰 등의 위협적인 장애요소로부터 현장계기 및 정밀계측기를 보호합니다.",
+   "thumbnail": "/images/product/arrester_big_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/arrester_big.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<div class=\"title4\">\n110/220V 전원보호형 직렬형 (단상 2선식) / 병렬형 (단상 2선식 , 단상 3선식 , 3상 3선식 , 3상 4선식)<br/>\n낙뢰 및 써지 발생 빈도가 높은 지역의 소용량 장비의 전원보호기<br/>\n보호용 보호능력 이상 유무를 표시 (LED lamp)<br/>\n전원 입력단 병렬 연결형 (허용부하 20A) 이내<br/>\nNoise 제거용 필터회로 내장\n</div>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 1
+  },
+  {
+   "categorySlug": "arrester",
+   "slug": "arr-low",
+   "name": "저용량",
+   "listName": "저용량",
+   "subtitle": "써지 , 고압노이즈 낙뢰 등의 위협적인 장애요소로부터 현장계기 및 정밀계측기기를 보호합니다.\nPower , Signal , Pulse , RTD , T/C , Modem\nDischarge Current : 10kA ( 8x20 microseconds )\nMTAR-S20 직류신호용 Arrester ( 20kA )",
+   "thumbnail": "/images/product/arrester_small_s1.jpg",
+   "sections": [
+    {
+     "title": "",
+     "html": "<table>\n<tbody>\n<tr>\n<td>\n<img src=\"/images/product/arrester_small.jpg\" alt=\"\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Specification",
+     "html": "<table class=\"rtable rtable--flip\">\n<thead>\n<tr>\n<th>Operating Temperature</th>\n<th>Operating Humidity</th>\n<th>Mounting</th>\n<th>Dimension</th>\n<th>Weight</th>\n<th>Housing Material</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-5 ∼ 55℃</td>\n<td>90% RH.max. (non condensing)</td>\n<td>channel mounting (rail type)</td>\n<td>99(H)mm x 25(W)mm x 61(D)mm</td>\n<td>About 80g</td>\n<td>Plastic ABS Black</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>사양</th>\n<th>카다로그</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MTAR-SIG</td>\n<td>SIGNAL ARRESTER</td>\n<td align=\"center\">\n<a href='/pdf/MTAR-SIG.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTAR-PWR</td>\n<td>POWER ARRESTER</td>\n<td align=\"center\">\n<a href='/pdf/MTAR-PWR.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTAR-RTD</td>\n<td>RTD SENSOR LINE ARRESTER</td>\n<td align=\"center\">\n<a href='/pdf/MTAR-RTD.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTAR-TC</td>\n<td>THERMO-COUPLE LINE ARRESTER</td>\n<td align=\"center\">\n<a href='/pdf/MTAR-TC.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n<tr>\n<td>MTAR-MOD</td>\n<td>MODEM LINE ARRESTER</td>\n<td align=\"center\">\n<a href='/pdf/MTAR-MOD.pdf'><img src=\"/images/design/icon_pdf.gif\" height='18' width='18' align=absmiddle></a>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "sortOrder": 2
+  }
+ ]
+}

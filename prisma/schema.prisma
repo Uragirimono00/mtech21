@@ -1,0 +1,121 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// 관리자 계정
+model Admin {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique
+  passwordHash String
+  name         String   @default("관리자")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+/// 제품 카테고리 (전자기유량계, 와류식유량계 ...)
+model Category {
+  id        Int       @id @default(autoincrement())
+  slug      String    @unique
+  name      String // 메뉴 표시명 (예: 전자기유량계)
+  title     String? // 페이지 제목 (기본값 = name)
+  engTitle  String? // 영문 제목 (예: Magnetic Flowmeter)
+  intro     String? // 원리/소개 텍스트 (줄바꿈 유지)
+  sections  Json      @default("[]") // [{title, body}]
+  sortOrder Int       @default(0)
+  visible   Boolean   @default(true)
+  products  Product[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+/// 제품 (MTM-200C ...)
+model Product {
+  id         Int      @id @default(autoincrement())
+  categoryId Int
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  slug       String
+  name       String // 제품명 (예: MTM-200C)
+  subtitle   String? // 부제 (예: Flange type)
+  thumbnail  String? // 목록 썸네일 이미지 URL
+  sections   Json     @default("[]") // [{title, html}]
+  sortOrder  Int      @default(0)
+  visible    Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([categoryId, slug])
+}
+
+/// 공지사항
+model Notice {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String
+  author    String   @default("관리자")
+  views     Int      @default(0)
+  pinned    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+/// 질문게시판 (Q&A)
+model Qna {
+  id           Int       @id @default(autoincrement())
+  title        String
+  content      String
+  author       String
+  email        String?
+  phone        String?
+  passwordHash String?
+  isSecret     Boolean   @default(false)
+  answer       String?
+  answeredAt   DateTime?
+  views        Int       @default(0)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+/// 1:1 문의 (폼메일)
+model Inquiry {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String?
+  email     String?
+  address   String?
+  content   String
+  isRead    Boolean  @default(false)
+  memo      String?
+  createdAt DateTime @default(now())
+}
+
+/// 회사 연혁
+model History {
+  id        Int    @id @default(autoincrement())
+  year      String
+  month     String
+  content   String
+  sortOrder Int    @default(0)
+}
+
+/// 메인 슬라이더
+model Slide {
+  id        Int     @id @default(autoincrement())
+  image     String
+  textImage String?
+  link      String?
+  alt       String?
+  sortOrder Int     @default(0)
+  visible   Boolean @default(true)
+}
+
+/// 사이트 설정 (key/value JSON)
+model Setting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}

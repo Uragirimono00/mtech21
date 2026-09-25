@@ -1,0 +1,210 @@
+[
+ {
+  "source": "/default/product/product_magnetic.php",
+  "destination": "/product/magnetic"
+ },
+ {
+  "source": "/default/product/magnetic/mtm_200c.php",
+  "destination": "/product/magnetic/mtm-200c"
+ },
+ {
+  "source": "/default/product/magnetic/mtm_200r.php",
+  "destination": "/product/magnetic/mtm-200r"
+ },
+ {
+  "source": "/default/product/magnetic/mtm_200h.php",
+  "destination": "/product/magnetic/mtm-200h"
+ },
+ {
+  "source": "/default/product/magnetic/mtm_200in.php",
+  "destination": "/product/magnetic/mtm-200in"
+ },
+ {
+  "source": "/default/product/product_vortex.php",
+  "destination": "/product/vortex"
+ },
+ {
+  "source": "/default/product/vortex/mvt_3000f.php",
+  "destination": "/product/vortex/mvt-3000f"
+ },
+ {
+  "source": "/default/product/vortex/mvt_3000in.php",
+  "destination": "/product/vortex/mvt-3000in"
+ },
+ {
+  "source": "/default/product/product_ultrasonic.php",
+  "destination": "/product/ultrasonic"
+ },
+ {
+  "source": "/default/product/ultrasonic/mul_800.php",
+  "destination": "/product/ultrasonic/mul-800"
+ },
+ {
+  "source": "/default/product/product_coriolis.php",
+  "destination": "/product/coriolis"
+ },
+ {
+  "source": "/default/product/coriolis/mtm_9000.php",
+  "destination": "/product/coriolis/mtm-9000"
+ },
+ {
+  "source": "/default/product/coriolis/mtm_6000.php",
+  "destination": "/product/coriolis/mtm-6000"
+ },
+ {
+  "source": "/default/product/product_thermal.php",
+  "destination": "/product/thermal"
+ },
+ {
+  "source": "/default/product/thermal/mtm_8000.php",
+  "destination": "/product/thermal/mtm-8000"
+ },
+ {
+  "source": "/default/product/product_positive.php",
+  "destination": "/product/positive"
+ },
+ {
+  "source": "/default/product/positive/mtp_300.php",
+  "destination": "/product/positive/mtp-300"
+ },
+ {
+  "source": "/default/product/product_mf.php",
+  "destination": "/product/mf"
+ },
+ {
+  "source": "/default/product/mf/mfc_100.php",
+  "destination": "/product/mf/mfc-100"
+ },
+ {
+  "source": "/default/product/product_valve.php",
+  "destination": "/product/valve"
+ },
+ {
+  "source": "/default/product/valve/v_ball.php",
+  "destination": "/product/valve/v-ball"
+ },
+ {
+  "source": "/default/product/valve/v_diaphragm.php",
+  "destination": "/product/valve/v-diaphragm"
+ },
+ {
+  "source": "/default/product/valve/v_butterfly.php",
+  "destination": "/product/valve/v-butterfly"
+ },
+ {
+  "source": "/default/product/product_transmitter.php",
+  "destination": "/product/transmitter"
+ },
+ {
+  "source": "/default/product/transmitter/mdp_600.php",
+  "destination": "/product/transmitter/mdp-600"
+ },
+ {
+  "source": "/default/product/transmitter/mpt_500.php",
+  "destination": "/product/transmitter/mpt-500"
+ },
+ {
+  "source": "/default/product/product_level.php",
+  "destination": "/product/level"
+ },
+ {
+  "source": "/default/product/level/mul_100.php",
+  "destination": "/product/level/mul-100"
+ },
+ {
+  "source": "/default/product/level/mrl_300.php",
+  "destination": "/product/level/mrl-300"
+ },
+ {
+  "source": "/default/product/product_turbine.php",
+  "destination": "/product/turbine"
+ },
+ {
+  "source": "/default/product/turbine/mtt_200.php",
+  "destination": "/product/turbine/mtt-200"
+ },
+ {
+  "source": "/default/product/product_converter.php",
+  "destination": "/product/converter"
+ },
+ {
+  "source": "/default/product/converter/con_plug.php",
+  "destination": "/product/converter/con-plug"
+ },
+ {
+  "source": "/default/product/converter/con_slim.php",
+  "destination": "/product/converter/con-slim"
+ },
+ {
+  "source": "/default/product/converter/con_2wire.php",
+  "destination": "/product/converter/con-2wire"
+ },
+ {
+  "source": "/default/product/converter/con_wall.php",
+  "destination": "/product/converter/con-wall"
+ },
+ {
+  "source": "/default/product/product_indicator.php",
+  "destination": "/product/indicator"
+ },
+ {
+  "source": "/default/product/indicator/in_digital.php",
+  "destination": "/product/indicator/in-digital"
+ },
+ {
+  "source": "/default/product/indicator/in_multi.php",
+  "destination": "/product/indicator/in-multi"
+ },
+ {
+  "source": "/default/product/indicator/in_large.php",
+  "destination": "/product/indicator/in-large"
+ },
+ {
+  "source": "/default/product/product_arrester.php",
+  "destination": "/product/arrester"
+ },
+ {
+  "source": "/default/product/arrester/arr_high.php",
+  "destination": "/product/arrester/arr-high"
+ },
+ {
+  "source": "/default/product/arrester/arr_low.php",
+  "destination": "/product/arrester/arr-low"
+ },
+ {
+  "source": "/default",
+  "destination": "/"
+ },
+ {
+  "source": "/default/index.php",
+  "destination": "/"
+ },
+ {
+  "source": "/default/company/company_01.php",
+  "destination": "/company/greeting"
+ },
+ {
+  "source": "/default/company/company_02.php",
+  "destination": "/company/history"
+ },
+ {
+  "source": "/default/company/company_03.php",
+  "destination": "/company/location"
+ },
+ {
+  "source": "/default/product/product_01.php",
+  "destination": "/product/magnetic"
+ },
+ {
+  "source": "/default/contact/contact_01.php",
+  "destination": "/contact"
+ },
+ {
+  "source": "/default/customer/customer_01.php",
+  "destination": "/customer/notice"
+ },
+ {
+  "source": "/default/customer/customer_02.php",
+  "destination": "/customer/qna"
+ }
+]
