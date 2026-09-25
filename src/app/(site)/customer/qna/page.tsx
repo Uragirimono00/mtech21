@@ -12,19 +12,21 @@ export default async function QnaListPage({ searchParams }: PageProps<"/customer
   const [meta, data] = await Promise.all([getSetting("qna"), getQnaPage(page, search)]);
 
   return (
-    <SubLayout section="CUSTOMER" activeHref="/customer/qna" title="질문게시판" crumbs={["질문게시판"]}>
-      <div className="title1">{meta.title}</div>
-      <div className="title4">{meta.subtitle}</div>
-      <img className="bullet" src="/images/design/bullet.jpg" alt="" />
+    <SubLayout section="CUSTOMER" activeHref="/customer/qna" title="질문게시판" crumbs={[{ label: "질문게시판" }]}>
+      <div className="intro">
+        <span className="eyebrow">Q&amp;A</span>
+        <h2 style={{ marginTop: 10 }}>{meta.title}</h2>
+        <p className="intro__desc">{meta.subtitle}</p>
+      </div>
       <BoardList
         rows={data.items.map((q) => ({
           id: q.id,
           href: `/customer/qna/${q.id}`,
           title: (
             <>
+              {q.isSecret && "🔒 "}
               {q.title}
-              {q.isSecret && <span className="badge_lock">🔒</span>}
-              {q.answeredAt ? <span className="badge_done">답변완료</span> : <span className="badge_wait">답변대기</span>}
+              {q.answeredAt ? <span className="tag tag--accent" style={{ marginLeft: 6 }}>답변완료</span> : <span className="tag tag--wait" style={{ marginLeft: 6 }}>답변대기</span>}
             </>
           ),
           author: q.author,

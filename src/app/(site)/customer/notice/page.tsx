@@ -12,10 +12,12 @@ export default async function NoticeListPage({ searchParams }: PageProps<"/custo
   const [meta, data] = await Promise.all([getSetting("notice"), getNoticePage(page, search)]);
 
   return (
-    <SubLayout section="CUSTOMER" activeHref="/customer/notice" title="공지사항" crumbs={["공지사항"]}>
-      <div className="title1">{meta.title}</div>
-      <div className="title4">{meta.subtitle}</div>
-      <img className="bullet" src="/images/design/bullet.jpg" alt="" />
+    <SubLayout section="CUSTOMER" activeHref="/customer/notice" title="공지사항" crumbs={[{ label: "공지사항" }]}>
+      <div className="intro">
+        <span className="eyebrow">Notice</span>
+        <h2 style={{ marginTop: 10 }}>{meta.title}</h2>
+        <p className="intro__desc">{meta.subtitle}</p>
+      </div>
       <BoardList
         rows={data.items.map((n) => ({
           id: n.id,

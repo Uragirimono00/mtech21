@@ -17,40 +17,59 @@ export default async function CategoryPage({ params }: PageProps<"/product/[cate
   const cat = await getCategoryBySlug(category);
   if (!cat) notFound();
   const title = cat.title || cat.name;
+  const hasAbout = Boolean(cat.engTitle || cat.intro || cat.sections.length > 0);
 
   return (
-    <SubLayout section="PRODUCT" activeHref={`/product/${cat.slug}`} title={title} crumbs={[title]}>
-      {/* 제품 리스트 */}
-      <div className="business mt25">
-        {cat.products.map((p) => (
-          <div className="gallery" key={p.id}>
-            <Link href={`/product/${cat.slug}/${p.slug}`}>
-              <img src={p.thumbnail || "/images/design/bullet.jpg"} alt={p.name} />
-            </Link>
-            <div className="desc">{p.name}</div>
-          </div>
-        ))}
+    <SubLayout section="PRODUCT" activeHref={`/product/${cat.slug}`} title={title} crumbs={[{ label: title }]}>
+      <div className="section-head" style={{ marginBottom: 20 }}>
+        <div>
+          <span className="eyebrow">Line-up</span>
+          <h2 style={{ fontSize: 22, marginTop: 8 }}>{title} 제품</h2>
+        </div>
+        <span className="tag tag--soft tag--mono">{cat.products.length} models</span>
       </div>
 
-      {(cat.engTitle || cat.intro || cat.sections.length > 0) && (
-        <>
-          <img className="bullet" src="/images/design/bullet.jpg" alt="" />
-          {cat.engTitle && <div className="title1">{cat.engTitle}</div>}
-          {cat.intro && <div className="title4 mt10 pre">{cat.intro}</div>}
-          {cat.sections.map((s, i) => (
-            <div key={i}>
-              <div className="border1 tb25" />
-              <div className={i === 0 ? "business mt25" : "business"}>
-                <div className="txt1">
-                  <div className="title2">
-                    <span className="point_color">{s.title}</span>
-                  </div>
-                  <div className="title4 mt10 pre">{s.body}</div>
-                </div>
+      {cat.products.length === 0 ? (
+        <div className="product-empty">등록된 제품이 없습니다.</div>
+      ) : (
+        <div className="product-grid">
+          {cat.products.map((p) => (
+            <Link key={p.id} href={`/product/${cat.slug}/${p.slug}`} className="product-card">
+              <div className="product-card__thumb">{p.thumbnail ? <img src={p.thumbnail} alt={p.name} loading="lazy" /> : null}</div>
+              <div className="product-card__body">
+                <div className="product-card__name">{p.name}</div>
+                <div className="product-card__cta">View detail →</div>
               </div>
-            </div>
+            </Link>
           ))}
-        </>
+        </div>
+      )}
+
+      {hasAbout && (
+        <div className="about">
+          <div className="intro">
+            <span className="eyebrow">About</span>
+            {cat.engTitle && <h2 style={{ marginTop: 10 }}>{cat.engTitle}</h2>}
+            {cat.intro && (
+              <p className="prose prose--lg" style={{ marginTop: 16 }}>
+                {cat.intro}
+              </p>
+            )}
+          </div>
+          {cat.sections.length > 0 && (
+            <div className="info-list">
+              {cat.sections.map((s, i) => (
+                <div className="info-block" key={i}>
+                  <div className="info-block__label">
+                    <span className="idx">{String(i + 1).padStart(2, "0")}</span>
+                    <h3>{s.title}</h3>
+                  </div>
+                  <div className="info-block__body">{s.body}</div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
       )}
     </SubLayout>
   );

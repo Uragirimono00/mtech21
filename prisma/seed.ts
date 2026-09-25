@@ -30,6 +30,13 @@ async function main() {
       await prisma.setting.create({ data: { key, value: value as object } });
     }
   }
+  // 디자인 개편(2026-09): 글자가 박힌 구 서브 비주얼을 쓰고 있으면 새 기본 이미지로 교체 (관리자가 바꾼 값은 유지)
+  const siteRow = await prisma.setting.findUnique({ where: { key: "site" } });
+  const siteVal = (siteRow?.value ?? {}) as { subVisual?: string };
+  if (siteRow && siteVal.subVisual === "/images/design/visual_mt1.jpg") {
+    await prisma.setting.update({ where: { key: "site" }, data: { value: { ...siteVal, subVisual: data.settings.site.subVisual } } });
+    console.log("서브 비주얼 이미지를 새 기본값으로 교체했습니다.");
+  }
 
   // 슬라이드
   if ((await prisma.slide.count()) === 0) {

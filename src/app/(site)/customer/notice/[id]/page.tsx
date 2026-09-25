@@ -28,58 +28,48 @@ export default async function NoticeViewPage({ params }: PageProps<"/customer/no
   ]);
 
   return (
-    <SubLayout section="CUSTOMER" activeHref="/customer/notice" title="공지사항" crumbs={["공지사항"]}>
-      <div className="table_02">
-        <table className="board">
-          <tbody>
-            <tr>
-              <td className="board_bgcolor">
-                <span>제목</span>
-              </td>
-              <td>
-                {notice.pinned && <b className="notice_subject">[공지] </b>}
-                {notice.title}
-              </td>
-            </tr>
-            <tr>
-              <td className="board_bgcolor">
-                <span>작성자</span>
-              </td>
-              <td>
-                {notice.author} &nbsp;|&nbsp; 작성일 {formatDate(notice.createdAt)} &nbsp;|&nbsp; 조회 {notice.views + 1}
-              </td>
-            </tr>
-            <tr>
-              <td colSpan={2} style={{ padding: 0 }}>
-                <HtmlContent html={notice.content} className="board_view_content" />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div className="table_02" style={{ borderTop: 0, marginTop: 10 }}>
-        <table className="board">
-          <tbody>
-            <tr>
-              <td className="board_bgcolor">
-                <span>다음글</span>
-              </td>
-              <td>{next ? <Link href={`/customer/notice/${next.id}`}>{next.title}</Link> : "다음글이 없습니다."}</td>
-            </tr>
-            <tr>
-              <td className="board_bgcolor">
-                <span>이전글</span>
-              </td>
-              <td>{prev ? <Link href={`/customer/notice/${prev.id}`}>{prev.title}</Link> : "이전글이 없습니다."}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div className="board_btns">
-        <Link href="/customer/notice" className="list">
-          목록
-        </Link>
-      </div>
+    <SubLayout section="CUSTOMER" activeHref="/customer/notice" title="공지사항" crumbs={[{ label: "공지사항", href: "/customer/notice" }, { label: notice.title }]}>
+      <article className="post">
+        <div className="post__head">
+          <h2>
+            {notice.pinned && <span className="tag tag--ink">공지</span>}
+            {notice.title}
+          </h2>
+          <div className="post__meta">
+            <span>{notice.author}</span>
+            <span>{formatDate(notice.createdAt)}</span>
+            <span>VIEWS {notice.views + 1}</span>
+          </div>
+        </div>
+        <HtmlContent html={notice.content} className="post__body" />
+        <div className="post__nav">
+          <div>
+            <span className="k">Next</span>
+            {next ? (
+              <Link href={`/customer/notice/${next.id}`} className="t">
+                {next.title}
+              </Link>
+            ) : (
+              <span className="none">다음글이 없습니다.</span>
+            )}
+          </div>
+          <div>
+            <span className="k">Prev</span>
+            {prev ? (
+              <Link href={`/customer/notice/${prev.id}`} className="t">
+                {prev.title}
+              </Link>
+            ) : (
+              <span className="none">이전글이 없습니다.</span>
+            )}
+          </div>
+        </div>
+        <div className="post__actions">
+          <Link href="/customer/notice" className="btn btn--ghost">
+            목록으로
+          </Link>
+        </div>
+      </article>
     </SubLayout>
   );
 }

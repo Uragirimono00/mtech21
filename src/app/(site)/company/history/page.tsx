@@ -9,7 +9,6 @@ export const metadata: Metadata = { title: "연혁" };
 export default async function HistoryPage() {
   const [items, meta] = await Promise.all([getHistory(), getSetting("history")]);
 
-  // 연도별 묶기 (등록 순서 유지)
   const years: { year: string; items: typeof items }[] = [];
   for (const it of items) {
     const last = years[years.length - 1];
@@ -18,24 +17,27 @@ export default async function HistoryPage() {
   }
 
   return (
-    <SubLayout section="COMPANY" activeHref="/company/history" title="회사연혁" crumbs={["연혁"]} innerClass="m_padding">
-      <div className="title1">
-        <span className="point_color">{meta.title}</span>
+    <SubLayout section="COMPANY" activeHref="/company/history" title="연혁" crumbs={[{ label: "연혁" }]}>
+      <div className="intro">
+        <span className="eyebrow">{meta.title}</span>
+        <h2 style={{ marginTop: 10 }}>{meta.subtitle}</h2>
+        <p className="intro__desc">1995년 설립 이후 계측·제어 분야에서 쌓아온 발자취입니다.</p>
       </div>
-      <div className="title4 mt10">{meta.subtitle}</div>
-      {years.map((y, i) => (
-        <div className={i === 0 ? "history border2 mt25" : "history"} key={y.year + i}>
-          <div className="title1 fl">{y.year}</div>
-          <ol className="title5">
-            {y.items.map((it) => (
-              <li key={it.id}>
-                <p className="title4 point_color">{it.month}</p>
-                <span className="pre">{it.content}</span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      ))}
+      <div className="timeline">
+        {years.map((y, i) => (
+          <div className="timeline__year" key={y.year + i}>
+            <div className="timeline__y">{y.year}</div>
+            <div className="timeline__items">
+              {y.items.map((it) => (
+                <div className="timeline__item" key={it.id}>
+                  <span className="timeline__m">{it.month || "—"}</span>
+                  <span>{it.content}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
     </SubLayout>
   );
 }

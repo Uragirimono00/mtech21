@@ -32,7 +32,6 @@ function pageHref(basePath: string, page: number, search: { field: string; value
   return qs ? `${basePath}?${qs}` : basePath;
 }
 
-/** 원본 게시판(카페24 board) 목록 마크업 재현 */
 export function BoardList({ rows, total, page, pages, basePath, search, writeHref, emptyText = "등록된 글이 없습니다." }: Props) {
   const PAGE_SIZE = 15;
   const start = total - (page - 1) * PAGE_SIZE;
@@ -41,84 +40,60 @@ export function BoardList({ rows, total, page, pages, basePath, search, writeHre
 
   return (
     <>
-      <div className="table_02 title">
-        <table className="board">
-          <tbody>
-            <tr>
-              <td className="att_title bbsno">
-                <span>번호</span>
-              </td>
-              <td className="att_title bbsnewf5">
-                <span>제목</span>
-              </td>
-              <td className="att_title bbswriter">
-                <span>작성자</span>
-              </td>
-              <td className="att_title bbsetc_dateof_write">
-                <span>작성일자</span>
-              </td>
-            </tr>
-            {rows.length === 0 && (
-              <tr>
-                <td colSpan={4} className="board_empty">
-                  {emptyText}
-                </td>
-              </tr>
-            )}
-            {rows.map((r, i) => (
-              <tr key={r.id}>
-                <td className="bbsno">{r.isNotice ? <b>공지</b> : start - i}</td>
-                <td className="bbsnewf5">
-                  <Link href={r.href} className={r.isNotice ? "notice_subject" : undefined}>
-                    {r.title}
-                  </Link>
-                </td>
-                <td className="bbswriter">{r.author}</td>
-                <td className="bbsetc_dateof_write">{r.date}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="paging">
-        {groupStart > 1 && <Link href={pageHref(basePath, groupStart - 1, search)}>&laquo;</Link>}
-        {Array.from({ length: groupEnd - groupStart + 1 }, (_, i) => groupStart + i).map((p) =>
-          p === page ? <b key={p}>{p}</b> : <Link key={p} href={pageHref(basePath, p, search)}>{p}</Link>,
-        )}
-        {groupEnd < pages && <Link href={pageHref(basePath, groupEnd + 1, search)}>&raquo;</Link>}
-      </div>
-
-      {writeHref && (
-        <div className="board_write">
-          <Link href={writeHref} className="board_write_btn">
-            글쓰기
-          </Link>
+      <div className="board">
+        <div className="board__row board__row--head" aria-hidden="true">
+          <div className="board__num">No.</div>
+          <div>Title</div>
+          <div className="board__author">Writer</div>
+          <div className="board__date">Date</div>
         </div>
-      )}
+        {rows.length === 0 && <div className="board__empty">{emptyText}</div>}
+        {rows.map((r, i) => (
+          <div className="board__row" key={r.id}>
+            <div className="board__num">{r.isNotice ? <span className="tag tag--ink">공지</span> : start - i}</div>
+            <div className="board__title">
+              <Link href={r.href}>{r.title}</Link>
+            </div>
+            <div className="board__author">{r.author}</div>
+            <div className="board__date">{r.date}</div>
+          </div>
+        ))}
+      </div>
 
-      <div id="ext_search">
-        <form method="get" action={basePath}>
-          <table id="search_table" cellSpacing={0} cellPadding={2}>
-            <tbody>
-              <tr>
-                <td className="est_cate_cell">
-                  <select name="field" defaultValue={search.field} title="검색 항목">
-                    <option value="subject">제목</option>
-                    <option value="description">내용</option>
-                    <option value="writer">작성자</option>
-                  </select>
-                </td>
-                <td className="est_keyword_cell">
-                  <input type="text" name="q" defaultValue={search.value} placeholder="검색어" title="검색어" />
-                </td>
-                <td className="est_btn_cell">
-                  <button type="submit">검색</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
+      <div className="board__foot">
+        <nav className="pager" aria-label="페이지">
+          {groupStart > 1 && <Link href={pageHref(basePath, groupStart - 1, search)}>«</Link>}
+          {Array.from({ length: groupEnd - groupStart + 1 }, (_, i) => groupStart + i).map((p) =>
+            p === page ? (
+              <b key={p} aria-current="page">
+                {p}
+              </b>
+            ) : (
+              <Link key={p} href={pageHref(basePath, p, search)}>
+                {p}
+              </Link>
+            ),
+          )}
+          {groupEnd < pages && <Link href={pageHref(basePath, groupEnd + 1, search)}>»</Link>}
+        </nav>
+        <div className="inline-form">
+          <form method="get" action={basePath} className="search">
+            <select name="field" defaultValue={search.field} className="select select--sm" aria-label="검색 항목">
+              <option value="subject">제목</option>
+              <option value="description">내용</option>
+              <option value="writer">작성자</option>
+            </select>
+            <input type="text" name="q" defaultValue={search.value} placeholder="검색어" className="input input--sm" aria-label="검색어" />
+            <button type="submit" className="btn btn--dark btn--sm">
+              검색
+            </button>
+          </form>
+          {writeHref && (
+            <Link href={writeHref} className="btn btn--primary btn--sm">
+              글쓰기
+            </Link>
+          )}
+        </div>
       </div>
     </>
   );

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Noto_Sans_KR } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const notoSansKr = Noto_Sans_KR({
-  variable: "--font-noto-sans-kr",
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
+  weight: ["400", "500", "600"],
   display: "swap",
 });
 
@@ -16,7 +16,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="ko" className={notoSansKr.variable}>
+    <html lang="ko" className={plexMono.variable}>
+      <head>
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        {/* Pretendard: 한국어 웹에서 가장 널리 쓰이는 가변 폰트 (동적 서브셋) */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );

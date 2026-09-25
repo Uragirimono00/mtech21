@@ -9,66 +9,53 @@ export function QnaWriteForm() {
   return (
     <form action={action}>
       <input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ display: "none" }} aria-hidden="true" />
-      <table cellPadding={0} cellSpacing={0} className="form">
-        <colgroup>
-          <col width="130" />
-          <col />
-        </colgroup>
-        <tbody>
-          <tr>
-            <td className="formmail_title_bgcolor">이름</td>
-            <td className="formmail_cell_bgcolor">
-              <input type="text" name="author" maxLength={50} required />
-            </td>
-          </tr>
-          <tr>
-            <td className="formmail_title_bgcolor">비밀번호</td>
-            <td className="formmail_cell_bgcolor">
-              <input type="password" name="password" maxLength={50} required minLength={4} />
-            </td>
-          </tr>
-          <tr>
-            <td className="formmail_title_bgcolor">연락처</td>
-            <td className="formmail_cell_bgcolor">
-              <input type="tel" name="phone" maxLength={50} />
-            </td>
-          </tr>
-          <tr>
-            <td className="formmail_title_bgcolor">이메일</td>
-            <td className="formmail_cell_bgcolor">
-              <input type="email" name="email" maxLength={200} />
-            </td>
-          </tr>
-          <tr>
-            <td className="formmail_title_bgcolor">제목</td>
-            <td className="formmail_cell_bgcolor">
-              <input type="text" name="title" maxLength={200} required />
-            </td>
-          </tr>
-          <tr>
-            <td className="formmail_title_bgcolor">내용</td>
-            <td className="formmail_cell_bgcolor">
-              <textarea name="content" required />
-            </td>
-          </tr>
-          <tr>
-            <td className="formmail_title_bgcolor">비밀글</td>
-            <td className="formmail_cell_bgcolor">
-              <label style={{ cursor: "pointer" }}>
-                <input type="checkbox" name="isSecret" style={{ width: "auto", height: "auto" }} /> 비밀글로 등록 (비밀번호를 아는 사람만 열람)
-              </label>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      {state.error && <div className="form_msg err">{state.error}</div>}
-      <div className="form_btn">
-        <button type="submit" className="ok" disabled={pending}>
-          {pending ? "등록중..." : "등록"}
-        </button>
-        <Link href="/customer/qna" className="cancel">
+      <div className="form-grid">
+        <div className="field">
+          <label htmlFor="q-author">
+            이름<span className="req">*</span>
+          </label>
+          <input id="q-author" className="input" type="text" name="author" maxLength={50} required />
+        </div>
+        <div className="field">
+          <label htmlFor="q-password">
+            비밀번호<span className="req">*</span>
+          </label>
+          <input id="q-password" className="input" type="password" name="password" maxLength={50} required minLength={4} placeholder="4자 이상" />
+        </div>
+        <div className="field">
+          <label htmlFor="q-phone">연락처</label>
+          <input id="q-phone" className="input" type="tel" name="phone" maxLength={50} />
+        </div>
+        <div className="field">
+          <label htmlFor="q-email">이메일</label>
+          <input id="q-email" className="input" type="email" name="email" maxLength={200} />
+        </div>
+        <div className="field field--full">
+          <label htmlFor="q-title">
+            제목<span className="req">*</span>
+          </label>
+          <input id="q-title" className="input" type="text" name="title" maxLength={200} required />
+        </div>
+        <div className="field field--full">
+          <label htmlFor="q-content">
+            내용<span className="req">*</span>
+          </label>
+          <textarea id="q-content" className="textarea" name="content" required />
+        </div>
+        <div className="field field--full">
+          <label className="check">
+            <input type="checkbox" name="isSecret" /> 비밀글로 등록 (비밀번호를 아는 사람만 열람)
+          </label>
+        </div>
+      </div>
+      {state.error && <div className="alert alert--err">{state.error}</div>}
+      <div className="form-actions">
+        <Link href="/customer/qna" className="btn btn--ghost">
           취소
         </Link>
+        <button type="submit" className="btn btn--primary" disabled={pending}>
+          {pending ? "등록 중..." : "질문 등록"} <span className="arrow">→</span>
+        </button>
       </div>
     </form>
   );
@@ -79,40 +66,43 @@ export function QnaSecretView({ id, initialAnswer }: { id: number; initialAnswer
   if (state.unlocked) {
     return (
       <>
-        <div className="board_view_content pre">{state.unlocked.content}</div>
+        <div className="post__body">{state.unlocked.content}</div>
         {state.unlocked.answer && (
-          <div className="board_answer">
-            <span className="label">답변</span>
-            <div className="pre">{state.unlocked.answer}</div>
+          <div className="answer">
+            <div className="answer__label">Answer</div>
+            <div className="answer__body">{state.unlocked.answer}</div>
           </div>
         )}
       </>
     );
   }
   return (
-    <form action={action} className="board_view_content" style={{ textAlign: "center" }}>
-      <input type="hidden" name="id" value={id} />
-      <p style={{ marginBottom: 10 }}>🔒 비밀글입니다. 작성 시 입력한 비밀번호를 입력해주세요.</p>
-      <input type="password" name="password" required style={{ height: 30, border: "1px solid #ccc", padding: "0 8px" }} />{" "}
-      <button type="submit" className="board_write_btn" disabled={pending} style={{ height: 30, lineHeight: "30px" }}>
-        확인
-      </button>
-      {state.error && <div className="form_msg err">{state.error}</div>}
-      {initialAnswer !== null && <p style={{ marginTop: 10, color: "#b3917c" }}>답변이 등록된 글입니다.</p>}
-    </form>
+    <div className="lock-box">
+      <div className="lock-box__icon">🔒</div>
+      <p>비밀글입니다. 작성 시 입력한 비밀번호를 입력해주세요.</p>
+      {initialAnswer !== null && <p style={{ color: "var(--accent)", marginTop: 6 }}>답변이 등록된 글입니다.</p>}
+      <form action={action}>
+        <input type="hidden" name="id" value={id} />
+        <input type="password" name="password" className="input input--sm" placeholder="비밀번호" required aria-label="비밀번호" />
+        <button type="submit" className="btn btn--dark btn--sm" disabled={pending}>
+          확인
+        </button>
+      </form>
+      {state.error && <div className="alert alert--err">{state.error}</div>}
+    </div>
   );
 }
 
 export function QnaDeleteForm({ id }: { id: number }) {
   const [state, action, pending] = useActionState<QnaDeleteState, FormData>(deleteQnaByUser, {});
   return (
-    <form action={action} style={{ display: "inline-block", marginLeft: 8 }}>
+    <form action={action} className="inline-form">
       <input type="hidden" name="id" value={id} />
-      <input type="password" name="password" placeholder="비밀번호" required style={{ height: 30, border: "1px solid #ccc", padding: "0 8px", width: 110 }} />{" "}
-      <button type="submit" className="danger" disabled={pending} style={{ height: 32, lineHeight: "32px", padding: "0 12px", borderRadius: 2, border: "1px solid #c33", color: "#c33", background: "#fff", fontSize: 12 }}>
+      <input type="password" name="password" className="input input--sm" placeholder="비밀번호" required aria-label="삭제 비밀번호" style={{ width: 140 }} />
+      <button type="submit" className="btn btn--danger btn--sm" disabled={pending}>
         삭제
       </button>
-      {state.error && <span style={{ color: "#a33", fontSize: 12, marginLeft: 6 }}>{state.error}</span>}
+      {state.error && <span style={{ color: "#a3261a", fontSize: 13 }}>{state.error}</span>}
     </form>
   );
 }

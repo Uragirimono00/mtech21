@@ -10,6 +10,22 @@ export async function getVisibleCategories() {
   });
 }
 
+/** 메인 화면 제품 카테고리 카드: 대표 썸네일(첫 제품) + 제품 수 */
+export async function getCategoryCards() {
+  const cats = await prisma.category.findMany({
+    where: { visible: true },
+    orderBy: [{ sortOrder: "asc" }, { id: "asc" }],
+    select: {
+      slug: true,
+      name: true,
+      title: true,
+      _count: { select: { products: { where: { visible: true } } } },
+      products: { where: { visible: true }, orderBy: [{ sortOrder: "asc" }, { id: "asc" }], take: 1, select: { thumbnail: true } },
+    },
+  });
+  return cats.map((c) => ({ slug: c.slug, name: c.name, title: c.title, count: c._count.products, thumb: c.products[0]?.thumbnail ?? null }));
+}
+
 export async function getCategoryBySlug(slug: string) {
   const cat = await prisma.category.findUnique({
     where: { slug },

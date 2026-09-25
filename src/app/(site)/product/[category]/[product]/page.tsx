@@ -21,24 +21,27 @@ export default async function ProductPage({ params }: PageProps<"/product/[categ
   const catTitle = cat.title || cat.name;
 
   return (
-    <SubLayout section="PRODUCT" activeHref={`/product/${cat.slug}`} title={catTitle} crumbs={[catTitle, p.name]}>
-      <div className="title1">{p.name}</div>
-      {p.subtitle && <div className="title4 mt10 pre">{p.subtitle}</div>}
+    <SubLayout
+      section="PRODUCT"
+      activeHref={`/product/${cat.slug}`}
+      title={p.name}
+      crumbs={[{ label: catTitle, href: `/product/${cat.slug}` }, { label: p.name }]}
+    >
+      <div className="product-head">
+        <span className="tag tag--accent tag--mono">{catTitle}</span>
+        <h1>{p.name}</h1>
+        {p.subtitle && <p className="product-head__sub">{p.subtitle}</p>}
+      </div>
       {p.sections.map((s, i) => (
-        <div key={i}>
-          {i > 0 && <div className="border1 tb25" />}
-          <div className="business mt25">
-            <div className="txt1">
-              {s.title && (
-                <div className="title2">
-                  <span className="point_color">{s.title}</span>
-                </div>
-              )}
-              <img className="bullet" src="/images/design/bullet.jpg" alt="" />
-              <HtmlContent html={s.html} />
+        <section className="product-section" key={i}>
+          {s.title && (
+            <div className="product-section__head">
+              <span className="idx">{String(i + 1).padStart(2, "0")}</span>
+              <h2>{s.title}</h2>
             </div>
-          </div>
-        </div>
+          )}
+          <HtmlContent html={s.html} />
+        </section>
       ))}
     </SubLayout>
   );
