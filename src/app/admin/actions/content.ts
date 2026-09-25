@@ -42,8 +42,13 @@ export async function saveSlide(_prev: ActionState, fd: FormData): Promise<Actio
   const data = {
     image,
     textImage: str(fd, "textImage", 500) || null,
+    kicker: str(fd, "kicker", 100) || null,
+    title: str(fd, "title", 300) || null,
+    subtitle: str(fd, "subtitle", 500) || null,
     link: str(fd, "link", 500) || null,
+    linkLabel: str(fd, "linkLabel", 50) || null,
     alt: str(fd, "alt", 200) || null,
+    theme: str(fd, "theme", 10) === "light" ? "light" : "dark",
     sortOrder: int(fd, "sortOrder", 0),
     visible: bool(fd, "visible"),
   };

@@ -4,7 +4,11 @@ import { getSettings } from "@/lib/settings";
 import { ContactForm } from "./ContactForm";
 
 export const revalidate = 3600;
-export const metadata: Metadata = { title: "1:1문의" };
+export const metadata: Metadata = {
+  title: "1:1문의 | 견적·기술 문의",
+  description: "유량계, 신호변환기, 지시계, 전송기 등 엠테크 제품의 견적과 기술 문의를 남겨주세요. 확인 후 빠르게 답변 드립니다.",
+  alternates: { canonical: "/contact" },
+};
 
 export default async function ContactPage() {
   const { contact, company, home } = await getSettings(["contact", "company", "home"]);

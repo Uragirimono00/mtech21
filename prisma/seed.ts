@@ -33,13 +33,20 @@ async function main() {
   // 디자인 개편(2026-09): 글자가 박힌 구 서브 비주얼을 쓰고 있으면 새 기본 이미지로 교체 (관리자가 바꾼 값은 유지)
   const siteRow = await prisma.setting.findUnique({ where: { key: "site" } });
   const siteVal = (siteRow?.value ?? {}) as { subVisual?: string };
-  if (siteRow && siteVal.subVisual === "/images/design/visual_mt1.jpg") {
+  if (siteRow && (siteVal.subVisual === "/images/design/visual_mt1.jpg" || siteVal.subVisual === "/images/main/slider3.jpg")) {
     await prisma.setting.update({ where: { key: "site" }, data: { value: { ...siteVal, subVisual: data.settings.site.subVisual } } });
     console.log("서브 비주얼 이미지를 새 기본값으로 교체했습니다.");
   }
 
   // 슬라이드
-  if ((await prisma.slide.count()) === 0) {
+  const existingSlides = await prisma.slide.findMany();
+  // 디자인 개편(2026-09): 템플릿 제공 이미지(slider1~3.jpg)만 있고 문구가 없는 구형 슬라이드는 자사 제품 배너로 교체
+  const legacyOnly = existingSlides.length > 0 && existingSlides.every((s) => /\/images\/main\/slider\d\.jpg$/.test(s.image) && !s.title);
+  if (legacyOnly) {
+    await prisma.slide.deleteMany({});
+    console.log("템플릿 슬라이드를 새 배너로 교체했습니다.");
+  }
+  if (legacyOnly || existingSlides.length === 0) {
     for (const s of data.slides) {
       await prisma.slide.create({ data: s });
     }

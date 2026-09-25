@@ -16,7 +16,16 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/product/[category]">): Promise<Metadata> {
   const { category } = await params;
   const cat = await getCategoryBySlug(category);
-  return { title: cat ? (cat.title || cat.name) : "제품소개" };
+  if (!cat) return { title: "제품소개" };
+  const title = cat.title || cat.name;
+  const models = cat.products.map((p) => p.name).join(", ");
+  const description = (cat.intro ? cat.intro.replace(/\s+/g, " ").slice(0, 120) + " " : "") + `엠테크 ${title}${cat.engTitle ? ` (${cat.engTitle})` : ""} 제품: ${models || "제품 안내"}`;
+  return {
+    title: `${title}${cat.engTitle ? ` ${cat.engTitle}` : ""}`,
+    description: description.slice(0, 200),
+    alternates: { canonical: `/product/${cat.slug}` },
+    openGraph: { title: `${title} | 엠테크`, description: description.slice(0, 200), url: `/product/${cat.slug}` },
+  };
 }
 
 export default async function CategoryPage({ params }: PageProps<"/product/[category]">) {

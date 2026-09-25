@@ -1,17 +1,35 @@
 import Link from "next/link";
 import { Slider } from "@/components/site/Slider";
 import { getCategoryCards, getRecentNotices, getSlides, formatDate } from "@/lib/data";
-import { getSetting } from "@/lib/settings";
+import { getSettings } from "@/lib/settings";
+import { siteUrl } from "@/lib/site-url";
 
 export const revalidate = 3600;
 
 export default async function HomePage() {
-  const [slides, home, notices, cats] = await Promise.all([getSlides(), getSetting("home"), getRecentNotices(5), getCategoryCards()]);
+  const [slides, { home, company, site }, notices, cats] = await Promise.all([getSlides(), getSettings(["home", "company", "site"]), getRecentNotices(5), getCategoryCards()]);
   const cc = home.customerCenter;
   const tel = (cc.tel || cc.phone).replace(/[^0-9+]/g, "");
+  const base = siteUrl();
+
+  // 검색엔진용 구조화 데이터 (회사 정보)
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: company.name,
+    alternateName: company.nameEn,
+    url: base,
+    logo: site.logo.startsWith("http") ? site.logo : `${base}${site.logo}`,
+    email: company.email,
+    telephone: company.phone.replace(/\s/g, ""),
+    address: { "@type": "PostalAddress", streetAddress: company.address, addressCountry: "KR" },
+    foundingDate: "1995",
+    description: site.description,
+  };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Slider slides={slides} />
 
       <div className="strip" aria-hidden="true">

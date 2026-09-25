@@ -3,9 +3,20 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-export type SlideItem = { id: number; image: string; textImage: string | null; link: string | null; alt: string | null };
+export type SlideItem = {
+  id: number;
+  image: string;
+  textImage: string | null;
+  kicker: string | null;
+  title: string | null;
+  subtitle: string | null;
+  link: string | null;
+  linkLabel: string | null;
+  alt: string | null;
+  theme: string;
+};
 
-export function Slider({ slides, interval = 6000 }: { slides: SlideItem[]; interval?: number }) {
+export function Slider({ slides, interval = 6500 }: { slides: SlideItem[]; interval?: number }) {
   const [index, setIndex] = useState(0);
   const paused = useRef(false);
   const count = slides.length;
@@ -31,29 +42,39 @@ export function Slider({ slides, interval = 6000 }: { slides: SlideItem[]; inter
     >
       {slides.map((s, i) => {
         const active = i === index;
-        const inner = (
-          <>
+        const light = s.theme === "light";
+        const hasCopy = Boolean(s.title || s.kicker || s.subtitle);
+        return (
+          <div key={s.id} className={`hero__slide${active ? " is-active" : ""}${light ? " hero__slide--light" : " hero__slide--dark"}`} aria-hidden={!active}>
             <img src={s.image} className="hero__img" alt={s.alt ?? ""} loading={i === 0 ? "eager" : "lazy"} />
             <span className="hero__shade" />
             <span className="hero__grid" />
-          </>
-        );
-        return (
-          <div key={s.id} className={`hero__slide${active ? " is-active" : ""}`} aria-hidden={!active}>
-            {s.link ? (
-              <Link href={s.link} className="hero__link" tabIndex={active ? 0 : -1} aria-label={s.alt ?? "자세히 보기"}>
-                {inner}
-              </Link>
-            ) : (
-              <span className="hero__link">{inner}</span>
-            )}
-            {s.textImage && (
-              <div className="container hero__inner">
-                <div className="hero__text">
-                  <img src={s.textImage} alt="" />
+            <div className="container hero__inner">
+              {hasCopy ? (
+                <div className="hero__copy">
+                  {s.kicker && <span className="hero__kicker">{s.kicker}</span>}
+                  {s.title && <h2 className="hero__title">{s.title}</h2>}
+                  {s.subtitle && <p className="hero__sub">{s.subtitle}</p>}
+                  {s.link && (
+                    <Link href={s.link} className={`btn hero__cta ${light ? "btn--dark" : "btn--light"}`} tabIndex={active ? 0 : -1}>
+                      {s.linkLabel || "자세히 보기"} <span className="arrow">→</span>
+                    </Link>
+                  )}
                 </div>
-              </div>
-            )}
+              ) : (
+                s.textImage && (
+                  <div className="hero__text">
+                    {s.link ? (
+                      <Link href={s.link} tabIndex={active ? 0 : -1}>
+                        <img src={s.textImage} alt={s.alt ?? ""} />
+                      </Link>
+                    ) : (
+                      <img src={s.textImage} alt={s.alt ?? ""} />
+                    )}
+                  </div>
+                )
+              )}
+            </div>
           </div>
         );
       })}

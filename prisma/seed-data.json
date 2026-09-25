@@ -3,7 +3,7 @@
   "site": {
    "title": "엠테크",
    "description": "유량계, 신호변환기, 산업전자 제품 개발 및 제어 계측 솔루션 - 엠테크",
-   "subVisual": "/images/main/slider3.jpg",
+   "subVisual": "/images/main/banner_sub.jpg",
    "logo": "/images/design/logo.png"
   },
   "company": {
@@ -96,21 +96,36 @@
  },
  "slides": [
   {
+   "image": "/images/main/hero_flow.jpg",
+   "kicker": "Flow Measurement",
+   "title": "정밀한 유량 측정,\n신뢰할 수 있는 계측",
+   "subtitle": "전자기·와류·초음파·코리올리 유량계를 비롯해 현장 조건에 맞는 유량 계측 솔루션을 공급합니다.",
    "link": "/product/magnetic",
-   "image": "/images/main/slider1.jpg",
-   "textImage": "/images/main/txt1.png",
+   "linkLabel": "유량계 제품 보기",
+   "alt": "엠테크 유량계 제품",
+   "theme": "dark",
    "sortOrder": 1
   },
   {
-   "link": "/product/magnetic",
-   "image": "/images/main/slider2.jpg",
-   "textImage": "/images/main/txt2.png",
+   "image": "/images/main/hero_control.jpg",
+   "kicker": "Electronic Control",
+   "title": "산업 현장의 신호를\n정확하게 변환하고 표시",
+   "subtitle": "신호변환기, 디지털 지시계·적산계, 서지 보호기(Arrester)를 직접 개발·생산합니다.",
+   "link": "/product/converter",
+   "linkLabel": "전자제어 제품 보기",
+   "alt": "엠테크 신호변환기·지시계",
+   "theme": "dark",
    "sortOrder": 2
   },
   {
-   "link": "/product/magnetic",
-   "image": "/images/main/slider3.jpg",
-   "textImage": "/images/main/txt3.png",
+   "image": "/images/main/hero_company.jpg",
+   "kicker": "Since 1995",
+   "title": "1995년부터 이어온\n계측·제어의 파트너",
+   "subtitle": "압력·레벨 전송기와 유량 계측기, 제어 솔루션으로 국내 산업 현장과 함께해 왔습니다.",
+   "link": "/company/greeting",
+   "linkLabel": "회사 소개",
+   "alt": "엠테크 회사 소개",
+   "theme": "dark",
    "sortOrder": 3
   }
  ],

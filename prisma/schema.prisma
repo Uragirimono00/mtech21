@@ -106,9 +106,14 @@ model History {
 model Slide {
   id        Int     @id @default(autoincrement())
   image     String
-  textImage String?
+  textImage String? // (구형) 문구 이미지 — title 이 있으면 무시
+  kicker    String? // 작은 영문 라벨 (예: FLOW MEASUREMENT)
+  title     String? // 큰 제목 (줄바꿈 가능)
+  subtitle  String? // 설명
   link      String?
+  linkLabel String? // 버튼 문구 (기본: 자세히 보기)
   alt       String?
+  theme     String  @default("dark") // dark = 어두운 배경(흰 글씨), light = 밝은 배경(검은 글씨)
   sortOrder Int     @default(0)
   visible   Boolean @default(true)
 }

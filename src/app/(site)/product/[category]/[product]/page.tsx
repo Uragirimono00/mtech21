@@ -19,7 +19,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/product/[category]/[product]">): Promise<Metadata> {
   const { category, product } = await params;
   const data = await getProduct(category, product);
-  return { title: data ? data.product.name : "제품소개" };
+  if (!data) return { title: "제품소개" };
+  const catTitle = data.category.title || data.category.name;
+  const sub = (data.product.subtitle ?? "").replace(/\s+/g, " ").trim();
+  const description = `${data.product.name} - 엠테크 ${catTitle}${data.category.engTitle ? ` (${data.category.engTitle})` : ""}${sub ? `. ${sub}` : ""}. 사양, 치수, 모델 선택 가이드 및 카탈로그 제공.`;
+  const path = `/product/${data.category.slug}/${data.product.slug}`;
+  return {
+    title: `${data.product.name} ${catTitle}`,
+    description: description.slice(0, 200),
+    alternates: { canonical: path },
+    openGraph: { title: `${data.product.name} | 엠테크 ${catTitle}`, description: description.slice(0, 200), url: path, ...(data.product.thumbnail ? { images: [data.product.thumbnail] } : {}) },
+  };
 }
 
 export default async function ProductPage({ params }: PageProps<"/product/[category]/[product]">) {

@@ -4,7 +4,11 @@ import { getHistory } from "@/lib/data";
 import { getSetting } from "@/lib/settings";
 
 export const revalidate = 3600;
-export const metadata: Metadata = { title: "연혁" };
+export const metadata: Metadata = {
+  title: "연혁 | 회사소개",
+  description: "1995년 에스콘 엔지니어링 설립부터 신호변환기·지시계·유량계 개발과 공급, 다중 복합환경센서 개발용역까지 엠테크의 연혁을 소개합니다.",
+  alternates: { canonical: "/company/history" },
+};
 
 export default async function HistoryPage() {
   const [items, meta] = await Promise.all([getHistory(), getSetting("history")]);
