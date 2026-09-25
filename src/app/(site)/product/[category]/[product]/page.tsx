@@ -3,8 +3,18 @@ import { notFound } from "next/navigation";
 import { SubLayout } from "@/components/site/SubLayout";
 import { HtmlContent } from "@/components/site/HtmlContent";
 import { getProduct } from "@/lib/data";
+import { prisma } from "@/lib/prisma";
 
 export const revalidate = 3600;
+
+/** 빌드 시 모든 제품 상세 페이지를 미리 생성 (이후 신규 제품은 첫 요청 때 생성 후 캐시) */
+export async function generateStaticParams() {
+  const products = await prisma.product.findMany({
+    where: { visible: true, category: { visible: true } },
+    select: { slug: true, category: { select: { slug: true } } },
+  });
+  return products.map((p) => ({ category: p.category.slug, product: p.slug }));
+}
 
 export async function generateMetadata({ params }: PageProps<"/product/[category]/[product]">): Promise<Metadata> {
   const { category, product } = await params;

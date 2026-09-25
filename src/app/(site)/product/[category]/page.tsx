@@ -3,8 +3,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubLayout } from "@/components/site/SubLayout";
 import { getCategoryBySlug } from "@/lib/data";
+import { prisma } from "@/lib/prisma";
 
 export const revalidate = 3600;
+
+/** 빌드 시 모든 카테고리 페이지를 미리 생성 (이후 신규 카테고리는 첫 요청 때 생성 후 캐시) */
+export async function generateStaticParams() {
+  const cats = await prisma.category.findMany({ where: { visible: true }, select: { slug: true } });
+  return cats.map((c) => ({ category: c.slug }));
+}
 
 export async function generateMetadata({ params }: PageProps<"/product/[category]">): Promise<Metadata> {
   const { category } = await params;

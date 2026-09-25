@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubLayout } from "@/components/site/SubLayout";
+import { ViewCounter } from "@/components/site/ViewCounter";
 import { prisma } from "@/lib/prisma";
 import { formatDate } from "@/lib/data";
 import { QnaSecretView, QnaDeleteForm } from "../QnaClient";
 
-export const dynamic = "force-dynamic";
+// 요청 시 생성 후 캐시 (글 등록·답변·삭제 시 갱신). 조회수는 클라이언트에서 집계
+export const revalidate = 3600;
+
+export async function generateStaticParams() {
+  return [] as { id: string }[];
+}
 
 export async function generateMetadata({ params }: PageProps<"/customer/qna/[id]">): Promise<Metadata> {
   const { id } = await params;
@@ -20,7 +26,6 @@ export default async function QnaViewPage({ params }: PageProps<"/customer/qna/[
   if (!Number.isInteger(qid)) notFound();
   const q = await prisma.qna.findUnique({ where: { id: qid } });
   if (!q) notFound();
-  if (!q.isSecret) await prisma.qna.update({ where: { id: qid }, data: { views: { increment: 1 } } }).catch(() => {});
 
   return (
     <SubLayout section="CUSTOMER" activeHref="/customer/qna" title="질문게시판" crumbs={[{ label: "질문게시판", href: "/customer/qna" }, { label: q.isSecret ? "비밀글" : q.title }]}>
@@ -34,7 +39,7 @@ export default async function QnaViewPage({ params }: PageProps<"/customer/qna/[
           <div className="post__meta">
             <span>{q.author}</span>
             <span>{formatDate(q.createdAt)}</span>
-            <span>VIEWS {q.views + (q.isSecret ? 0 : 1)}</span>
+            {!q.isSecret && <ViewCounter type="qna" id={q.id} initial={q.views} />}
           </div>
         </div>
         {q.isSecret ? (

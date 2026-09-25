@@ -2,6 +2,7 @@
 
 import { z } from "zod";
 import { redirect } from "next/navigation";
+import { revalidatePath } from "next/cache";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/prisma";
 
@@ -41,6 +42,7 @@ export async function writeQna(_prev: QnaWriteState, formData: FormData): Promis
       isSecret: d.isSecret,
     },
   });
+  revalidatePath("/customer/qna");
   redirect(`/customer/qna/${q.id}`);
 }
 
@@ -75,5 +77,7 @@ export async function deleteQnaByUser(_prev: QnaDeleteState, formData: FormData)
     return { error: "비밀번호가 올바르지 않습니다." };
   }
   await prisma.qna.delete({ where: { id } });
+  revalidatePath("/customer/qna");
+  revalidatePath(`/customer/qna/${id}`);
   redirect("/customer/qna");
 }

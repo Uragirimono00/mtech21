@@ -39,6 +39,7 @@ export async function answerQna(_prev: ActionState, fd: FormData): Promise<Actio
     where: { id },
     data: { answer: answer || null, answeredAt: answer ? new Date() : null },
   });
+  revalidateSite();
   return { ok: true, message: answer ? "답변이 저장되었습니다." : "답변이 삭제되었습니다." };
 }
 
@@ -47,6 +48,7 @@ export async function deleteQna(fd: FormData) {
   const id = int(fd, "id", 0);
   if (!id) return;
   await prisma.qna.delete({ where: { id } });
+  revalidateSite();
   redirect("/admin/qna?deleted=1");
 }
 

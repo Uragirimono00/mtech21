@@ -3,10 +3,17 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubLayout } from "@/components/site/SubLayout";
 import { HtmlContent } from "@/components/site/HtmlContent";
+import { ViewCounter } from "@/components/site/ViewCounter";
 import { prisma } from "@/lib/prisma";
 import { formatDate } from "@/lib/data";
 
-export const dynamic = "force-dynamic";
+// 정적 생성 + 캐시 (관리자 수정 시 갱신). 조회수는 클라이언트에서 집계
+export const revalidate = 3600;
+
+export async function generateStaticParams() {
+  const rows = await prisma.notice.findMany({ select: { id: true }, orderBy: { id: "desc" }, take: 100 });
+  return rows.map((r) => ({ id: String(r.id) }));
+}
 
 export async function generateMetadata({ params }: PageProps<"/customer/notice/[id]">): Promise<Metadata> {
   const { id } = await params;
@@ -20,7 +27,6 @@ export default async function NoticeViewPage({ params }: PageProps<"/customer/no
   if (!Number.isInteger(nid)) notFound();
   const notice = await prisma.notice.findUnique({ where: { id: nid } });
   if (!notice) notFound();
-  await prisma.notice.update({ where: { id: nid }, data: { views: { increment: 1 } } }).catch(() => {});
 
   const [prev, next] = await Promise.all([
     prisma.notice.findFirst({ where: { id: { lt: nid } }, orderBy: { id: "desc" }, select: { id: true, title: true } }),
@@ -38,7 +44,7 @@ export default async function NoticeViewPage({ params }: PageProps<"/customer/no
           <div className="post__meta">
             <span>{notice.author}</span>
             <span>{formatDate(notice.createdAt)}</span>
-            <span>VIEWS {notice.views + 1}</span>
+            <ViewCounter type="notice" id={notice.id} initial={notice.views} />
           </div>
         </div>
         <HtmlContent html={notice.content} className="post__body" />

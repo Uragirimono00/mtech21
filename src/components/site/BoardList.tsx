@@ -15,7 +15,10 @@ type Props = {
   total: number;
   page: number;
   pages: number;
+  /** 1페이지(정적) 경로 */
   basePath: string;
+  /** 페이지 이동·검색이 향하는 경로 (기본: basePath). 정적 목록과 동적 검색 페이지를 분리할 때 사용 */
+  actionPath?: string;
   search: { field: string; value: string };
   writeHref?: string;
   emptyText?: string;
@@ -32,11 +35,14 @@ function pageHref(basePath: string, page: number, search: { field: string; value
   return qs ? `${basePath}?${qs}` : basePath;
 }
 
-export function BoardList({ rows, total, page, pages, basePath, search, writeHref, emptyText = "등록된 글이 없습니다." }: Props) {
+export function BoardList({ rows, total, page, pages, basePath, actionPath, search, writeHref, emptyText = "등록된 글이 없습니다." }: Props) {
   const PAGE_SIZE = 15;
   const start = total - (page - 1) * PAGE_SIZE;
   const groupStart = Math.floor((page - 1) / 10) * 10 + 1;
   const groupEnd = Math.min(groupStart + 9, pages);
+  const target = actionPath ?? basePath;
+  // 1페이지·검색어 없음이면 정적 목록 경로로, 그 외에는 동적 경로로
+  const href = (p: number) => (p === 1 && !search.value ? basePath : pageHref(target, p, search));
 
   return (
     <>
@@ -62,22 +68,22 @@ export function BoardList({ rows, total, page, pages, basePath, search, writeHre
 
       <div className="board__foot">
         <nav className="pager" aria-label="페이지">
-          {groupStart > 1 && <Link href={pageHref(basePath, groupStart - 1, search)}>«</Link>}
+          {groupStart > 1 && <Link href={href(groupStart - 1)}>«</Link>}
           {Array.from({ length: groupEnd - groupStart + 1 }, (_, i) => groupStart + i).map((p) =>
             p === page ? (
               <b key={p} aria-current="page">
                 {p}
               </b>
             ) : (
-              <Link key={p} href={pageHref(basePath, p, search)}>
+              <Link key={p} href={href(p)}>
                 {p}
               </Link>
             ),
           )}
-          {groupEnd < pages && <Link href={pageHref(basePath, groupEnd + 1, search)}>»</Link>}
+          {groupEnd < pages && <Link href={href(groupEnd + 1)}>»</Link>}
         </nav>
         <div className="inline-form">
-          <form method="get" action={basePath} className="search">
+          <form method="get" action={target} className="search">
             <select name="field" defaultValue={search.field} className="select select--sm" aria-label="검색 항목">
               <option value="subject">제목</option>
               <option value="description">내용</option>
