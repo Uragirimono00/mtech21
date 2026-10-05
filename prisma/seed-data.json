@@ -1297,6 +1297,743 @@
     }
    ],
    "sortOrder": 2
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt9000",
+   "name": "APT9000 Series",
+   "listName": "APT9000 Series",
+   "subtitle": "ALIA · 차압계 APT9000 Series\n액체·가스·증기용 차압 트랜스미터 Smart Differential Pressure Transmitter\n\nAPT9000 Series는 액체(Liquid), 가스(Gas), 증기(Vapor) 등 다양한 유체의\n차압(Differential Pressure), 게이지압(Gauge Pressure), 절대압(Absolute Pressure)을\n하나의 장비로 측정할 수 있는 산업용 디지털 차압 트랜스미터입니다.\n\n정유, 화학, 발전, 보일러/스팀 설비, 상하수도 등\n광범위한 압력 및 유량 측정 응용 분야에 통합 솔루션을 제공하도록 구성할 수 있습니다.",
+   "thumbnail": "/images/product/mnc/apt9000_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<h3><strong>[스마트 차압 트랜스미터]&nbsp;ALIA APT9000 Series 차압 측정 원리</strong></h3>\nSmart Differential Pressure Transmitter<img src=\"/images/product/mnc/apt9000_39f6a7.png\" alt=\"apt9000\"/><br />\n외부에서 압력 또는 차압이 입력되면 센서의 저항값이 변화하며, 이 변화는 디지털 신호를 통해 주파수 신호(Frequency Signal) 형태로 변환되어 내부 마이크로프로세서(CPU)에 전송됩니다.<br />\n<br />\n마이크로프로세서는 전달받은 신호를 연산해 전류 제어 신호를 출력회로로 보내고, 이를 4-20mA 아날로그 전류로 변환하여 최종적으로 LCD 화면에 측정값을 표시합니다.<br />\n<br />\n옵션으로 HART 통신 모듈을 탑재하면 원격에서 트랜스미터의 설정값을 읽고 쓸 수 있으며, 최근 교정 이력 등 히스토리 데이터도 트랜스미터 내부에 저장할 수 있습니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>액체, 가스, 증기(Liquid, Gas, Vapor) 대상 차압/게이지압/절대압 측정 지원</li>\n<li>16비트 마이크로프로세서 기반 디지털 신호처리로 우수한 항간섭성, Zero SensitiveCapability(ZSC), Temperature Sensitive Capability(TSC) 확보</li>\n<li>출력 전류 업데이트 200ms, 응답시간 100ms의 빠른 반응속도</li>\n<li>측정 정확도 &plusmn;0.075% of span, 2년 안정성 &plusmn;0.15% of URL</li>\n<li>턴다운비(Turndown Ratio) 최대 100:1</li>\n<li>4-20mA 출력 + HART 디지털 통신 지원</li>\n<li>3버튼 키패드로 레인지, 댐핑, 출력모드(Linear/Sqroot) 등 현장 직접 설정 가능</li>\n<li>버튼 조작으로 자동 영점 보정(Zero Calibration) 기능</li>\n<li>5자리 LCD + 유량값 표시 지원, 22종 표준 단위와 사용자 지정 단위 선택 가능</li>\n<li>방폭 및 본질안전방폭 인증 하우징</li>\n<li>최대 사용압력 40MPa</li>\n<li>다이어프램 재질 SS316L/Hastelloy B&middot;C/Monel/Tantalum 등 다양한 내식 재질 선택 가능</li>\n<li>2&quot; 파이프 브라켓 마운팅, M20 또는 1/2&quot; NPT 케이블 인입구</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>정유 및 석유화학 플랜트</li>\n<li>발전소 및 에너지 설비</li>\n<li>보일러 및 스팀 설비</li>\n<li>상수도 및 하수처리시설</li>\n<li>화학 공정 설비</li>\n<li>가스 처리 및 저장 설비</li>\n<li>조선 및 해양플랜트</li>\n<li>방폭 구역(폭발위험지역) 압력&middot;차압 계측</li>\n<li>오리피스 연계 산업용 유량 측정 라인</li>\n<li>일반 산업설비 압력&middot;차압 계측 및 공정 제어</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT9000 Series 차압 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>측정유체</td>\n<td>액체(Liquid), 가스(Gas), 증기(Vapor)</td>\n</tr>\n<tr>\n<td>측정방식</td>\n<td>차압(Differential), 게이지압(Gauge), 절대압(Absolute)</td>\n</tr>\n<tr>\n<td>측정범위</td>\n<td>0-0.16 kPa(최소) ~ 0-20.0 MPa(최대), 모델별 상이</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.075% of span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&plusmn;0.15% of URL (2년)</td>\n</tr>\n<tr>\n<td>턴다운비</td>\n<td>100:1</td>\n</tr>\n<tr>\n<td>최대 사용압력</td>\n<td>40 MPa</td>\n</tr>\n<tr>\n<td>전류출력</td>\n<td>4-20mA (2-Wire) + HART(Compatible)</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>9-36 VDC</td>\n</tr>\n<tr>\n<td>응답시간</td>\n<td>100 ms</td>\n</tr>\n<tr>\n<td>출력 갱신시간</td>\n<td>200 ms</td>\n</tr>\n<tr>\n<td>댐핑</td>\n<td>0-32 초</td>\n</tr>\n<tr>\n<td>표시부</td>\n<td>5 Digit + 0-100% Bargraph, Flow Rate 5 Digit</td>\n</tr>\n<tr>\n<td>표시단위</td>\n<td>표준 22종 공학단위 + 5자리 사용자지정(SPEC) 단위</td>\n</tr>\n<tr>\n<td>키패드</td>\n<td>3버튼 내부키(현장 직접 설정)</td>\n</tr>\n<tr>\n<td>영점교정</td>\n<td>버튼 조작 자동 영점 보정</td>\n</tr>\n<tr>\n<td>공정 온도</td>\n<td>-25 ~ 95 ℃</td>\n</tr>\n<tr>\n<td>주변 온도</td>\n<td>-25 ~ 80 ℃</td>\n</tr>\n<tr>\n<td>습도</td>\n<td>0-100 %RH</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>1/4&quot;-18 NPT, 1/2&quot;-14 NPT(어댑터)</td>\n</tr>\n<tr>\n<td>케이블 인입구</td>\n<td>M20 Conduit Threads / 1/2&quot; NPT(Female)</td>\n</tr>\n<tr>\n<td>다이어프램 재질</td>\n<td>SS316L / Hastelloy B&middot;C / Monel / Tantalum</td>\n</tr>\n<tr>\n<td>플랜지&middot;어댑터 재질</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>웨티드 오링 재질</td>\n<td>Buna N / Viton / PTFE</td>\n</tr>\n<tr>\n<td>변환기 하우징</td>\n<td>저동 주물 알루미늄 + 폴리우레탄 도장(라이트 블루)</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP67</td>\n</tr>\n<tr>\n<td>방폭인증</td>\n<td>본질안전방폭 Eex ia IIC T5(표준), 내압방폭 Ex db IIC T6</td>\n</tr>\n<tr>\n<td>온도영향</td>\n<td>&plusmn;0.18 ~ 0.5% of span / 20℃</td>\n</tr>\n<tr>\n<td>진동영향</td>\n<td>&plusmn;0.05% of URL per g (~200Hz)</td>\n</tr>\n<tr>\n<td>EMI/RFI</td>\n<td>SAMA PMC 33.1 (20-1000MHz, 30V/m)</td>\n</tr>\n<tr>\n<td>마운팅</td>\n<td>2&quot; 파이프 브라켓</td>\n</tr>\n<tr>\n<td>치수 (W&times;H&times;D)</td>\n<td>102 &times; 188 &times; 130 mm</td>\n</tr>\n<tr>\n<td>중량</td>\n<td>약 3.5 kg</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt9500",
+   "name": "APT9500 Series",
+   "listName": "APT9500 Series",
+   "subtitle": "ALIA · 차압계 APT9500 Series\n차압식 유량계 스마트 트랜스미터 Smart Transmitter for Differential Pressure Flowmeter\n\nAPT9500 시리즈는 오리피스(Orifice), 벤츄리(Venturi), 아누바(Annubar), V-Cone 등 다양한 차압식 유량 검출부(Primary Element)와 결합해 사용하는 차압 유량계 전용 트랜스미터입니다.\n\n마이크로컴퓨터 기술로 차압 신호를 유량값으로 환산해 유량(Flow Rate), 적산유량(Totalizer), 차압(DP)까지 LCD 화면에 동시에 표시합니다.\n\n4-20mA, 펄스(Pulse) 출력에 HART 통신까지 지원하는 강력한 출력 기능을 갖추고 있으며, 높은 안정성과 정확도를 바탕으로 정유, 화학, 발전, 스팀, 상하수도 등 차압식 유량 측정이 필요한 다양한 산업 현장에 적용됩니다.",
+   "thumbnail": "/images/product/mnc/apt9500_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<strong>[스마트 차압식 유량계 트랜스미터] ALIA APT9500 Series 차압 유량 측정 원리</strong><br />\nSmart Transmitter for Differential Pressure Flowmeter<br />\n<br />\n<img src=\"/images/product/mnc/apt9500_354630.png\" alt=\"apt9500\"/>\n<p dir=\"ltr\">오리피스, 벤츄리, 아누바, V-Cone 등 배관에 설치된 차압식 유량 검출부(Primary Element)를 유체가 통과하면 그 앞뒤로 차압(Differential Pressure)이 발생합니다.<br />\n&nbsp;</p>\n<p dir=\"ltr\">APT9500 트랜스미터는 이 차압 신호를 입력받아 마이크로컴퓨터 연산을 통해 유량값으로 환산하며, 환산된 유량(Flow Rate)과 적산유량(Totalizer), 그리고 원신호인 차압(DP)까지 LCD 화면에 동시에 표시합니다.<br />\n&nbsp;</p>\n<p dir=\"ltr\">처리된 신호는 4-20mA 아날로그 전류 출력과 스케일드 펄스(Scaled Pulse) 출력으로 내보내며, 옵션으로 HART 통신 모듈을 탑재하면 원격에서 유량 범위, 차압 범위 등 설정값을 읽고 쓸 수 있습니다.</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>오리피스, 벤츄리, 아누바, V-Cone 등 다양한 차압식 유량 검출부와 결합 사용 가능</li>\n<li>유량(Flow Rate), 적산유량(Totalizer), 차압(DP) 동시 표시 지원</li>\n<li>컨버터(변환부) 6방향 회전 가능으로 설치 편의성 우수</li>\n<li>2년 안정성 0.2%, 정확도 &plusmn;0.075% of span</li>\n<li>턴다운비(Turndown Ratio) 최대 20:1</li>\n<li>4-20mA + 스케일드 펄스(Scaled Pulse) 출력, HART 디지털 통신 지원</li>\n<li>3버튼 키패드로 현장에서 직접 파라미터 설정 가능</li>\n<li>버튼 조작 자동 영점 보정(Zero Calibration) 기능</li>\n<li>9자리 적산유량 + 6자리 유량 표시, 32종 유량 공학단위 지원</li>\n<li>방폭(Ex db IIC T6) 및 본질안전방폭(Eex ia IIC T5) 인증, 방수&middot;방진 하우징</li>\n<li>최대 사용압력 40MPa</li>\n<li>다이어프램 재질 SS316L/Hastelloy B&middot;C/Monel/Tantalum 등 다양한 내식 재질 선택 가능</li>\n<li>직결형(Direct Mounting) 또는 2&quot; 파이프 브라켓 마운팅 선택 가능</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>정유 및 석유화학 플랜트</li>\n<li>발전소 및 에너지 설비</li>\n<li>보일러 및 스팀 유량 측정</li>\n<li>상수도 및 하수처리시설</li>\n<li>화학 공정 설비</li>\n<li>가스 처리 및 저장 설비</li>\n<li>오리피스&middot;벤츄리&middot;아누바&middot;V-Cone 연계 차압식 유량 측정 라인</li>\n<li>조선 및 해양플랜트</li>\n<li>방폭 구역(폭발위험지역) 차압 유량 계측</li>\n<li>일반 산업설비 유량 계측 및 공정 제어</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT9500 Series 차압 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>측정유체</td>\n<td>액체(Liquid), 가스(Gas), 증기(Vapor)</td>\n</tr>\n<tr>\n<td>측정방식</td>\n<td>차압식 유량 측정 (Differential Pressure Flow Measurement)</td>\n</tr>\n<tr>\n<td>압력범위</td>\n<td>0-2500 kPa</td>\n</tr>\n<tr>\n<td>유량범위</td>\n<td>0-999999</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.075% of span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&plusmn;0.15% of URL (2년)</td>\n</tr>\n<tr>\n<td>턴다운비</td>\n<td>20:1</td>\n</tr>\n<tr>\n<td>최대 사용압력</td>\n<td>40 MPa</td>\n</tr>\n<tr>\n<td>전류출력</td>\n<td>4-20mA (2-Wire) + HART(Compatible)</td>\n</tr>\n<tr>\n<td>펄스출력</td>\n<td>Scaled Pulse</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>9-36 VDC</td>\n</tr>\n<tr>\n<td>초기 구동시간</td>\n<td>최소 댐핑 시 2초</td>\n</tr>\n<tr>\n<td>댐핑</td>\n<td>0-32 초</td>\n</tr>\n<tr>\n<td>표시부</td>\n<td>9자리 적산유량(Totalizer) + 6자리 유량(Flow Rate)</td>\n</tr>\n<tr>\n<td>표시단위</td>\n<td>32종 유량 공학단위 + 5자리 사용자지정(SPEC) 단위</td>\n</tr>\n<tr>\n<td>키패드</td>\n<td>3버튼 내부키(현장 직접 설정)</td>\n</tr>\n<tr>\n<td>영점교정</td>\n<td>버튼 조작 자동 영점 보정</td>\n</tr>\n<tr>\n<td>공정 온도</td>\n<td>-25 ~ 95 ℃</td>\n</tr>\n<tr>\n<td>주변 온도</td>\n<td>-25 ~ 80 ℃</td>\n</tr>\n<tr>\n<td>습도</td>\n<td>0-100 %RH</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>1/4&quot;-18 NPT, 1/2&quot;-14 NPT(어댑터)</td>\n</tr>\n<tr>\n<td>케이블 인입구</td>\n<td>M20 Conduit Threads / 1/2&quot; NPT(Female)</td>\n</tr>\n<tr>\n<td>다이어프램 재질</td>\n<td>SS316L / Hastelloy B&middot;C / Monel / Tantalum</td>\n</tr>\n<tr>\n<td>플랜지&middot;어댑터 재질</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>웨티드 오링 재질</td>\n<td>Buna N / Viton / PTFE</td>\n</tr>\n<tr>\n<td>변환기 하우징</td>\n<td>저동 주물 알루미늄 + 폴리우레탄 도장(라이트 블루)</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP67</td>\n</tr>\n<tr>\n<td>방폭인증</td>\n<td>본질안전방폭 Eex ia IIC T5(표준), 내압방폭 Ex db IIC T6</td>\n</tr>\n<tr>\n<td>온도영향</td>\n<td>&plusmn;0.18% of span / 20℃</td>\n</tr>\n<tr>\n<td>진동영향</td>\n<td>&plusmn;0.05% of URL per g (~200Hz)</td>\n</tr>\n<tr>\n<td>EMI/RFI</td>\n<td>SAMA PMC 33.1 (20-1000MHz, 30V/m)</td>\n</tr>\n<tr>\n<td>마운팅</td>\n<td>직결형(Direct Mounting) 또는 2&quot; 파이프 브라켓</td>\n</tr>\n<tr>\n<td>치수 (W&times;H&times;D)</td>\n<td>102 &times; 188 &times; 130 mm</td>\n</tr>\n<tr>\n<td>중량</td>\n<td>약 3.5 kg</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><u><strong></strong></u></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 4
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt9600",
+   "name": "APT9600 Series",
+   "listName": "APT9600 Series",
+   "subtitle": "ALIA · 멀티 차압 트랜스미터 APT9600 Series\n차압·정압·온도 통합측정 유량 트랜스미터 MultiVariable Transmitter\n\nAPT9600 Series는 차압(Differential Pressure), 정압(Static Pressure), 온도(Temperature)를 하나의 장비로 동시에 측정하고, 내장된 유량 방정식으로 스팀·가스·액체의 완전 보상 질량유량(Fully Compensated Mass Flow)까지 직접 연산하는 산업용 디지털 멀티배리어블 트랜스미터입니다.",
+   "thumbnail": "/images/product/mnc/apt9600_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<strong>[다변수 차압 트랜스미터] ALIA APT9600 Series 측정 원리</strong><br />\nMultiVariable Measurement Principle<br />\n<br />\n<img src=\"/images/product/mnc/apt9600_ae43db.jpeg\" alt=\"apt9600\"/>\n<p dir=\"ltr\">외부에서 차압, 정압, 온도가 각각의 센서에 입력되면 센서의 저항값이 변화하며, 이 변화는 디지털 신호를 통해 주파수 신호(Frequency Signal) 형태로 변환되어 내부 마이크로프로세서(CPU)에 전송됩니다.<br />\n&nbsp;</p>\n<p dir=\"ltr\">마이크로프로세서는 전달받은 차압&middot;정압&middot;온도 신호를 내장된 스팀&middot;가스&middot;액체용 유량 방정식으로 연산해 정압과 온도 변화에 따른 밀도 보상까지 반영한 완전 보상 질량유량(Fully Compensated Mass Flow)을 산출하고, 이를 4-20mA 아날로그 전류로 변환하여 최종적으로 LCD 화면에 측정값을 표시합니다.<br />\n&nbsp;</p>\n<p dir=\"ltr\">옵션으로 HART 통신 모듈을 탑재하면 원격에서 트랜스미터의 설정값을 읽고 쓸 수 있으며, 차압&middot;정압&middot;온도&middot;유량 값을 하나의 장비에서 동시에 확인할 수 있어 별도의 유량계산기(Flow Computer) 없이도 통합 계측이 가능합니다.</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>액체, 가스, 스팀(Liquid, Gas, Steam) 대상 차압+정압+온도 다변수 동시 측정 지원</li>\n<li>내장 유량 방정식으로 스팀/가스/액체별 완전 보상 질량유량 자동 연산</li>\n<li>가스/스팀 측정 시 풀 컴펜세이션(Full Compensation), 액체 측정 시 온도 보상 밀도 보정 지원</li>\n<li>측정 정확도 &plusmn;0.075% of span (Class A, Temperature)</li>\n<li>2년 안정성 &plusmn;0.15% of URL</li>\n<li>턴다운비(Turndown Ratio) 100:1</li>\n<li>4-20mA 출력 + HART 디지털 통신 지원(Compatible)</li>\n<li>3버튼 키패드로 현장 직접 파라미터 설정</li>\n<li>버튼 조작 자동 영점 보정(Zero Calibration) 기능</li>\n<li>8자리 적산값 + 6자리 유량 + 5자리 압력 + 5자리 온도 동시 표시, 32종 유량 단위 지원</li>\n<li>컨버터 하우징 4방향 회전 가능 &mdash; 협소 공간 설치 용이</li>\n<li>방폭 및 본질안전방폭 인증 하우징</li>\n<li>최대 사용압력 25 MPa(250 bar)</li>\n<li>다이어프램 재질 SS316L / Hastelloy C 선택 가능</li>\n<li>2&quot; 파이프 브라켓 마운팅, M20 또는 1/2&quot; NPT 케이블 인입구</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>보일러 및 발전설비 스팀 유량 측정</li>\n<li>정유 및 석유화학 플랜트 가스&middot;액체 질량유량 측정</li>\n<li>천연가스 처리 및 저장 설비 유량 계측</li>\n<li>화학 공정 설비의 차압+정압+온도 복합 계측</li>\n<li>방폭 구역(폭발위험지역) 유량 계측</li>\n<li>오리피스/벤츄리 연계 산업용 유량 측정 라인</li>\n<li>별도 유량계산기 설치 부담을 줄여야 하는 계장 설계 현장</li>\n<li>상수도 및 하수처리시설 유량 계측</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT9600 Series 다변수 차압 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>측정유체</td>\n<td>액체(Liquid), 가스(Gas), 증기(Steam)</td>\n</tr>\n<tr>\n<td>측정방식</td>\n<td>차압(DP) + 정압(Static Pressure) + 온도(Temperature) 다변수 통합측정, 완전보상 질량유량 연산</td>\n</tr>\n<tr>\n<td>차압범위</td>\n<td>0-1.0 kPa(최소) ~ 0-200 kPa(최대), 모델별 상이</td>\n</tr>\n<tr>\n<td>정압범위</td>\n<td>0-1 MPa ~ 0-25 MPa(250 bar), 모델별 상이</td>\n</tr>\n<tr>\n<td>온도범위</td>\n<td>-25~500℃ (RTD PT1000)</td>\n</tr>\n<tr>\n<td>유량범위</td>\n<td>0-999999</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.075% of span (Class A, Temperature)</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&plusmn;0.15% of URL (2년)</td>\n</tr>\n<tr>\n<td>턴다운비</td>\n<td>100:1</td>\n</tr>\n<tr>\n<td>전류출력</td>\n<td>4-20mA (2-Wire) + HART(Compatible)</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>12-32 VDC</td>\n</tr>\n<tr>\n<td>댐핑</td>\n<td>0-32초</td>\n</tr>\n<tr>\n<td>표시부</td>\n<td>8 Digit 적산 + 6 Digit 유량 + 5 Digit 압력 + 5 Digit 온도</td>\n</tr>\n<tr>\n<td>표시단위</td>\n<td>32종 유량 공학단위</td>\n</tr>\n<tr>\n<td>키패드</td>\n<td>3버튼 내부키(현장 직접 설정)</td>\n</tr>\n<tr>\n<td>영점교정</td>\n<td>버튼 조작 자동 영점 보정</td>\n</tr>\n<tr>\n<td>공정 온도(Working)</td>\n<td>-25~95℃</td>\n</tr>\n<tr>\n<td>주변 온도(Ambient)</td>\n<td>-25~70℃</td>\n</tr>\n<tr>\n<td>습도</td>\n<td>0-100 %RH</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>1/4&quot;-18 NPT, 1/2&quot;-14 NPT(어댑터)</td>\n</tr>\n<tr>\n<td>케이블 인입구</td>\n<td>M20 Conduit Threads / 1/2&quot; NPT(Female)</td>\n</tr>\n<tr>\n<td>다이어프램 재질</td>\n<td>SS316L / Hastelloy C</td>\n</tr>\n<tr>\n<td>플랜지&middot;어댑터 재질</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>웨티드 오링 재질</td>\n<td>Buna N / Viton / PTFE</td>\n</tr>\n<tr>\n<td>변환기 하우징</td>\n<td>저동 주물 알루미늄 + 폴리우레탄 도장(라이트 블루)</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP67</td>\n</tr>\n<tr>\n<td>방폭인증</td>\n<td>본질안전방폭 Eex ia IIC T5(표준), 내압방폭 Ex db IIC T6</td>\n</tr>\n<tr>\n<td>진동영향</td>\n<td>&plusmn;0.05% of URL per g (~200Hz)</td>\n</tr>\n<tr>\n<td>EMI/RFI</td>\n<td>SAMA PMC 33.1 (20-1000MHz, 30V/m)</td>\n</tr>\n<tr>\n<td>마운팅</td>\n<td>직접 설치 / 2&quot; 파이프 브라켓</td>\n</tr>\n<tr>\n<td>치수 (W&times;H&times;D)</td>\n<td>102 &times; 188 &times; 130 mm</td>\n</tr>\n<tr>\n<td>중량</td>\n<td>약 3.5 kg</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><strong></strong></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 5
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt3000",
+   "name": "APT3000 Series",
+   "listName": "APT3000 Series",
+   "subtitle": "ALIA · 압력트랜스미터 APT3000 Series\n범용 산업용 컴팩트 압력 트랜스미터 General Industrial Pressure Transmitter\n\nAPT3000 Series는 유압, 공압, 펌프, 화학공정 등 일반 산업 현장에 적합한 컴팩트형 압력 트랜스미터로, 0-0.16bar부터 0-1000bar까지 폭넓은 연속 압력범위를 하나의 시리즈로 커버하며 게이지압(Gauge)·절대압(Absolute)·진공(Vacuum) 측정을 지원합니다.\n\n일반 산업 응용 분야를 위한 APT3000 압력 트랜스미터는 측정 요구 사항이 까다로운 환경 조건에도 사용할 수 있는 매우 높은 품질의 제품입니다.",
+   "thumbnail": "/images/product/mnc/apt3000_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<strong>[컴팩트 압력 트랜스미터] ALIA APT3000 Series 압력 측정 원리</strong><br />\nGeneral Industrial Pressure Transmitter<br />\n<br />\n압력이 가해지면 스테인리스 스틸 316L 다이어프램에 압력이 전달되고, 내부 압력 센서의 저항값이 변화합니다. 이 저항 변화는 미세한 전기 신호로 변환되어 내부 신호처리 회로로 전달됩니다.<br />\n<br />\n변환된 신호는 회로를 거쳐 4-20mA 선형 아날로그 전류로 출력되며, 1ms 이하의 응답시간(Response Time &ge;1ms, Output Response Time &le;8ms)으로 압력 변화를 즉시 반영합니다. 4자리 LCD 디스플레이(270&deg; 회전 가능)를 통해 현장에서 실시간 압력값을 바로 확인할 수 있습니다.<br />\n<br />\n영점(Zero Point)과 스팬(Span)은 전용 프로그래머(APP300)를 통해 조정할 수 있어, 설치 후에도 현장에서 측정범위를 유연하게 보정할 수 있습니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>게이지압, 절대압, 진공 측정 지원 (액체&middot;가스&middot;증기 대상)</li>\n<li>0-0.16bar ~ 0-1000bar까지 폭넓은 연속 측정범위를 하나의 시리즈로 커버</li>\n<li>비직선성(Non-linearity) &le;0.2% of span(BFSL)</li>\n<li>정확도 &plusmn;0.45% of span(표준) / &plusmn;0.20% of span(옵션)</li>\n<li>4-20mA(2-Wire) 출력, 영점&middot;스팬 현장 조정 가능(APP300 프로그래머 사용)</li>\n<li>DIN EN 175301-803A 전기 커넥터 표준 적용</li>\n<li>4자리 LCD 디스플레이, 270&deg; 회전 가능</li>\n<li>내진동(20g, 20-2000Hz) / 내충격(100g, 10ms) 설계</li>\n<li>본질안전방폭 Ex ia IIC T6(표준)</li>\n<li>다양한 프로세스 연결 옵션(G1/4&quot; 표준, 1/2&quot; NPT, 1/2&quot; BSPP, M20, 3/4&quot; NPT 등)</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>유압(Hydraulics) 시스템 압력 감시</li>\n<li>공압(Pneumatics) 설비 압력 제어</li>\n<li>펌프 설비 압력 모니터링</li>\n<li>화학공정 압력 계측</li>\n<li>기계 제작(Machine Building) 전반의 압력 계측</li>\n<li>컴팩트한 설치공간이 필요한 일반 산업 현장</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT3000 Series 압력 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>측정유체</td>\n<td>액체(Liquid), 가스(Gas), 증기(Vapor)</td>\n</tr>\n<tr>\n<td>측정방식</td>\n<td>게이지압, 절대압, 진공</td>\n</tr>\n<tr>\n<td>측정범위</td>\n<td>0-0.16 bar ~ 0-1000 bar</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.45% of span(표준) / &plusmn;0.20% of span(옵션)</td>\n</tr>\n<tr>\n<td>비직선성</td>\n<td>&le;0.2% of span (BFSL)</td>\n</tr>\n<tr>\n<td>비반복성</td>\n<td>&le;0.05% of span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&le;&plusmn;0.2% of URL / 1년</td>\n</tr>\n<tr>\n<td>응답시간</td>\n<td>&ge;1 ms</td>\n</tr>\n<tr>\n<td>출력 응답시간</td>\n<td>&le;8 ms</td>\n</tr>\n<tr>\n<td>전류출력</td>\n<td>4-20mA (2-Wire)</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>11-36 VDC (디스플레이 포함 시 15-36 VDC)</td>\n</tr>\n<tr>\n<td>디스플레이</td>\n<td>4자리 LCD, 표시범위 -1999~9999, 270&deg; 회전 가능</td>\n</tr>\n<tr>\n<td>표시단위</td>\n<td>MPa, bar, kPa, psi, pa, none</td>\n</tr>\n<tr>\n<td>영점/스팬 조정</td>\n<td>영점 &plusmn;3%, 스팬 65%-150%(APP300 프로그래머 사용)</td>\n</tr>\n<tr>\n<td>작동 온도(표준)</td>\n<td>-40~85℃</td>\n</tr>\n<tr>\n<td>작동 온도(옵션)</td>\n<td>-40~125℃</td>\n</tr>\n<tr>\n<td>보상 온도</td>\n<td>-10~70℃</td>\n</tr>\n<tr>\n<td>주변 온도</td>\n<td>-20~70℃</td>\n</tr>\n<tr>\n<td>습도</td>\n<td>0-95% RH</td>\n</tr>\n<tr>\n<td>연결부 재질</td>\n<td>SUS304</td>\n</tr>\n<tr>\n<td>다이어프램 재질</td>\n<td>SUS316L</td>\n</tr>\n<tr>\n<td>바디 재질</td>\n<td>SUS304</td>\n</tr>\n<tr>\n<td>충진액</td>\n<td>실리콘 오일</td>\n</tr>\n<tr>\n<td>웨티드 오링</td>\n<td>Viton</td>\n</tr>\n<tr>\n<td>전기 커넥터</td>\n<td>PA66+30% FV, DIN EN 175301-803A</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP65</td>\n</tr>\n<tr>\n<td>방폭인증</td>\n<td>본질안전방폭 Ex ia IIC T6(표준)</td>\n</tr>\n<tr>\n<td>내진동</td>\n<td>20g (20-2000Hz), IEC 60068-2-6</td>\n</tr>\n<tr>\n<td>내충격</td>\n<td>100g (10ms)</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>G1/4&quot;(표준), 1/2&quot; NPT, 1/2&quot; BSPP, M20, 3/4&quot; NPT 등(옵션)</td>\n</tr>\n<tr>\n<td>EMI/RFI</td>\n<td>SAMA PMC 33.1 (20-1000MHz, 30V/m)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 6
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt8000",
+   "name": "APT8000 Series",
+   "listName": "APT8000 Series",
+   "subtitle": "ALIA · 압력트랜스미터 APT8000 Series\n액체·가스·증기용 압력 트랜스미터 Smart Pressure Transmitter\n\nAPT8000 Series는 액체(Liquid), 가스(Gas), 증기(Vapor) 등 다양한 유체의 게이지압(Gauge Pressure), 절대압(Absolute Pressure), 진공(Vacuum)을 하나의 장비로 측정할 수 있는 산업용 디지털 압력 트랜스미터입니다.",
+   "thumbnail": "/images/product/mnc/apt8000_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<p><strong>[스마트 압력 트랜스미터] ALIA APT8000 Series 압력 측정 원리</strong><br />\nSmart Pressure Transmitter<br />\n<img src=\"/images/product/mnc/apt8000_63bf0b.jpeg\" alt=\"apt8000\"/></p>\n<p>외부에서 게이지압, 절대압, 진공 등 압력이 입력되면 센서의 저항값이 변화하며, 이 변화는 디지털 신호를 통해 주파수 신호(Frequency Signal) 형태로 변환되어 내부 마이크로프로세서(CPU)에 전송됩니다.<br />\n<br />\n마이크로프로세서는 전달받은 신호를 연산해 전류 제어 신호를 출력회로로 보내고, 이를 4-20mA 아날로그 전류로 변환하여 최종적으로 LCD 화면에 측정값을 표시합니다. 90ms의 빠른 출력전류 업데이트 속도로 공정 압력 변화에 신속하게 대응합니다.<br />\n<br />\n옵션으로 HART 통신 모듈을 탑재하면 원격에서 트랜스미터의 설정값을 읽고 쓸 수 있으며, 게이지압&middot;절대압&middot;진공 등 다양한 압력 타입을 하나의 장비로 측정할 수 있어 공정별로 별도 트랜스미터를 구비할 필요가 없습니다.</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>게이지압(Gauge), 절대압(Absolute), 진공(Vacuum) 압력 측정 지원 (액체&middot;가스&middot;증기 대상)</li>\n<li>출력 전류 업데이트 시간 90ms의 빠른 응답속도</li>\n<li>측정 정확도 &plusmn;0.075% of span, 2년 안정성 &plusmn;0.15% of URL</li>\n<li>턴다운비(Turndown Ratio) 최대 100:1</li>\n<li>최대 사용압력 70 MPa까지 대응하는 폭넓은 압력범위</li>\n<li>4-20mA 출력 + HART 디지털 통신 지원(Compatible)</li>\n<li>3버튼 키패드로 레인지, 댐핑, 출력모드 등 현장 직접 설정 가능</li>\n<li>버튼 조작으로 자동 영점 보정(Zero Calibration) 기능</li>\n<li>5자리 프로그래머블 디스플레이 + 0-100% 바그래프, 22종 표준 단위 지원</li>\n<li>방폭 및 내후성 하우징(Explosion proof and weather proof)</li>\n<li>다이어프램 재질 SS316 / Tantalum 선택 가능 (내식성 강화)</li>\n<li>2&quot; 파이프 브라켓 마운팅, M20 또는 1/2&quot; NPT 케이블 인입구</li>\n<li>응답시간(Response Time) 100ms</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>정유 및 석유화학 플랜트 압력 계측</li>\n<li>발전소 및 에너지 설비</li>\n<li>화학 공정 설비 고압 라인</li>\n<li>가스 처리 및 저장 설비</li>\n<li>상수도 및 하수처리시설</li>\n<li>조선 및 해양플랜트</li>\n<li>방폭 구역(폭발위험지역) 압력 계측</li>\n<li>진공 공정 계측 (진공 챔버, 진공펌프 라인 등)</li>\n<li>일반 산업설비 압력 계측 및 공정 제어</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT8000 Series 압력 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>측정유체</td>\n<td>액체(Liquid), 가스(Gas), 증기(Vapor)</td>\n</tr>\n<tr>\n<td>측정방식</td>\n<td>게이지압(Gauge), 절대압(Absolute), 진공(Vacuum)</td>\n</tr>\n<tr>\n<td>측정범위</td>\n<td>0-10 kPa(최소) ~ 0-70 MPa(최대), 모델별 상이</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.075% of span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&plusmn;0.15% of URL (2년)</td>\n</tr>\n<tr>\n<td>턴다운비</td>\n<td>100:1</td>\n</tr>\n<tr>\n<td>최대 사용압력</td>\n<td>70 MPa</td>\n</tr>\n<tr>\n<td>전류출력</td>\n<td>4-20mA (2-Wire) + HART(Compatible)</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>9-36 VDC</td>\n</tr>\n<tr>\n<td>디지털 통신</td>\n<td>HART Protocol</td>\n</tr>\n<tr>\n<td>응답시간</td>\n<td>100 ms</td>\n</tr>\n<tr>\n<td>출력 갱신시간</td>\n<td>90 ms</td>\n</tr>\n<tr>\n<td>댐핑</td>\n<td>0-32 초</td>\n</tr>\n<tr>\n<td>표시부</td>\n<td>5 Digit 프로그래머블 + 0-100% Bargraph</td>\n</tr>\n<tr>\n<td>표시단위</td>\n<td>표준 22종 공학단위 + 5자리 사용자지정(SPEC) 단위</td>\n</tr>\n<tr>\n<td>키패드</td>\n<td>3버튼 내부키(현장 직접 설정)</td>\n</tr>\n<tr>\n<td>영점교정</td>\n<td>버튼 조작 자동 영점 보정</td>\n</tr>\n<tr>\n<td>공정 온도(Working)</td>\n<td>-25~95℃</td>\n</tr>\n<tr>\n<td>주변 온도(Ambient)</td>\n<td>-25~85℃</td>\n</tr>\n<tr>\n<td>습도</td>\n<td>0-100 %RH</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>1/2&quot; NPT, 1/2&quot; BSPP</td>\n</tr>\n<tr>\n<td>케이블 인입구</td>\n<td>M20 Conduit Threads / 1/2&quot; NPT(Female)</td>\n</tr>\n<tr>\n<td>온도영향</td>\n<td>&plusmn;0.18~0.5% of span / 20℃</td>\n</tr>\n<tr>\n<td>과압한계</td>\n<td>200% of Full Scale</td>\n</tr>\n<tr>\n<td>진동영향</td>\n<td>&plusmn;0.05% of URL per g (~200Hz)</td>\n</tr>\n<tr>\n<td>EMI/RFI</td>\n<td>SAMA PMC 33.1 (20-1000MHz, 30V/m)</td>\n</tr>\n<tr>\n<td>다이어프램 재질</td>\n<td>SS316 / Tantalum</td>\n</tr>\n<tr>\n<td>연결부 재질</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>네임/태그 플레이트 재질</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>변환기 하우징</td>\n<td>저동 주물 알루미늄 + 폴리우레탄 도장(라이트 블루)</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP67</td>\n</tr>\n<tr>\n<td>방폭인증</td>\n<td>본질안전방폭 Eex ia IIC T5(표준), 내압방폭 Ex db IIC T6</td>\n</tr>\n<tr>\n<td>마운팅</td>\n<td>직접 설치 / 2&quot; 파이프 브라켓</td>\n</tr>\n<tr>\n<td>치수 (W&times;H&times;D)</td>\n<td>102 &times; 160 &times; 130 mm</td>\n</tr>\n<tr>\n<td>중량</td>\n<td>약 1.3 kg</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><strong></strong></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 7
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt3100",
+   "name": "APT3100 Series",
+   "listName": "APT3100 Series",
+   "subtitle": "ALIA · 컴팩트 압력 트랜스미터 APT3100 Series\n소형 산업용 압력센서 High-performance Compact Pressure Transmitter\n\nAPT3100은 광범위한 측정 범위, 프로세스 연결, 출력 신호 및 전기 커넥터 옵션을 갖춘 고성능 컴팩트형 압력 트랜스미터입니다.\n\n높은 안정성과 신뢰성 및 간섭 방지 기능으로, 좁은 설치 공간에도 적용 가능하게 설계되어 다양한 산업 현장의 압력 측정 요구에 대응합니다.",
+   "thumbnail": "/images/product/mnc/apt3100_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<p><strong>[컴팩트 압력 트랜스미터] ALIA APT3100 Series 압력 측정 원리</strong><br />\nCompact Pressure Transmitter<br />\n<br />\nALIA APT3100은 스테인리스 스틸(SUS316L) 소재의 다이어프램(Diaphragm)이 프로세스 압력을 직접 감지하는 방식으로 작동합니다.<br />\n<img src=\"/images/product/mnc/apt3100_eec9f5.jpeg\" alt=\"apt3100\"/><br />\n액체, 기체, 증기 등 측정 대상 유체가 프로세스 연결부를 통해 유입되면, 다이어프램이 압력에 비례해 미세하게 변형되며, 이 변형은 실리콘 오일(Fill Fluid)을 매개로 내부 센싱 소자에 전달됩니다.<br />\n<br />\n센싱 소자에서 발생한 미세 신호는 전용 고성능 ASIC 회로에서 증폭&middot;선형화&middot;온도 보상 처리를 거쳐 4-20mA 전류 신호 또는 1-5VDC 전압 신호로 변환되어 출력됩니다.<br />\n이 과정에서 &le;0.2% FS/10K 수준의 우수한 온도 특성과 &le;0.05% of span의 비반복성을 확보해, 온도 변화가 있는 산업 현장에서도 안정적인 압력값을 제공합니다.<br />\n<br />\n이러한 압전저항식(Piezoresistive) 측정 원리를 기반으로 APT3100은 절대압력(Absolute), 게이지압력(Gauge), 진공(Vacuum) 등 다양한 압력 타입을 1ms 이하의 빠른 응답시간으로 측정하며, 250% of Full Scale의 과압 한계를 갖춰 순간적인 압력 서지 상황에서도 안정적으로 동작합니다.</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>전용 고성능 ASIC 압력 신호처리 회로 탑재로 높은 안정성과 강한 내간섭성 확보</li>\n<li>응답시간 1ms 이하의 빠른 반응속도 (출력 응답시간 8ms 이하)</li>\n<li>0-0.1bar ~ 0-600bar까지 폭넓은 측정범위 선택 가능</li>\n<li>4-20mA(2선식) 또는 1-5VDC(3선식) 출력신호 선택 가능</li>\n<li>표준 &plusmn;0.45%, 옵션 적용 시 &plusmn;0.20% of span의 고정밀 압력 측정</li>\n<li>좁은 설치 공간에 적합한 컴팩트 사이즈 (중량 약 80g)</li>\n<li>SUS304 바디&middot;연결부, SUS316L 다이어프램 적용으로 우수한 내식성</li>\n<li>IP65 방수/방진 등급, Ex ia IIC T6 본질안전방폭(표준) 지원</li>\n<li>Cable, Packard, DIN EN175301-803A, M12*1 등 다양한 전기 커넥터 옵션</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>액체&middot;기체&middot;증기 등 다양한 유체의 압력 측정이 필요한 일반 산업 설비</li>\n<li>좁은 설치 공간으로 인해 소형 압력센서가 필요한 배관 및 장비</li>\n<li>게이지압력, 절대압력, 진공 측정이 모두 필요한 프로세스 라인</li>\n<li>방폭 지역 내 압력 모니터링이 필요한 화학&middot;석유화학 플랜트</li>\n<li>고정밀 압력 제어가 요구되는 자동화 설비 및 계측 시스템</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<h3>&nbsp;</h3>\n<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT3100 Series 압력 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>측정 유체</td>\n<td>액체, 기체, 증기</td>\n</tr>\n<tr>\n<td>측정 방식</td>\n<td>절대압력, 게이지압력, 진공</td>\n</tr>\n<tr>\n<td>측정범위</td>\n<td>0-0.1 ~ 0-600 bar</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.45% of span (표준)<br />\n&plusmn;0.20% of span (옵션)</td>\n</tr>\n<tr>\n<td>비선형성</td>\n<td>&le;0.2% of span BFSL (표준)<br />\n&le;0.1% (옵션)</td>\n</tr>\n<tr>\n<td>비반복성</td>\n<td>&le;0.05% of span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&le;&plusmn;0.2% of URL/년</td>\n</tr>\n<tr>\n<td>응답시간</td>\n<td>&ge;1 ms (출력 응답시간 &le;8 ms)</td>\n</tr>\n<tr>\n<td>전류 출력</td>\n<td>4-20 mA (2선식)</td>\n</tr>\n<tr>\n<td>전압 출력</td>\n<td>1-5 VDC (3선식, 5000&Omega; 이상)</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>9-32 VDC</td>\n</tr>\n<tr>\n<td>작동온도</td>\n<td>-40~85 &deg;C</td>\n</tr>\n<tr>\n<td>보상온도</td>\n<td>-10~70 &deg;C</td>\n</tr>\n<tr>\n<td>주변온도</td>\n<td>-20~70 &deg;C</td>\n</tr>\n<tr>\n<td>습도 한계</td>\n<td>0-95% RH</td>\n</tr>\n<tr>\n<td>과압 한계</td>\n<td>Full Scale의 250%</td>\n</tr>\n<tr>\n<td>내진동성</td>\n<td>20 g (20-2000 Hz, IEC 60068-2-6)</td>\n</tr>\n<tr>\n<td>내충격성</td>\n<td>100 g (10 ms)</td>\n</tr>\n<tr>\n<td>재질(연결부/다이어프램/바디)</td>\n<td>SUS304 / SUS316L / SUS304</td>\n</tr>\n<tr>\n<td>충전 유체</td>\n<td>실리콘 오일</td>\n</tr>\n<tr>\n<td>O-링/개스킷</td>\n<td>Viton(내부)<br />\nNBR(외부)</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>G1/4&quot; (표준)<br />\nM12*1.5, 1/4&quot;-18 NPTM, 1/8&quot;-27 NPTM, 7/16&quot;-20 UNF (옵션)</td>\n</tr>\n<tr>\n<td>전기 커넥터</td>\n<td>Cable(0.5m), Packard(1m), DIN EN175301-803A(PG9), M12*1(1.5m)</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP54 (Packard) / IP65</td>\n</tr>\n<tr>\n<td>방폭 등급</td>\n<td>Ex ia IIC T6 (표준)</td>\n</tr>\n<tr>\n<td>중량</td>\n<td>약 80 g</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><strong></strong></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 8
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "att1000",
+   "name": "ATT1000 Series",
+   "listName": "ATT1000 Series",
+   "subtitle": "ALIA · 스마트 온도 트랜스미터 ATT1000 Series\n산업용 온도계 Smart Temperature Transmitter\n\nALIA ATT1000 Series는 온도 트랜스미터는 HART 통신 프로토콜을 사용하여 열전대/RTD/W/mV 입력 및 출력 mA를 수신하는 고성능 장치입니다.\n\n열전대(Thermocouple), RTD, mV, 저항 등 다양한 입력 신호를 지원하는 2선식 스마트 온도 트랜스미터로,\nHART 통신 프로토콜을 지원하는 4-20mA 출력 신호를 제공하며, 각도 회전이 가능한 백라이트 LCD 디스플레이와 내장 키패드를 통해 현장에서 직접 파라미터 설정이 가능한 고성능 산업용 온도계입니다.\n\n매개변수를 설정하는 3개의 내부 키가 있으며, HART 또는 키패드를 통해 제로 스팬 교정을 할 수 있습니다.",
+   "thumbnail": "/images/product/mnc/att1000_main.jpg",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "<strong>[스마트 온도 트랜스미터] ALIA ATT1000 Series 온도 측정 원리</strong><br />\nSmart Temperature Transmitter<br />\n<br />\nALIA ATT1000은 열전대(T/C) 또는 RTD(측온저항체) 온도 센서와 2선식으로 연결되어 동작합니다.<br />\n<img src=\"/images/product/mnc/att1000_cd1be3.png\" alt=\"att1000\"/><br />\n열전대 센서는 서로 다른 두 금속의 접합부에서 온도차에 비례한 미세한 기전력(mV)이 발생하는 제벡 효과(Seebeck Effect)를 이용하며, RTD 센서는 PT100&middot;CU50 등 온도에 따라 저항값이 선형적으로 변화하는 특성을 이용해 온도를 감지합니다.<br />\n<br />\n센서에서 발생한 mV 신호 또는 저항값은 트랜스미터 내부 회로로 전달되며, 열전대 사용 시에는 기준 접점의 온도 변화를 보정하는 CJC(Cold Junction Compensation, &plusmn;0.5&deg;C) 기능이 함께 작동합니다. 내부 마이크로프로세서는 IEC 584, IEC 751 등 국제 표준 곡선에 따라 신호를 선형화해 정확한 온도값으로 환산합니다.<br />\n<br />\n변환된 온도값은 4-20mA 전류 신호로 출력되며, 동시에 HART 디지털 통신 프로토콜이 중첩되어 원격에서 파라미터 확인 및 설정이 가능합니다. 90ms의 빠른 응답속도와 자동 제로 교정 기능을 통해 현장 조건 변화에도 안정적인 온도 측정값을 제공합니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>열전대(T/C: K, S, B, E, J, T, R, N 등), RTD(PT100/CU50 등), mV, 저항 등 다양한 입력 신호 지원(Universal Input)</li>\n<li>4-20mA 출력 + HART 디지털 통신 프로토콜 동시 지원</li>\n<li>&plusmn;0.1% of span의 높은 정확도, 2년간 &plusmn;0.1% 안정성 유지</li>\n<li>90ms의 빠른 출력 업데이트 속도</li>\n<li>각도 회전 가능한 백라이트 LCD 디스플레이(5자리 프로그래머블 + 0-100% 바그래프)</li>\n<li>키패드를 통한 현장 직접 파라미터 설정 가능</li>\n<li>버튼 원터치 자동 제로 교정 기능</li>\n<li>내압방폭 및 본질안전방폭 구조, IP67 보호등급</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>발전소</li>\n<li>석유화학 시설</li>\n<li>식품 및 음료 산업</li>\n<li>HVAC 시스템</li>\n<li>제약 및 제조 시설</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA ATT1000 Series 온도 트랜스미터</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>입력</td>\n<td>Universal Input (열전대/RTD/mV/저항)</td>\n</tr>\n<tr>\n<td>열전대(T/C)</td>\n<td>K, S, B, E, J, T, R, N 등</td>\n</tr>\n<tr>\n<td>RTD</td>\n<td>CU50 / PT100, 2/3/4선식</td>\n</tr>\n<tr>\n<td>mV</td>\n<td>-128~128 mV / -1000~1000 mV</td>\n</tr>\n<tr>\n<td>저항</td>\n<td>0-600 &Omega; / 0-5000 &Omega;</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.1% of span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&plusmn;0.1% of span (2년)</td>\n</tr>\n<tr>\n<td>온도 영향</td>\n<td>&plusmn;0.1% of span / 10&deg;C</td>\n</tr>\n<tr>\n<td>CJC 보상</td>\n<td>&plusmn;0.5&deg;C</td>\n</tr>\n<tr>\n<td>전류 출력</td>\n<td>4-20 mA 2선식 + HART Signal</td>\n</tr>\n<tr>\n<td>부하저항</td>\n<td>Rohm = (VDC-9) &times; 50</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>9-36 VDC</td>\n</tr>\n<tr>\n<td>디지털 통신</td>\n<td>HART Protocol</td>\n</tr>\n<tr>\n<td>케이블 인입</td>\n<td>M20 Conduit Threads / 1/2&quot; NPT(Female)</td>\n</tr>\n<tr>\n<td>댐핑</td>\n<td>0-32초</td>\n</tr>\n<tr>\n<td>응답시간</td>\n<td>100 ms</td>\n</tr>\n<tr>\n<td>전원인가 시간</td>\n<td>최소 댐핑 시 2초</td>\n</tr>\n<tr>\n<td>제로 교정</td>\n<td>버튼 원터치 자동 제로 교정</td>\n</tr>\n<tr>\n<td>절연</td>\n<td>입력/출력/GND 480 VDC 절연</td>\n</tr>\n<tr>\n<td>전원 영향</td>\n<td>&plusmn;0.005% of Span / V</td>\n</tr>\n<tr>\n<td>디스플레이</td>\n<td>각도 회전 가능한 백라이트 LCD</td>\n</tr>\n<tr>\n<td>디스플레이 기능</td>\n<td>5자리 프로그래머블 + 0-100% 바그래프</td>\n</tr>\n<tr>\n<td>디스플레이 단위</td>\n<td>&deg;C / &deg;F / &deg;R / &deg;K</td>\n</tr>\n<tr>\n<td>설정 방법</td>\n<td>B타입(USB+PC SW) / C타입(HART) / D타입(HART+키패드)</td>\n</tr>\n<tr>\n<td>재질(습윤부)</td>\n<td>SUS304 / SUS316 / Has.C / Tantalum 등</td>\n</tr>\n<tr>\n<td>하우징</td>\n<td>저동 알루미늄합금(라이트블루 폴리우레탄 도장)</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>나사식 / 플랜지식</td>\n</tr>\n<tr>\n<td>과온 한계</td>\n<td>Full Scale의 120%</td>\n</tr>\n<tr>\n<td>설치 방식</td>\n<td>직접 설치 또는 2&quot; 파이프 브라켓</td>\n</tr>\n<tr>\n<td>습도 한계</td>\n<td>0-100% RH</td>\n</tr>\n<tr>\n<td>주변 온도</td>\n<td>-25~85 &deg;C</td>\n</tr>\n<tr>\n<td>내진동성</td>\n<td>&plusmn;0.05% of URL/g (200Hz 이하, 전축)</td>\n</tr>\n<tr>\n<td>중량</td>\n<td>60g(디스플레이 포함) / 30g(컨버터만)</td>\n</tr>\n<tr>\n<td>보호등급</td>\n<td>IP67 (표준)</td>\n</tr>\n<tr>\n<td>방폭 등급</td>\n<td>본질안전방폭 Eex ia IIC T5(표준) / 내압방폭 Ex d IIB T5</td>\n</tr>\n<tr>\n<td>센서 연결</td>\n<td>M27&times;2 (Female)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><strong></strong></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 9
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "apt9000l",
+   "name": "APT9000L Series",
+   "listName": "APT9000L Series",
+   "subtitle": "ALIA · 차압 전송기 APT9000L Series\n탱크 액위(레벨) 측정용 스마트 차압 레벨 트랜스미터 Smart Differential Pressure Level Transmitter\n\nAPT9000L Series는 플랜지(Flange)와 확장 다이어프램(Extended Diaphragm)을 탱크에 직접 장착해 액위(Liquid Level)를 측정하는 산업용 디지털 차압 트랜스미터입니다.\n\n차압 원리를 이용하여 탱크 레벨 측정뿐만 아니라 유량 및 압력 측정까지 폭넓게 적용 가능하며, 다양한 공정 환경에 대응할 수 있는 통합 솔루션을 제공합니다.\n\n-40~250℃의 넓은 사용온도 범위와 다양한 충진 오일 옵션(실리콘/고온실리콘/불소/식물성 오일)으로 점도가 높거나 결정화되기 쉬운 유체, 고온 공정에도 안정적으로 적용됩니다.\n\n고정밀 센서와 디지털 보정 기술을 통해 높은 정확도와 장기 안정성을 확보하였으며, HART 통신을 지원하여 공정 자동화 시스템과의 연동이 용이합니다.",
+   "thumbnail": "/images/product/mnc/apt9000l_main.jpg",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/apt9000l_main.jpg\" alt=\"APT9000L Series\"/> <img src=\"/images/product/mnc/apt9000l_main2.jpg\" alt=\"APT9000L Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[스마트 차압 레벨 트랜스미터] ALIA APT9000L Series 레벨(액위) 측정 원리</strong><br />\nSmart Differential Pressure Level Transmitter<br />\n<br />\nAPT9000L은 두 지점 간의 압력 차이를 측정하여 공정 데이터를 산출하는 차압 방식(Differential Pressure)을 사용합니다.<br />\n고압측(High Pressure)과 저압측(Low Pressure) 사이의 압력 차이를 센서가 감지하고, 이를 전기 신호로 변환하여 출력합니다.<br />\n이 차압 값을 기반으로 액체 레벨, 유량, 압력 등의 물리량을 계산하며, 다양한 공정 조건에서도 안정적인 측정이 가능합니다.<br />\n<img src=\"/images/product/mnc/apt9000l_1ba4f2.png\" alt=\"apt9000l\"/><br />\n플랜지에 장착된 다이어프램이 탱크 내부의 액체와 직접 접촉하면, 액위 높이에 비례하는 정수압(또는 액주압 液柱壓, Hydrostatic Pressure)이 다이어프램에 가해집니다.<br />\n<br />\n이 압력 변화는 센서의 저항값 변화로 변환되고, 디지털 신호를 통해 주파수 신호(Frequency Signal) 형태로 내부 마이크로프로세서(CPU)에 전달됩니다.<br />\n<br />\n마이크로프로세서는 전달받은 신호를 연산해 액위(또는 차압)에 해당하는 전류 제어 신호를 출력회로로 보내고, 이를 4-20mA 아날로그 전류로 변환하여 LCD 화면에 측정값을 표시합니다.<br />\n<br />\n밀폐형 탱크(Closed Tank)의 경우 고압측 다이어프램이 액체에 완전히 잠기도록, 개방형 탱크(Open Tank)의 경우 고압측 다이어프램 중심이 영점 기준이 되도록 설치하며, 옵션으로 HART 통신 모듈을 탑재하면 원격에서 레인지, 영점 등 설정값을 읽고 쓸 수 있습니다.<br />\n&nbsp;"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>차압 / 레벨 / 압력 / 유량 측정 가능</li>\n<li>플랜지&middot;확장 다이어프램을 탱크에 직접 장착하는 방식으로 점도가 높거나 결정화&middot;슬러리성 유체에도 적용 가능</li>\n<li>2년 안정성 &plusmn;0.15% of URL, 정확도 &plusmn;0.075% of span</li>\n<li>-40~250℃의 넓은 사용온도 범위 지원 (충진 오일 옵션에 따라 상이)</li>\n<li>출력 전류 업데이트 200ms, 응답시간 100ms의 빠른 반응속도</li>\n<li>3버튼 키패드로 직접 매개변수 설정</li>\n<li>4-20mA 출력 + HART 디지털 통신(Hart Protocol) 지원</li>\n<li>푸시 버튼(Push Button)을 통한 자동 영점 교정(Zero Calibration)</li>\n<li>방폭 및 본질안전방폭 인증, 방수&middot;방진 하우징</li>\n<li>다양한 다이어프램 재질 SS316L/Hastelloy B&middot;C/Monel/Tantalum 등 내식 재질 선택 가능</li>\n<li>고압측 1-1/2&quot;&middot;2&quot;&middot;3&quot;&middot;4&quot; 플랜지(ANSI/DIN/JIS/Tri-Clamp) 및 2&quot;&middot;4&quot;&middot;6&quot; 확장 다이어프램 길이 선택 가능</li>\n<li>턴다운비(Turndown Ratio) 최대 100:1</li>\n<li>최대 사용압력 40MPa (플랜지 등급에 따라 상이)</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>밀폐형(Closed Tank) 및 개방형(Open Tank) 저장탱크 액위 측정(차압식 레벨 측정)</li>\n<li>정유 및 석유화학 플랜트 원료&middot;제품 탱크 레벨 측정</li>\n<li>화학 공정 설비 &ndash; 부식성&middot;점도성 유체 탱크 레벨 측정</li>\n<li>발전소 보일러 드럼(Boiler Drum) 수위 측정</li>\n<li>식품&middot;제약 공정 탱크 레벨 측정 (위생 등급 Tri-Clamp 연결 적용 시)</li>\n<li>정수, 하수, 오수, 상하수도 관련 플랜트 저류조 수위 측정</li>\n<li>슬러리&middot;결정화 유체 저장탱크 레벨 측정</li>\n<li>고온&middot;고점도 공정 레벨 측정 (최대 250℃)</li>\n<li>방폭 구역(폭발위험지역) 레벨&middot;압력 계측</li>\n<li>조선 및 해양플랜트 탱크 레벨 측정</li>\n<li>고온 / 고압 산업 공정</li>\n<li>가스 및 증기 압력 모니터링</li>\n<li>보일러 순환수 및 스팀 라인 압력 측정</li>\n<li>VAMS</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA APT9000L Series 차압 트랜스미터_레벨 측정</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>모델</td>\n<td>APT9000L Series</td>\n</tr>\n<tr>\n<td>측정 유체</td>\n<td>액체(Liquid), 가스(Gas), 증기(Vapor)</td>\n</tr>\n<tr>\n<td>측정 항목</td>\n<td>액위(Liquid Level), 차압(Differential), 게이지압(Gauge), 절대압(Absolute)</td>\n</tr>\n<tr>\n<td>측정 범위</td>\n<td>0-6.0 kPa(최소) ~ 0-20.0 MPa(최대), 모델별 상이</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.075% of Span</td>\n</tr>\n<tr>\n<td>안정성</td>\n<td>&plusmn;0.15% of URL (2년)</td>\n</tr>\n<tr>\n<td>Turndown Ratio</td>\n<td>100:1</td>\n</tr>\n<tr>\n<td>출력 신호</td>\n<td>4~20mA (2-Wire)</td>\n</tr>\n<tr>\n<td>통신</td>\n<td>HART Protocol</td>\n</tr>\n<tr>\n<td>전원 공급</td>\n<td>9~36 VDC</td>\n</tr>\n<tr>\n<td>응답 속도</td>\n<td>100 ms</td>\n</tr>\n<tr>\n<td>출력 응답</td>\n<td>200 ms</td>\n</tr>\n<tr>\n<td>디스플레이</td>\n<td>5 Digit + 0-100% Bargraph</td>\n</tr>\n<tr>\n<td>표시 단위</td>\n<td>표준 22종 공학단위 + 5자리 사용자지정(SPEC) 단위</td>\n</tr>\n<tr>\n<td>입력 설정</td>\n<td>내부 키패드 (3 Keys)</td>\n</tr>\n<tr>\n<td>온도 범위</td>\n<td>공정 온도 : -40 ~ 250&deg;C<br />\n주변 온도 : -25 ~ 85&deg;C</td>\n</tr>\n<tr>\n<td>최대 압력</td>\n<td>40 MPa</td>\n</tr>\n<tr>\n<td>고압측 프로세스 연결</td>\n<td>1-1/2&quot;, 2&quot;, 3&quot;, 4&quot; 플랜지 (ANSI/DIN/JIS/Tri-Clamp)</td>\n</tr>\n<tr>\n<td>확장 다이어프램 길이</td>\n<td>2&quot;, 4&quot;, 6&quot; (재질: SS316)</td>\n</tr>\n<tr>\n<td>저압측 프로세스 연결</td>\n<td>1/4&quot;-18 NPT, 1/2&quot;-14 NPT</td>\n</tr>\n<tr>\n<td>방폭</td>\n<td>Ex db IIC T6 / Intrinsically Safe</td>\n</tr>\n<tr>\n<td>하우징</td>\n<td>Low Copper Cast Aluminum</td>\n</tr>\n<tr>\n<td>재질</td>\n<td>다이어프램 접액부 : SS316L / Hastelloy&nbsp;B&middot;C / Monel / Tantalum<br />\n플랜지&middot;어댑터 재질 :&nbsp;Carbon Steel / SS304 / SS316</td>\n</tr>\n<tr>\n<td>공정 연결부</td>\n<td>ANSI / DIN / JIS / Tri-Clamp</td>\n</tr>\n<tr>\n<td>케이블 엔트리</td>\n<td>1/2&quot; NPT(Female) / M20 Conduit Threads</td>\n</tr>\n<tr>\n<td>데이터 설정</td>\n<td>Push Button Zero Calibration</td>\n</tr>\n<tr>\n<td>댐핑</td>\n<td>0~32 sec</td>\n</tr>\n<tr>\n<td>크기</td>\n<td>102 &times; 188 &times; 189 mm</td>\n</tr>\n<tr>\n<td>무게</td>\n<td>8 ~ 15 kg</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 10
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "kpt500",
+   "name": "KPT500",
+   "listName": "KPT500",
+   "subtitle": "K-METER · 압력계 KPT500 국내산\n\n다이아프램 방식의 국내산 압력계",
+   "thumbnail": "/images/product/mnc/kpt500_main.png",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "KPT500<img src=\"/images/product/mnc/kpt500_daa88b.png\" alt=\"kpt500\"/>\n<ul>\n<li>압력이 다이아프램에 인가되면 그 압력에 정비례해서 다이아프램이 팽창함.</li>\n<li>다이아프램의 움직임은 작고, 다이아프램의 두께, 지름에 따라 다름.</li>\n</ul>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>저렴한 가격</li>\n<li>넓은 측정 범위</li>\n<li>역전원 보호 및 과전류, 과전압 보호기능</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>석유 및 가스 산업&nbsp;</li>\n<li>화학 산업</li>\n<li>펄프 &amp; 종이 산업</li>\n<li>해양 산업</li>\n<li>전력 및 에너지 산업</li>\n<li>음용수 처리</li>\n<li>상수도망 모니터링 및 누수감지</li>\n<li>폐수처리&nbsp;</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>측정범위 :&nbsp;0-5kPa~100Mpa</li>\n<li>정확도 : 0.1%</li>\n<li>유지성 : 0.2% / year</li>\n<li>온도 : -20~70 ℃</li>\n<li>전원사양 :&nbsp;(10~30)VDC, DC24V 권장</li>\n<li>출력 :&nbsp;4&ndash;20 mA, 1-5VDC 3 wire, RS485</li>\n<li>통신 : HART</li>\n<li>디스플레이 : 디지털</li>\n<li>보호등급 : IP65</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 11
+  },
+  {
+   "categorySlug": "transmitter",
+   "slug": "kdp600",
+   "name": "KDP600",
+   "listName": "KDP600",
+   "subtitle": "K-METER · 차압계 KDP600 국내산\n\n다이아프램 방식의 국내산 차압계",
+   "thumbnail": "/images/product/mnc/kdp600_main.png",
+   "sections": [
+    {
+     "title": "측정원리",
+     "html": "KDP600<br />\n<img src=\"/images/product/mnc/kdp600_ab849e.png\" alt=\"kdp600\"/>\n<ul>\n<li>압력이 다이아프램에 인가되면 그 압력에 정비례해서 다이아프램이 팽창함.</li>\n<li>다이아프램의 움직임은 작고, 다이아프램의 두께, 지름에 따라 다름.</li>\n</ul>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>저렴한 가격</li>\n<li>높은 정확성, 좋은 안정성</li>\n<li>2년간 안정성 0.2%</li>\n<li>0.075%의 정확성</li>\n<li>로컬 키패드로 파라미터 세팅 가능</li>\n<li>버튼하나로 자동 영점 조정 가능</li>\n<li>차압계, 게이지 압력계, 절대 압력계로 사용 가능</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>석유 및 가스 산업&nbsp;</li>\n<li>화학 산업</li>\n<li>펄프 &amp; 종이 산업</li>\n<li>해양 산업</li>\n<li>전력 및 에너지 산업</li>\n<li>음용수 처리</li>\n<li>상수도망 모니터링 및 누수감지</li>\n<li>폐수처리</li>\n<li>기타 산업 전반</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>측정 범위 :&nbsp;0 - 0.06 Kpa ~ 0 - 1.5 Kpa (최소)</li>\n</ul>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0 - 7000 kpa ~ 0 - 40000 kpa (최대)\n<ul>\n<li>턴다운비율 : 1:100</li>\n<li>정확성 :&nbsp;&plusmn;0.075% of span</li>\n<li>유지성 :&nbsp;&plusmn;0.15% of URL for 2years</li>\n<li>온도 :&nbsp;-25 - 90&deg;C</li>\n<li>보호등급 : IP67</li>\n<li>디스플레이 : 5글자 &amp; 0~100% 바그래프</li>\n<li>전류 출력 : 4 - 20mA (2 wire with Hart Signal)</li>\n<li>전원사양 : 9 ~ 36VDC</li>\n<li>반응시간 : 200ms</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 12
+  },
+  {
+   "categorySlug": "level",
+   "slug": "krd",
+   "name": "KRD Series",
+   "listName": "KRD Series",
+   "subtitle": "K-METER · 80GHz 레이더식 레벨계 KRD Series\n\nKRD Series는 80GHz FMCW 레이더 기술을 적용한 비접촉식 레벨 측정기로 액체, 분말, 벌크 고체 등 다양한 산업 공정에서 안정적인 레벨 측정이 가능한 산업용 레이더 레벨계입니다.\n\n고주파 레이더 신호를 이용하여 탱크 내부의 레벨을 비접촉 방식으로 측정하며, 먼지, 증기, 교반, 응축 등의 환경에서도 안정적인 측정 성능을 제공합니다.\n\n또한 좁은 빔각과 높은 신호 집중도를 통해 탱크 내부 구조물에 의한 간섭을 최소화하며, 다양한 산업 환경에 적용할 수 있도록 다양한 모델로 구성되어 있습니다.",
+   "thumbnail": "/images/product/mnc/krd_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/krd_main.png\" alt=\"KRD Series\"/> <img src=\"/images/product/mnc/krd_main2.png\" alt=\"KRD Series\"/> <img src=\"/images/product/mnc/krd_main3.png\" alt=\"KRD Series\"/> <img src=\"/images/product/mnc/krd_main4.png\" alt=\"KRD Series\"/> <img src=\"/images/product/mnc/krd_main5.png\" alt=\"KRD Series\"/> <img src=\"/images/product/mnc/krd_main6.png\" alt=\"KRD Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<p data-end=\"660\" data-start=\"603\"><strong>[레이더 레벨계] KRD Series</strong><br />\nFMCW 80GHz Radar Level Meter<br />\n<br />\nKRD Series는 FMCW(Frequency Modulated Continuous Wave) 방식의 레이더 측정 기술을 사용합니다.<br />\n<img src=\"/images/product/mnc/krd_bb13ac.png\" alt=\"krd\"/></p>\n<p data-end=\"744\" data-start=\"662\">&nbsp;</p>\n<p data-end=\"824\" data-start=\"746\">안테나에서 주파수가 연속적으로 변화하는 고주파 레이더 신호를 송신하면, 측정 대상 매질의 표면에서 반사된 신호가 다시 센서로 수신됩니다.<br />\n<br />\n송신 신호와 수신 신호 사이의 주파수 차이를 분석하여 센서와 매질 표면 사이의 거리를 계산하며, 이를 통해 탱크 내부의 정확한 레벨 값을 측정합니다.<br />\n<br />\n신호 분석에는 FFT(Fast Fourier Transform) 알고리즘이 사용되어 높은 정확도의 거리 계산이 가능합니다.</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li data-end=\"556\" data-start=\"530\">80GHz FMCW Radar 기술 적용</li>\n<li data-end=\"556\" data-start=\"530\">좁은 빔 각도(Beam Angle)로 정밀한 레벨 측정</li>\n<li data-end=\"556\" data-start=\"530\">최대 30m 측정 범위</li>\n<li data-end=\"556\" data-start=\"530\">&plusmn;1mm 분해능 (Resolution)</li>\n<li data-end=\"556\" data-start=\"530\">&plusmn;3mm 측정 정확도 (Accuracy, 30m 기준)</li>\n<li data-end=\"556\" data-start=\"530\">다양한 출력 신호 지원 (4~20mA, HART, RS485 Modbus, Bluetooth)</li>\n<li data-end=\"556\" data-start=\"530\">Compact / Remote 구조 옵션</li>\n<li data-end=\"556\" data-start=\"530\">IP67 보호 등급</li>\n<li data-end=\"556\" data-start=\"530\">다양한 Process Connection 지원 (Thread / Flange)</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li data-end=\"1822\" data-start=\"1806\">화학 및 석유화학 산업 탱크 레벨 측정</li>\n<li data-end=\"1822\" data-start=\"1806\">저장 탱크 및 공정 탱크 레벨 모니터링</li>\n<li data-end=\"1822\" data-start=\"1806\">분말 및 벌크 고체 사일로 레벨 측정</li>\n<li data-end=\"1822\" data-start=\"1806\">먼지가 많은 분체 공정</li>\n<li data-end=\"1822\" data-start=\"1806\">교반 및 응축이 발생하는 액체 탱크</li>\n<li data-end=\"1822\" data-start=\"1806\">고온 및 고압 공정 레벨 측정</li>\n<li data-end=\"1822\" data-start=\"1806\">부식성 액체 저장 탱크</li>\n<li data-end=\"1822\" data-start=\"1806\">발전소 및 에너지 산업 공정</li>\n<li data-end=\"1822\" data-start=\"1806\">식품 및 제약 공정 레벨 모니터링</li>\n<li data-end=\"1822\" data-start=\"1806\">산업 공정 자동화 시스템</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>항목</th>\n<th>사양</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>모델</strong></td>\n<td>KRD-81 / KRD-82 / KRD-83 / KRD-84 / KRD-85 / KRD-86 / KRD-87</td>\n</tr>\n<tr>\n<td><strong>측정 방식</strong></td>\n<td>80GHz FMCW Radar</td>\n</tr>\n<tr>\n<td><strong>측정 범위</strong></td>\n<td>10m / 20m / 30m / 80m / 120m (모델별 상이)</td>\n</tr>\n<tr>\n<td><strong>정확도</strong></td>\n<td>&plusmn;1mm (&le;30m), &plusmn;3mm (&ge;30m), 일부 모델 &plusmn;5mm</td>\n</tr>\n<tr>\n<td><strong>분해능</strong></td>\n<td>&plusmn;1mm</td>\n</tr>\n<tr>\n<td><strong>주파수</strong></td>\n<td>76 ~ 81 GHz</td>\n</tr>\n<tr>\n<td><strong>Blind Zone</strong></td>\n<td>0.15m (&le;35m), 0.4m (&le;85m), 0.6m (&le;120m)</td>\n</tr>\n<tr>\n<td><strong>전원 공급</strong></td>\n<td>18~28 VDC / 85~265 VAC</td>\n</tr>\n<tr>\n<td><strong>출력 신호</strong></td>\n<td>4~20mA + HART / RS485 Modbus / Bluetooth</td>\n</tr>\n<tr>\n<td><strong>구조</strong></td>\n<td>Compact / Remote</td>\n</tr>\n<tr>\n<td><strong>하우징 재질</strong></td>\n<td>Cast Aluminium / SS304 / SS316</td>\n</tr>\n<tr>\n<td><strong>방폭</strong></td>\n<td>Ex d IIC T6 Gb (옵션)</td>\n</tr>\n<tr>\n<td><strong>보호 등급</strong></td>\n<td>IP67</td>\n</tr>\n<tr>\n<td><strong>주변 온도</strong></td>\n<td>-30 ~ +70&deg;C</td>\n</tr>\n<tr>\n<td><strong>언어 지원</strong></td>\n<td>English / Spanish / Russian / Portuguese / Korean</td>\n</tr>\n</tbody>\n</table>\n&nbsp;\n<table class=\"rtable\">\n<thead>\n<tr>\n<th>모델</th>\n<th>모델별 적용 환경</th>\n<th>온도 범위</th>\n<th>압력</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>KRD-81</strong></td>\n<td>약한 부식성 액체, 교반 및 응축 환경</td>\n<td>-30 ~ 100℃</td>\n<td>-0.1 ~ 0.3 MPa</td>\n</tr>\n<tr>\n<td><strong>KRD-82</strong></td>\n<td>액체 레벨 측정 (넓은 측정 범위)</td>\n<td>-30 ~ 80℃</td>\n<td>-0.1 ~ 0.3 MPa</td>\n</tr>\n<tr>\n<td><strong>KRD-83</strong></td>\n<td>강한 분진 환경, 고체 및 분말</td>\n<td>-30 ~ 100℃</td>\n<td>-0.1 ~ 0.3 MPa</td>\n</tr>\n<tr>\n<td><strong>KRD-84</strong></td>\n<td>강한 부식성 액체</td>\n<td>-30 ~ 75℃</td>\n<td>-0.1 ~ 0.1 MPa</td>\n</tr>\n<tr>\n<td><strong>KRD-85</strong></td>\n<td>고온 및 부식성 액체</td>\n<td>-40 ~ 200℃</td>\n<td>-0.3 ~ 2 MPa</td>\n</tr>\n<tr>\n<td><strong>KRD-86</strong></td>\n<td>부식성 액체 공정</td>\n<td>-30 ~ 100℃</td>\n<td>-0.1 ~ 2 MPa</td>\n</tr>\n<tr>\n<td><strong>KRD-87</strong></td>\n<td>고온&middot;고압 환경 액체 및 고체</td>\n<td>-40 ~ 1000℃</td>\n<td>-0.5 ~ 3 MPa</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 3
+  },
+  {
+   "categorySlug": "level",
+   "slug": "krf",
+   "name": "KRF Series",
+   "listName": "KRF Series",
+   "subtitle": "K-METER · 레이더식 개방수로 유량계 KRF Series\n\nKRF 레이더식 유량계는 주로 관개 지역의 개수로 수위 측정에 사용되며,\n원격 측정 또는 감지, 데이터 전송을 위해 활용됩니다.",
+   "thumbnail": "/images/product/mnc/krf_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/krf_main.png\" alt=\"KRF Series\"/> <img src=\"/images/product/mnc/krf_main2.png\" alt=\"KRF Series\"/> <img src=\"/images/product/mnc/krf_main3.png\" alt=\"KRF Series\"/> <img src=\"/images/product/mnc/krf_main4.png\" alt=\"KRF Series\"/> <img src=\"/images/product/mnc/krf_main5.png\" alt=\"KRF Series\"/> <img src=\"/images/product/mnc/krf_main6.png\" alt=\"KRF Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[레이더 유량계] Radar Flow Meter KRF Series</strong><br />\n고정밀 24GHz 레이더 센서를 사용하여 수위와 유속을 측정<br />\n<img src=\"/images/product/mnc/krf_1af409.png\" alt=\"krf\"/>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>비접촉 측정으로 안전하고 손실이 적음</li>\n<li>유지관리가 간편하고 침전물의 영향을 받지 않음</li>\n<li>모든 날씨에 적용 가능하며, 온도에 영향을 받지 않음</li>\n<li>다양한 인터페이스가 제공</li>\n<li>다양한 통신 프로토콜</li>\n<li>작고 컴팩트한 외관</li>\n<li>간단한 설치로 규모가 작은 토목 공사에 적합</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>상하수시설</li>\n<li>급배수시설</li>\n<li>관개수로(개수로)</li>\n<li>방류 유량 모니터링</li>\n<li>하천 홍수 모니터링</li>\n<li>환경보호시설</li>\n<li>수력발전소</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>속도 범위 : 0.05 ~ 15 m/s</li>\n<li>속도 정확도 : &plusmn;1 % FS</li>\n<li>속도 분해능 : 0.01 m/s</li>\n<li>측정 범위(수위) : 0.4 ~ 40 m</li>\n<li>레벨 정확도 : &plusmn;1 cm</li>\n<li>레벨 분해능 : 1 mm</li>\n<li>작동 온도 : -35 ℃ ~ 70 ℃</li>\n<li>인터벌 시간 : 1 ~ 5,000분</li>\n<li>안테나 범위(유속) : 14&deg; &times; 32&deg;</li>\n<li>안테나 범위(수위) : 11&deg; &times; 11&deg;</li>\n<li>전원 사양(전압) : DC 7 ~ 28 V</li>\n<li>전원 사양(전류) : 정상 동작 약 280 mA / 절전 모드 1 mA 미만</li>\n<li>송신 주파수 : 24.000 ~ 24.250 GHz</li>\n<li>통신 인터페이스 : RS232 / RS485</li>\n<li>통신 프로토콜 : MODBUS-RTU / Custom</li>\n<li>보호 등급 : IP67</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 4
+  },
+  {
+   "categorySlug": "level",
+   "slug": "klt",
+   "name": "KLT Series",
+   "listName": "KLT Series",
+   "subtitle": "K-METER · 초음파수위계 KLT Series\n\n탱크 및 수로 등 다양한 레벨 측정 응용에 적용이 가능한\nKLT Series 입니다.",
+   "thumbnail": "/images/product/mnc/klt_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/klt_main.png\" alt=\"KLT Series\"/> <img src=\"/images/product/mnc/klt_main2.jpg\" alt=\"KLT Series\"/> <img src=\"/images/product/mnc/klt_main3.jpg\" alt=\"KLT Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<h3>[초음파 수위계] KLT Series</h3>\n초음파 전달 시간차 이용"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>비접촉식, 유지 보수가 매우 용이한 측정.</li>\n<li>dc 값 또는 밀도와 같은 매체 특성의 영향을 받지 않는 측정.</li>\n<li>충전 또는 배출 없는 교정.</li>\n<li>빠른 응답성.</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>액체 저장탱크</li>\n<li>개방 수로</li>\n<li>이외 다양한 응용산업&nbsp;</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<tbody>\n<tr>\n<td _msthash=\"390\" _msttexthash=\"8814104\">\n<ul>\n<li>기능</li>\n</ul>\n</td>\n<td _msthash=\"391\" _msttexthash=\"31005767\">\n<ul>\n<li>컴팩트 타입</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"392\" _msttexthash=\"21581508\">\n<ul>\n<li>레벨 범위</li>\n</ul>\n</td>\n<td _msthash=\"393\" _msttexthash=\"36589475\">\n<ul>\n<li>4,6,8,10,12,15,20,30미터</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"394\" _msttexthash=\"9666423\">\n<ul>\n<li>정밀</li>\n</ul>\n</td>\n<td _msthash=\"395\" _msttexthash=\"57967\">\n<ul>\n<li>0.5%-1.0%</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"396\" _msttexthash=\"15488824\">\n<ul>\n<li>해상도</li>\n</ul>\n</td>\n<td _msthash=\"397\" _msttexthash=\"12656553\">\n<ul>\n<li>3mm 또는 0.1%</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"398\" _msttexthash=\"9847500\">\n<ul>\n<li>표시</li>\n</ul>\n</td>\n<td _msthash=\"399\" _msttexthash=\"38936612\">\n<ul>\n<li>LCD 디스플레이</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"400\" _msttexthash=\"35490520\">\n<ul>\n<li>아날로그 출력</li>\n</ul>\n</td>\n<td _msthash=\"401\" _msttexthash=\"40197131\">\n<ul>\n<li>2선식 4-20mA/250&Omega; 부하</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"402\" _msttexthash=\"36474178\">\n<ul>\n<li>전원 공급 장치</li>\n</ul>\n</td>\n<td _msthash=\"403\" _msttexthash=\"25242620\">\n<ul>\n<li>DC24V 시리즈</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"404\" _msttexthash=\"21510112\">\n<ul>\n<li>환경 온도</li>\n</ul>\n</td>\n<td _msthash=\"405\" _msttexthash=\"41637557\">\n<ul>\n<li>송신기 -20~+60&deg;C, 센서 -20~+80&deg;C</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"406\" _msttexthash=\"10073687\">\n<ul>\n<li>통신</li>\n</ul>\n</td>\n<td _msthash=\"407\" _msttexthash=\"10580232\">\n<ul>\n<li>HART</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"408\" _msttexthash=\"21316659\">\n<ul>\n<li>보호 등급</li>\n</ul>\n</td>\n<td _msthash=\"409\" _msttexthash=\"66115673\">\n<ul>\n<li>송신기 IP65 (선택 IP67), 센서 IP68</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td _msthash=\"410\" _msttexthash=\"29544632\">\n<ul>\n<li>프로브 설치</li>\n</ul>\n</td>\n<td _msthash=\"411\" _msttexthash=\"30059380\">\n<ul>\n<li>플랜지, 나사</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 5
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "km-200",
+   "name": "KM-200 Series",
+   "listName": "KM-200 Series",
+   "subtitle": "K-METER · 전자유량계 KM-200 Series\n\n슬러리가 포함되지 않은 전도성 액체 측정용 전자식 유량계 KM-200 Series\n- KM-200C : 디스플레이 일체형 전자 유량계\n- KM-200R : 디스플레이 분리형 전자 유량계",
+   "thumbnail": "/images/product/mnc/km-200_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/km-200_main.png\" alt=\"KM-200 Series\"/> <img src=\"/images/product/mnc/km-200_main2.png\" alt=\"KM-200 Series\"/> <img src=\"/images/product/mnc/km-200_main3.png\" alt=\"KM-200 Series\"/> <img src=\"/images/product/mnc/km-200_main4.png\" alt=\"KM-200 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<h3><strong>[전자 유량계] KM-200C / KM-200R</strong></h3>\nElectromagnetic Flowmeter<br />\n<br />\n유체가 흐르면 평균 유속에 비례한 기전력이 자계와 직각 방향으로 발생한다.<br />\n따라서 관의 내경이 일정한 경우에는 한쌍의 전극으로부터 검출하는 출력 전압은 유량에 비례합니다.<br />\n<img src=\"/images/product/mnc/km-200_e04f46.png\" alt=\"km-200\"/>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>다양한 라이너와 전극으로 대부분의 산업 응용 분야에 적용이 가능합니다.</li>\n<li>ANSI, DIN, JIS 등과 같은 모든 플랜지가 제공됩니다.</li>\n<li>전도성을 가진 정수, 공업용수, 공정용&nbsp;액체에 적용이 가능합니다.</li>\n<li>구동부가 없어 압력 손실이 없습니다.</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>상&middot;하수 처리 시설 (정수, 처리수, 방류수)</li>\n<li>공업용수 / 냉각수 / 순환수 라인</li>\n<li>화학 공정 (침전물 없는 액상 화학약품)</li>\n<li>식품 공정 (세정수, 공정수 등)</li>\n<li>제약&middot;바이오 공정 (순수, 공정용 액체)</li>\n<li>보일러 급수, 열교환기 순환수</li>\n<li>농업&middot;관개 시설 용수 관리</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>모델 : KM-200 Series</li>\n<li>사이즈 : 3 ~ 2000mm</li>\n<li>프로세스 연결 : 플랜지 유형 KS, ANSI, DIN</li>\n<li>정확도 : &plusmn;0.5% &plusmn;0.3%&nbsp;</li>\n<li>유속범위 : 0.1 ~ 15m/s</li>\n<li>라이닝 재질 : PTFE, PFA, 네오프렌</li>\n<li>적용가능 유체 온도 :&nbsp;PTFE : -40~130℃ / 네오프렌 : -20~70℃ / PFA : -40~130℃</li>\n<li>주변온도 : -25℃ ~ 60℃</li>\n<li>전도도 : &gt; 5ps/cm(최소 20ps/cm)</li>\n<li>전원사양 :&nbsp; AC 95 ~ 230V, 50/60HZ DC 24V &plusmn;10%</li>\n<li>디스플레이 : 유량(5자리) 적산기(9자리), 백라이트 포함</li>\n<li>출력 아날로그 : DC 4~20mA 펄스 : 8~30V(오픈 콜렉터)</li>\n<li>통신 : RS-485(Modbus RTU), RS -232, HART</li>\n<li>보호 등급 : IP65 / IP68(옵션)</li>\n<li>테스트 &amp; 진단 : 자가 진단, 고장 기록, 전류 출력 테스트, 제어 입력/출력 테스트,ETC..</li>\n<li>케이블 길이 : 10m STD(분리형 해당)&nbsp;</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><u><strong></strong></u></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 5
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "km-200s",
+   "name": "KM-200S",
+   "listName": "KM-200S",
+   "subtitle": "K-METER · 슬러리 전용 전자유량계 KM-200S\n\nKM-200S 슬러리 전용 전자유량계는 광물 슬러리, 석탄 슬러리, 오니, 침전물 혼합 유체 등\n고형물 함량이 높은 유체의 유량을 안정적으로 측정하기 위해 설계된 산업용 전자식 유량계입니다.",
+   "thumbnail": "/images/product/mnc/km-200s_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/km-200s_main.png\" alt=\"KM-200S\"/> <img src=\"/images/product/mnc/km-200s_main2.png\" alt=\"KM-200S\"/> <img src=\"/images/product/mnc/km-200s_main3.png\" alt=\"KM-200S\"/> <img src=\"/images/product/mnc/km-200s_main4.png\" alt=\"KM-200S\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<p><strong>[슬러리용 전자 유량계] KM-200S</strong></p>\n<p>Electromagnetic Flowmeter for slurry<br />\nKM-200S 전자유량계는 패러데이의 전자기 유도 법칙(Faraday&rsquo;s Law)을 이용한 전자식 유량 측정 방식입니다.<br />\n<img src=\"/images/product/mnc/km-200s_11b1ef.png\" alt=\"km-200s\"/><br />\n배관 내에 흐르는 전도성 유체가 자기장을 통과할 때 발생하는 기전력을 검출하여 유속을 계산하며,<br />\n배관 단면적과 곱하여 체적 유량을 산출합니다.</p>\n<ul>\n<li>유체 속도 &prop; 발생 전압</li>\n<li>유량 = 유속 &times; 배관 단면적</li>\n<li>전도성 유체(&ge; 5 &mu;S/cm) 측정 가능</li>\n</ul>\n<p><br />\n이중 주파수 여자(Dual Frequency Excitation) 방식을 채택하여 노이즈를 효과적으로 저감하고 신호 대 잡음비(S/N Ratio)를 향상시킴으로써, 제지 및 화학 산업을 비롯한 다양한 산업 분야의 슬러리 유량 측정에 최적화된 성능을 제공합니다</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>최대 고형물 함량 55% 슬러리 측정 가능</li>\n<li>이중 주파수 여자 기술 적용 &rarr; 노이즈 제거 및 신호 안정성 향상</li>\n<li>비전도성 액체를 제외한 대부분의 액체 적용 가능</li>\n<li>ANSI, DIN, JIS 등 모든 플랜지 규격 제공</li>\n<li>디스플레이 일체형 / 분리형 2가지 타입 지원</li>\n<li>구동부가 없어 마모나 막힘에 강함</li>\n<li>압력 손실 없이 슬러리&middot;오니&middot;점도가 높은 유체에도 안정적인 측정 가능</li>\n<li>내마모 라이닝(폴리우레탄) 적용으로 슬러리 환경에 최적화</li>\n<li>RS485(Modbus RTU), HART 통신 지원</li>\n</ul>\n<img src=\"/images/product/mnc/km-200s_b16bc4.png\" alt=\"km-200s\"/>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>광업 및 석탄 산업 (광물 슬러리, 석탄 슬러리)</li>\n<li>상&middot;하수 처리장 (오니, 침전물 혼합 유체)</li>\n<li>펄프 및 제지 산업 (펄프 슬러리)</li>\n<li>화학 플랜트</li>\n<li>시멘트, 세척수, 점토 혼합물</li>\n<li>석탄수 슬러리(Coal-water slurry) 연료</li>\n<li>알갱이가 포함된 주스 및 음료</li>\n<li>토목 및 터널 공사</li>\n<li>발전소</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">슬러리 전용 전자유량계&nbsp;KM-200S</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>모델명</strong></td>\n<td>KM-200S</td>\n</tr>\n<tr>\n<td><strong>제품 타입</strong></td>\n<td>지시부 일체형(Compact) / 지시부 분리형(Remote)</td>\n</tr>\n<tr>\n<td><strong>접속 방식</strong></td>\n<td>플랜지 타입 (KS, ANSI, DIN)</td>\n</tr>\n<tr>\n<td><strong>측정 배관 사이즈</strong></td>\n<td>15 ~ 1,200 mm</td>\n</tr>\n<tr>\n<td><strong>유속 측정 범위</strong></td>\n<td>0.1 ~ 15 m/s</td>\n</tr>\n<tr>\n<td><strong>정확도</strong></td>\n<td>&plusmn;0.5% of Reading</td>\n</tr>\n<tr>\n<td><strong>전도도 조건</strong></td>\n<td>&ge; 5 &mu;S/cm</td>\n</tr>\n<tr>\n<td><strong>여자 주파수</strong></td>\n<td>37.5 / 75 Hz</td>\n</tr>\n<tr>\n<td><strong>라이닝 재질</strong></td>\n<td>Polyurethane or Ceramic or PTFE (for Clean Water)</td>\n</tr>\n<tr>\n<td><strong>플랜지 재질</strong></td>\n<td>Carbon Steel or SS304</td>\n</tr>\n<tr>\n<td><strong>유체 온도</strong></td>\n<td>-20 ~ 90 ℃</td>\n</tr>\n<tr>\n<td><strong>주변 온도</strong></td>\n<td>-20 ~ 60 ℃</td>\n</tr>\n<tr>\n<td><strong>전원</strong></td>\n<td>85~250 VAC (50/60Hz), 20~36 VDC</td>\n</tr>\n<tr>\n<td><strong>출력</strong></td>\n<td>DC 4~20 mA, Frequency, Alarm</td>\n</tr>\n<tr>\n<td><strong>통신</strong></td>\n<td>RS485 (Modbus RTU), HART</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 6
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "km-200i",
+   "name": "KM-200I",
+   "listName": "KM-200I",
+   "subtitle": "K-METER · 삽입식 전자유량계 KM-200I\n\nKM-200I Series는 배관 절단 없이 설치 가능한 삽입식 구조의 전자유량계로, 전도성 액체의 유량 측정에 적합한 산업용 유량계입니다.\n\n삽입형 센서를 통해 대구경 배관에서도 경제적으로 적용 가능하며, 다양한 산업 현장에서 안정적인 유량 측정과 데이터 모니터링을 제공합니다.\n\n또한 원격 디스플레이를 통해 직관적인 데이터 확인과 설정이 가능하며, 다양한 출력 신호를 지원하여 자동화 시스템과의 연동이 가능합니다.",
+   "thumbnail": "/images/product/mnc/km-200i_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/km-200i_main.png\" alt=\"KM-200I\"/> <img src=\"/images/product/mnc/km-200i_main2.png\" alt=\"KM-200I\"/> <img src=\"/images/product/mnc/km-200i_main3.png\" alt=\"KM-200I\"/> <img src=\"/images/product/mnc/km-200i_main4.png\" alt=\"KM-200I\"/> <img src=\"/images/product/mnc/km-200i_main5.png\" alt=\"KM-200I\"/> <img src=\"/images/product/mnc/km-200i_main6.png\" alt=\"KM-200I\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<p data-end=\"858\" data-start=\"796\"><strong>[삽입식 전자 유량계] KM-200I Series 액체 유량 측정</strong><br />\nInsertion type&nbsp;Electromagnetic Flowmeter<br />\n<img src=\"/images/product/mnc/km-200i_1efb96.png\" alt=\"km-200i\"/><br />\nKM-200I Series는 패러데이 전자유도 법칙(Faraday&rsquo;s Law)을 이용한 전자식 유량계입니다.</p>\n<p data-end=\"925\" data-start=\"860\">전도성 유체가 자기장을 통과할 때 발생하는 기전력을 측정하여 유속을 계산하며, 이를 통해 체적 유량을 산출합니다.</p>\n<p data-end=\"974\" data-start=\"927\">유체의 압력, 온도, 밀도 변화의 영향을 거의 받지 않아 안정적인 측정이 가능합니다.</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li data-end=\"1020\" data-section-id=\"k6a1nv\" data-start=\"993\">전도성 액체 유량 측정</li>\n<li data-end=\"1020\" data-section-id=\"k6a1nv\" data-start=\"993\">배관 삽입식 구조 (배관 절단 없이 설치 가능),&nbsp;설치 및 유지보수 용이</li>\n<li data-end=\"1039\" data-section-id=\"293q0o\" data-start=\"1021\">원격 디스플레이(Remote Type), 일체형 디스플레이(Compact Type) 선택 가능</li>\n<li data-end=\"1039\" data-section-id=\"293q0o\" data-start=\"1021\">Ball Valve Retractor 적용 가능 (운전 중 설치/분리 가능)</li>\n<li data-end=\"1039\" data-section-id=\"293q0o\" data-start=\"1021\">대구경 배관 적용에 최적화</li>\n<li data-end=\"1076\" data-section-id=\"kstzp0\" data-start=\"1057\">&plusmn;1% 의 (&ge;0.5 m/s)&nbsp;높은 정확도</li>\n<li data-end=\"1118\" data-section-id=\"1vg1j74\" data-start=\"1077\">다양한 출력 신호 지원 (4-20mA, Pulse, RS485 등)</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li data-end=\"1215\" data-section-id=\"n75068\" data-start=\"1196\">HVAC 시스템(냉수 / 온수)</li>\n<li data-end=\"1215\" data-section-id=\"n75068\" data-start=\"1196\">상수 / 공업용수 / 냉각수</li>\n<li data-end=\"1230\" data-section-id=\"k7yut7\" data-start=\"1216\">하&middot;폐수 처리 공정</li>\n<li data-end=\"1230\" data-section-id=\"k7yut7\" data-start=\"1216\">석유 및 가스 산업</li>\n<li data-end=\"1258\" data-section-id=\"v5okdb\" data-start=\"1244\">화학 및 산업 공정</li>\n<li data-end=\"1258\" data-section-id=\"v5okdb\" data-start=\"1244\">관개 및 농업</li>\n<li data-end=\"1258\" data-section-id=\"v5okdb\" data-start=\"1244\">광업 및 광물 가공</li>\n<li data-end=\"1258\" data-section-id=\"v5okdb\" data-start=\"1244\"><font color=\"#000000\">펄프 및 제지 공정</font></li>\n<li data-end=\"1258\" data-section-id=\"v5okdb\" data-start=\"1244\"><font color=\"#000000\">재생에너지</font></li>\n<li data-end=\"1292\" data-section-id=\"tt5ndb\" data-start=\"1276\">순환수 및 냉각수 라인</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">삽입형 전자유량계 KM-200I<br />\nInsertion type&nbsp;Electromagnetic Flowmeter</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>모델</td>\n<td>KM-200I Series</td>\n</tr>\n<tr>\n<td>타입</td>\n<td>일체형 (Compact Type), 분리형 (Remote Type)</td>\n</tr>\n<tr>\n<td>측정 방식</td>\n<td>Electromagnetic Flowmeter</td>\n</tr>\n<tr>\n<td>측정 유속 범위</td>\n<td>0.1 ~ 15 m/s</td>\n</tr>\n<tr>\n<td>적용 배관 구경</td>\n<td>80 ~ 2,000 mm</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>1&rdquo; MNPT<br />\n1&rdquo; Ball Valve Retractor (옵션)</td>\n</tr>\n<tr>\n<td>전도도</td>\n<td>&gt; 5 &mu;S/cm (최소 20 &mu;S/cm 권장)</td>\n</tr>\n<tr>\n<td>재질</td>\n<td>Head: PEEK<br />\nProbe / Ball Valve: SS304, SS316 (옵션)<br />\nElectrodes: SS316L, Hastelloy C276 (옵션)<br />\nGasket: FPM (O-ring)</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;1% R.D. (유속 &ge; 0.5 m/s)</td>\n</tr>\n<tr>\n<td>유체 온도</td>\n<td>Compact Type : -20 ~ 80℃<br />\nRemote Type : -20 ~ 125℃</td>\n</tr>\n<tr>\n<td>주변 온도</td>\n<td>-20 ~ 60℃</td>\n</tr>\n<tr>\n<td>압력</td>\n<td>Max. 16 bar.G</td>\n</tr>\n<tr>\n<td>전원 공급</td>\n<td>AC 220V (AC 85~250V)<br />\nDC 24V (DC 18~36V)<br />\nBattery 3.6V (옵션)</td>\n</tr>\n<tr>\n<td>소비 전력</td>\n<td>&lt; 20 W</td>\n</tr>\n<tr>\n<td>출력</td>\n<td>4-20 mA / Pulse</td>\n</tr>\n<tr>\n<td>통신</td>\n<td>RS-485, HART (옵션)</td>\n</tr>\n<tr>\n<td>디스플레이</td>\n<td>LCD Display</td>\n</tr>\n<tr>\n<td>보호 등급</td>\n<td>IP65</td>\n</tr>\n<tr>\n<td>케이블 인입구</td>\n<td>1/2&quot; NPTF</td>\n</tr>\n<tr>\n<td>설치 방식</td>\n<td>Direct Insertion / Ball Valve Retractor</td>\n</tr>\n<tr>\n<td>옵션</td>\n<td>Remote 타입 케이블 10m 기본</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 7
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "km-200w",
+   "name": "KM-200W",
+   "listName": "KM-200W",
+   "subtitle": "K-METER · 전자식 수도계량기 KM-200W\n\nKM-200W 모델은 수도미터로 사용되며, 전도성 액체의 유량을 측정할 수 있습니다.\n현재 유량 및 누적 유량을 측정할 수 있으며, 양방향 측정이 가능합니다.\n모니터링, 누수 분석, 상수도 본관의 통계적 정산 등에 활용됩니다.",
+   "thumbnail": "/images/product/mnc/km-200w_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/km-200w_main.png\" alt=\"KM-200W\"/> <img src=\"/images/product/mnc/km-200w_main2.png\" alt=\"KM-200W\"/> <img src=\"/images/product/mnc/km-200w_main3.png\" alt=\"KM-200W\"/> <img src=\"/images/product/mnc/km-200w_main4.png\" alt=\"KM-200W\"/> <img src=\"/images/product/mnc/km-200w_main5.png\" alt=\"KM-200W\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<h3><strong>[전자식&nbsp;수도계] KM-200W</strong></h3>\nElectromagnetic Water Meter<br />\n유체가 흐르면 평균 유속에 비례한 기전력이 자계와 직각 방향으로 발생합니다.<br />\n따라서 관의 내경이 일정한 경우, 한쌍의 전극으로부터 검출하는 출력 전압은 유량에 비례합니다.<br />\n<img src=\"/images/product/mnc/km-200w_1d7915.png\" alt=\"km-200w\"/>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>비전도성 액체를 제외한 거의 모든 액체에 적용</li>\n<li>ANSI, DIN, JIS 등 플랜지 규격 선택 가능</li>\n<li>내식성과 내마모성이 우수한 적합한 전극과 라이너&nbsp;가능</li>\n<li>측정관 내부에 막혀있는 부품(구동부)이 없어 압력 손실이 없음</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>도시 상수도</li>\n<li>농장, 관계 농업</li>\n<li>폐수처리</li>\n<li>석유 산업</li>\n<li>제약 산업</li>\n<li>급수 및 배수</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>모델 : KM-200W</li>\n<li>사이즈 : 40 ~ 300mm</li>\n<li>프로세스 연결 : 플랜지</li>\n<li>정확도 : &plusmn;0.5%R, &plusmn;0.2%R(선택 사항)</li>\n<li>초기 유속 : 5mm/s</li>\n<li>전도도 : 20&mu;S/cm</li>\n<li>센서 소재 : Flange &amp; Housing - Carbon Steel (옵션 SS304 / SS316)</li>\n<li>전극 소재 :&nbsp;SS316L, HC, Ti, Tan</li>\n<li>변환기 소재 : SS304</li>\n<li>라이너 소재 : Hard Rubber, PTFE</li>\n<li>압력 : 0.6 - 1.6Mpa</li>\n<li>유체 온도 : T50</li>\n<li>주변온도 : -10 ~ 60℃</li>\n<li>전원사양 :&nbsp; DC3.6V 리튬 배터리</li>\n<li>디스플레이 : 누적 유량, 순간 유량</li>\n<li>출력 아날로그 : 4-20mA, 펄스</li>\n<li>통신 : RS-485 Modbus,&nbsp;GPRS/NB-IOT</li>\n<li>케이블 길이 : 10m STD</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 8
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "amf601",
+   "name": "AMF601 Series",
+   "listName": "AMF601 Series",
+   "subtitle": "ALIA · 전자유량계 AMF601 Series\n\nAMF601 시리즈는 전도성 액체에 이상적인 위생형 전자기 유량계입니다. 10~80mm 크기로 제공됩니다.\n음료수, 우유, 식품 및 음료에 산업에서 널리 활용됩니다.\nALIMAG 전자기 유량계는 AMC 시리즈 전자기 유량계 변환기와 함께 컴팩트 또는 원격 모델로 사용할 수 있습니다.",
+   "thumbnail": "/images/product/mnc/amf601_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/amf601_main.png\" alt=\"AMF601 Series\"/> <img src=\"/images/product/mnc/amf601_main2.png\" alt=\"AMF601 Series\"/> <img src=\"/images/product/mnc/amf601_main3.png\" alt=\"AMF601 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[전자 유량계] ALIMAG AMF601 Series</strong><br />\nElectromagnetic Flowmeter<br />\n<img src=\"/images/product/mnc/amf601_69ecc8.png\" alt=\"amf601\"/><br />\n유체가 흐르면 평균 유속에 비례한 기전력이 자계와 직각 방향으로 발생한다. 따라서 관의 내경이 일정한 경우에는 한쌍의 전극으로부터 검출하는 출력 전압은 유량에 비례 합니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li><font><font>가볍고 컴팩트한 버전</font></font></li>\n<li><font><font>유속 범위: 0-12m/s, 저유량 응용 분야에서 정밀</font></font></li>\n<li><font><font>IDF Tri-Clamp 또는 유니온 나사 연결</font></font></li>\n<li><font><font>고압 라인에 적합</font></font></li>\n<li><font><font>보호 등급 : 센서&nbsp;IP68,&nbsp;센서는 수중에서도 사용 가능</font></font></li>\n<li><font><font>FEP 라이너는 진공관에 적합합니다.</font></font></li>\n<li><font><font>판독값 +/-0.4%(또는 판독값 +/-0.2%)의 높은 정확도</font></font></li>\n<li><font><font>정방향/역방향 유량 측정</font></font></li>\n</ul>\n<div><font><font><img src=\"/images/product/mnc/amf601_3b6e38.png\" alt=\"amf601\"/></font></font></div>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>음료 산업</li>\n<li>식품 산업</li>\n<li>우유 산업</li>\n<li>액체 유량을 측정해야 하는 다양한 산업에 적용</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA ALIMAG 전자유량계&nbsp;AMF601 Series</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>모델명</strong></td>\n<td>AMF601 Series</td>\n</tr>\n<tr>\n<td><strong>용도</strong></td>\n<td>식품, 음료, 정수 등 위생적인 유체 측정용 (Sanitary type)</td>\n</tr>\n<tr>\n<td><strong>측정 유체 조건</strong></td>\n<td>전도도 5 &mu;S/cm 이상 (Conductivity &gt; 5 &mu;S/cm)</td>\n</tr>\n<tr>\n<td><strong>측정 범위</strong></td>\n<td>유속 기준: 0~12 m/s (정밀도 &plusmn;0.2~0.5%)</td>\n</tr>\n<tr>\n<td><strong>정확도</strong></td>\n<td>&plusmn;0.5% (유속 &ge; 0.5 m/s), &plusmn;0.2% (AMC3200 사용 시), &plusmn;0.0025 m/s (저유속)</td>\n</tr>\n<tr>\n<td><strong>크기</strong></td>\n<td>10 mm ~ 80 mm (3/8&rdquo; ~ 3&rdquo;)</td>\n</tr>\n<tr>\n<td><strong>프로세스 연결 방식</strong></td>\n<td>IDF Tri-Clamp, Union Screw (옵션: HDB, HAB, HKB 등 다양한 규격)</td>\n</tr>\n<tr>\n<td><strong>라이너 재질 (Liner)</strong></td>\n<td>FEP (Standard)</td>\n</tr>\n<tr>\n<td><strong>전극 재질 (Electrode)</strong></td>\n<td>316L (표준), 옵션: Hastelloy B/C, Tantalum, Titanium, Platinum 등</td>\n</tr>\n<tr>\n<td><strong>본체 재질</strong></td>\n<td>304 스테인리스 스틸 (기본), 316L (옵션)</td>\n</tr>\n<tr>\n<td><strong>사용 온도 범위</strong></td>\n<td>-40 ~ 140℃</td>\n</tr>\n<tr>\n<td><strong>주위 온도 범위</strong></td>\n<td>-25 ~ 60℃</td>\n</tr>\n<tr>\n<td><strong>최대 압력</strong></td>\n<td>10 kgf/cm&sup2; (기본), 40 kgf/cm&sup2; (옵션)</td>\n</tr>\n<tr>\n<td><strong>보호등급</strong></td>\n<td>본체: IP68, 단자함: IP67, 옵션: 완전 침수형(IP68), 방폭형(Ex d ia [ia] q IIC T6)</td>\n</tr>\n<tr>\n<td><strong>설치 형태</strong></td>\n<td>Compact 또는 Remote (최대 300m 거리 설치 가능)</td>\n</tr>\n<tr>\n<td><strong>출력 구성</strong></td>\n<td>AMC 시리즈 컨버터와 연결 (AMC2200, AMC3200, AMC4000 등)</td>\n</tr>\n<tr>\n<td><strong>케이블 입구</strong></td>\n<td>기본: M20 / 옵션: 1/2&quot; NPTF</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><strong></strong></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 9
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "amf900",
+   "name": "AMF900 Series",
+   "listName": "AMF900 Series",
+   "subtitle": "ALIA · 전자유량계 AMF900 Series\n\nAMF900 시리즈는 전도성 액체에 적용하는 플랜지형 전자기 유량계 입니다. 10A에서 2000mm 사이즈로 제공됩니다.\n하수, 산업 폐기물, 화학, 용제, 식품 및 산업 폐기물에 널리 사용됩니다.\nALIA AMF900 시리즈 전자유량계는 AMC 시리즈 변환기를 사용하여 소형(Compact) 또는 원격(Remote) 모델로 사용할 수 있습니다.",
+   "thumbnail": "/images/product/mnc/amf900_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/amf900_main.png\" alt=\"AMF900 Series\"/> <img src=\"/images/product/mnc/amf900_main2.png\" alt=\"AMF900 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[전자 유량계] ALIMAG AMF AMF900 Series</strong><br />\nElectromagnetic Flowmeter<br />\n<img src=\"/images/product/mnc/amf900_69ecc8.png\" alt=\"amf900\"/><br />\n유체가 흐르면 평균 유속에 비례한 기전력이 자계와 직각 방향으로 발생한다. 따라서 관의 내경이 일정한 경우에는 한쌍의 전극으로부터 검출하는 출력 전압은 유량에 비례 합니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li><font><font>다양한 라이너와 전극은 대부분의 산업 응용 분야에 적합합니다.</font></font></li>\n<li><font><font>유속 범위: 0-12m/s, 저유량 응용 분야에서 정밀한 측정이 가능합니다.</font></font></li>\n<li><font><font>ANSI, DIN, JIS 등 다양한 플랜지가 제공됩니다.</font></font></li>\n<li><font><font>고압 환경에 적합합니다.</font></font></li>\n<li><font><font>보호 등급: IP68 등급의 센서는 수중에서도 사용 가능합니다.</font></font></li>\n<li><font><font>FEP 라이너는 진공관에 적합합니다.</font></font></li>\n<li><font><font>측정값의 +/-0.4%(또는 판독값 +/-0.2%)의 높은 정확도</font></font></li>\n<li><font><font>정방향/역방향 유량 측정 기능 포함</font></font></li>\n<li><font><font>전극 세척 기능이 있습니다.</font></font></li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>하수처리장</li>\n<li>산업폐기물</li>\n<li>화학</li>\n<li>용제</li>\n<li>식품</li>\n<li>음료</li>\n<li>펄프</li>\n<li>일반 기타 산업</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th>항목</th>\n<th>사양 내용</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>모델명</strong></td>\n<td>AMF900 Series</td>\n</tr>\n<tr>\n<td><strong>측정 유체</strong></td>\n<td>전도성 액체 (5 &mu;S/cm 이상)</td>\n</tr>\n<tr>\n<td><strong>적용 산업</strong></td>\n<td>폐수, 화학, 식음료, 제지, 폐기물, 용제 등</td>\n</tr>\n<tr>\n<td><strong>측정 범위</strong></td>\n<td>최소 유속 0 ~ 0.25 m/s, 최대 유속 0 ~ 12 m/s</td>\n</tr>\n<tr>\n<td><strong>정확도</strong></td>\n<td>AMC3200/3200E 컨버터 사용 시 &plusmn;0.4% (&ge; 0.5 m/s), &plusmn;0.0025 m/s (&lt; 0.5 m/s),&nbsp;&plusmn;0.2%</td>\n</tr>\n<tr>\n<td><strong>배관 사이즈</strong></td>\n<td>10mm ~ 2000 mm (3/8&rdquo; ~ 80&rdquo;)</td>\n</tr>\n<tr>\n<td><strong>라이너 재질 (Liner)</strong></td>\n<td>FEP, PFA, PTFE, Neoprene, Polyurethane</td>\n</tr>\n<tr>\n<td><strong>전극 재질</strong></td>\n<td>316L SS (기본), 옵션: Hastelloy B/C, Titanium, Tantalum, Platinum 등</td>\n</tr>\n<tr>\n<td><strong>튜브 재질</strong></td>\n<td>SS304</td>\n</tr>\n<tr>\n<td><strong>플랜지 재질</strong></td>\n<td>Carbon Steel (기본), 옵션: SS304/316/316L</td>\n</tr>\n<tr>\n<td><strong>프로세스 연결</strong></td>\n<td>플랜지 타입 (ANSI/JIS/DIN 등 모든 규격 가능)</td>\n</tr>\n<tr>\n<td><strong>보호 등급</strong></td>\n<td>IP67 (Junction box), IP68 (Body)</td>\n</tr>\n<tr>\n<td><strong>방폭 옵션</strong></td>\n<td>Ex d ia [ia] q IIC T6 (AMC3200/DF 전용)</td>\n</tr>\n<tr>\n<td><strong>온도 범위</strong></td>\n<td>-40℃ ~ +180℃ (라이너 종류에 따라 상이)</td>\n</tr>\n<tr>\n<td><strong>주위 온도</strong></td>\n<td>-25℃ ~ +60℃</td>\n</tr>\n<tr>\n<td><strong>최대 압력</strong></td>\n<td>최대 350 kgf/cm&sup2;</td>\n</tr>\n<tr>\n<td><strong>설치 방식</strong></td>\n<td>Compact 또는 Remote (최대 300m 케이블 연결)</td>\n</tr>\n<tr>\n<td><strong>케이블 입구</strong></td>\n<td>기본: M20, 옵션: 1/2&rdquo; NPTF</td>\n</tr>\n<tr>\n<td><strong>기타 기능</strong></td>\n<td>역류 측정, 전극 세척 기능, 낮은 유속에서도 정밀 측정 가능</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 10
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "amc3200",
+   "name": "AMC3200 Series",
+   "listName": "AMC3200 Series",
+   "subtitle": "ALIA · 전자유량계 컨버터 AMC3200 Series\n\nAlia의 전자유량계 컨버터(Converter) AMC3200 Series 는 AMF 시리즈 센서와 호환되는 마이크로프로세서 기반의 지능형 트랜스미터입니다.\n이 장치는 유량, 총 유량, 진단, 프로그래밍 및 문제 해결을 포함한 다양한 표시 기능을 제공합니다.\n또한 블루투스, HART 및 MODBUS 통신 기능을 갖추고 있습니다.",
+   "thumbnail": "/images/product/mnc/amc3200_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/amc3200_main.png\" alt=\"AMC3200 Series\"/> <img src=\"/images/product/mnc/amc3200_main2.png\" alt=\"AMC3200 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[전자 유량계 컨버터] ALIAMAG AMC3200 Series Converter</strong><br />\nElectromagnetic Flowmeter&nbsp;Converter<br />\n센서에서 받은 아날로그 신호나 전기 신호를 디지털 신호로 바꾸거나, 다른 형태로 변환해서 출력하는 장치로 전자 유량계 본체, 즉 센서에 감지되는 유속 값을 디지털 신호로 변환하는 변환기입니다.<br />\n<br />\n센서로부터 수신한 신호를 디지털화할 뿐만 아니라, 측정된 유량 데이터를 4-20mA 아날로그 신호, HART, MODBUS 등의 통신 방식으로 원격 전송할 수 있기 때문에, 이 장치는 유량 트랜스미터(Transmitter)로도 불립니다.<br />\n<br />\n즉, AMC3200 컨버터는 변환기와 트랜스미터의 기능을 동시에 수행하는 복합 장치로, 유량 측정, 데이터 출력, 통신, 진단 기능까지 통합된 스마트한 전자유량계 모듈입니다.<br />\n<br />\n<img src=\"/images/product/mnc/amc3200_69ecc8.png\" alt=\"amc3200\"/><br />\n<br />\n*전자 유량계 측정 원리 : 유체가 흐르면 평균 유속에 비례한 기전력이 자계와 직각 방향으로 발생합니다. 따라서 관의 내경이 일정한 경우에는 한쌍의 전극으로부터 검출하는 출력 전압은 유량에 비례 합니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>디스플레이 일체형/분리형 가능</li>\n<li>3줄 LCD 디스플레이 유량/적산계</li>\n<li>정확도 +/-0.2%</li>\n<li>양방향 유량 측정</li>\n<li>전류 및 펄스 출력</li>\n<li>블루투스/MODBUS/HART 통신</li>\n<li>컨버터는 4방향으로 회전으로 설치 편의성 높음</li>\n<li>방폭형 가능 Ex d ia [ia] q llC T6</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>음용수 처리</li>\n<li>상수도망 모니터링 및 누수감지</li>\n<li>폐수처리&nbsp;</li>\n<li>일반 용수 모니터링</li>\n<li>화학 산업</li>\n<li>해수</li>\n<li>식품</li>\n<li>음료</li>\n<li>우유</li>\n<li>산업 용수</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA ALIMAG 전자유량계 컨버터 AMC3200 Series</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>모델명</strong></td>\n<td>AMC3200 Series</td>\n</tr>\n<tr>\n<td><strong>제품명</strong></td>\n<td>Electromagnetic Flowmeter Converter</td>\n</tr>\n<tr>\n<td><strong>용도</strong></td>\n<td>전자유량계 센서 신호 변환 및 유량 트랜스미터</td>\n</tr>\n<tr>\n<td><strong>적용 센서</strong></td>\n<td>ALIA AMF Series 전자유량계 센서</td>\n</tr>\n<tr>\n<td><strong>측정 유속 범위</strong></td>\n<td>최소 0 ~ 0.15 m/s / 최대 0 ~ 15 m/s</td>\n</tr>\n<tr>\n<td><strong>정확도</strong></td>\n<td>&plusmn;0.2% of reading (유속 &ge; 0.5 m/s) / &plusmn;0.001 m/s (유속 &lt; 0.5 m/s)</td>\n</tr>\n<tr>\n<td><strong>반복성</strong></td>\n<td>&plusmn;0.05% of reading</td>\n</tr>\n<tr>\n<td><strong>여자 방식</strong></td>\n<td>DC Pulsed Excitation</td>\n</tr>\n<tr>\n<td><strong>지시부</strong></td>\n<td>3-Line OLED Display</td>\n</tr>\n<tr>\n<td><strong>표시 항목</strong></td>\n<td>유량, 유속, Totalizer, 알람, 배치, 진단</td>\n</tr>\n<tr>\n<td><strong>Totalizer 단위</strong></td>\n<td>m&sup3;, L, mL, gal, Igal, Mgal, ft3, bbl, a-ft, kg, g, lb, t, Ston, Lton</td>\n</tr>\n<tr>\n<td><strong>시간 단위</strong></td>\n<td>sec, min, hour, day</td>\n</tr>\n<tr>\n<td><strong>저유량 컷오프</strong></td>\n<td>0 ~ 9.9%</td>\n</tr>\n<tr>\n<td><strong>댐핑 (Damping)</strong></td>\n<td>0 ~ 99 초</td>\n</tr>\n<tr>\n<td><strong>자기진단 기능</strong></td>\n<td>샘플 이상, 오버레인지, 내부 에러, Empty Pipe 등</td>\n</tr>\n<tr>\n<td><strong>출력 신호</strong></td>\n<td>4&ndash;20 mA (절연)</td>\n</tr>\n<tr>\n<td><strong>펄스 출력</strong></td>\n<td>Open Collector / 0&ndash;5000 Hz</td>\n</tr>\n<tr>\n<td><strong>알람 출력</strong></td>\n<td>High / Low Open Collector</td>\n</tr>\n<tr>\n<td><strong>통신</strong></td>\n<td>Bluetooth (표준), RS485 MODBUS (표준), HART (옵션)</td>\n</tr>\n<tr>\n<td><strong>전원</strong></td>\n<td>90&ndash;260 VAC, 50/60 Hz (기본) / 24 VDC &plusmn;10% (옵션)</td>\n</tr>\n<tr>\n<td><strong>소비 전력</strong></td>\n<td>3 ~ 17 W (센서 사이즈에 따라 상이)</td>\n</tr>\n<tr>\n<td><strong>보호등급</strong></td>\n<td>IP67, 방폭 Ex d ia [ia] q IIC T6</td>\n</tr>\n<tr>\n<td><strong>사용 온도 범위</strong></td>\n<td>-40 ~ +70 ℃</td>\n</tr>\n<tr>\n<td><strong>하우징 재질</strong></td>\n<td>Aluminum Alloy</td>\n</tr>\n<tr>\n<td><strong>무게</strong></td>\n<td>약 4.5 kg</td>\n</tr>\n<tr>\n<td><strong>설치 방식</strong></td>\n<td>Compact 또는 Remote (2&quot; 파이프 브라켓 또는 벽부형)</td>\n</tr>\n<tr>\n<td><strong>케이블 엔트리</strong></td>\n<td>기본 M20 / 옵션 1/2&quot; NPTF</td>\n</tr>\n<tr>\n<td><strong>저장 방식</strong></td>\n<td>EEPROM (10년 이상 데이터 보존)</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 11
+  },
+  {
+   "categorySlug": "magnetic",
+   "slug": "amc2200",
+   "name": "AMC2200 Series",
+   "listName": "AMC2200 Series",
+   "subtitle": "ALIA · 전자유량계 컨버터 AMC2200 Series\n\nALIA의 ALIAMAG AMC2200 시리즈 전자유량계 변환기는 마이크로프로세서 기반의 지능형 트랜스미터로, Alia AMF 시리즈 센서와 호환됩니다.\nAMC2200는 유량, 적산 유량, 진단, 프로그래밍 및 문제 해결을 포함한 다양한 표시 기능을 제공합니다.\n또한 블루투스, HART 및 MODBUS 통신 기능을 갖추고 있습니다.",
+   "thumbnail": "/images/product/mnc/amc2200_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/amc2200_main.png\" alt=\"AMC2200 Series\"/> <img src=\"/images/product/mnc/amc2200_main2.png\" alt=\"AMC2200 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[전자 유량계 컨버터] ALIAMAG AMC2200 Series Converter</strong><br />\nElectromagnetic Flowmeter Converter<br />\n센서에서 받은 아날로그 신호나 전기 신호를 디지털 신호로 바꾸거나, 다른 형태로 변환해서 출력하는 장치로 전자 유량계 본체, 즉 센서에 감지되는 유속 값을 디지털 신호로 변환하는 변환기입니다.<br />\n<br />\n센서로부터 수신한 신호를 디지털화할 뿐만 아니라, 측정된 유량 데이터를 4-20mA 아날로그 신호, HART, MODBUS 등의 통신 방식으로 원격 전송할 수 있기 때문에, 이 장치는 유량 변환기, 유량 트랜스미터(Transmitter)로도 불립니다.<br />\n<br />\n즉, AMC2200 컨버터는 변환기와 트랜스미터의 기능을 동시에 수행하는 복합 장치로, 유량 측정, 데이터 출력, 통신, 진단 기능까지 통합된 스마트한 전자유량계 모듈입니다.<br />\n<img src=\"/images/product/mnc/amc2200_78921b.png\" alt=\"amc2200\"/><br />\n유체가 흐르면 평균 유속에 비례한 기전력이 자계와 직각 방향으로 발생합니다.<br />\n따라서 관의 내경이 일정한 경우에는 한쌍의 전극으로부터 검출하는 출력 전압은 유량에 비례 합니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>3줄 OLED 디스플레이 유량/적산계</li>\n<li>측정값의 정확도 +/- 0.35%</li>\n<li>양방향 유량 측정, 전류 및 펄스 출력</li>\n<li>대형 디지털 디스플레이</li>\n<li>블루투스/MODBUS/HART 통신</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>음용수 처리</li>\n<li>상수도망 모니터링 및 누수감지</li>\n<li>폐수처리&nbsp;</li>\n<li>일반 용수 모니터링</li>\n<li>화학 산업</li>\n<li>산업 용수</li>\n<li>해수</li>\n<li>식품</li>\n<li>음료</li>\n<li>우유</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<thead>\n<tr>\n<th colspan=\"2\">ALIA ALIMAG 전자유량계 컨버터 AMC2200 Series</th>\n</tr>\n<tr>\n<td><strong>모델명</strong></td>\n<td>AMC2200 Series</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>제품명</strong></td>\n<td>Electromagnetic Flowmeter Converter</td>\n</tr>\n<tr>\n<td><strong>용도</strong></td>\n<td>ALIA AMF 시리즈 센서와 호환되는 전자유량계 변환기 (Converter)</td>\n</tr>\n<tr>\n<td><strong>디스플레이</strong></td>\n<td>3라인 OLED (유량, 총량, 알람, 배치 제어, 메시지 등 표시)</td>\n</tr>\n<tr>\n<td><strong>정확도</strong></td>\n<td>&plusmn;0.35% of reading (유속 &ge; 0.5 m/s)&plusmn;0.00175 m/s (유속 &lt; 0.5 m/s)</td>\n</tr>\n<tr>\n<td><strong>재현성</strong></td>\n<td>&plusmn;0.07% of reading</td>\n</tr>\n<tr>\n<td><strong>측정 유속 범위</strong></td>\n<td>최소 0-0.15m/s, 최대 0 ~ 15 m/s</td>\n</tr>\n<tr>\n<td><strong>전원 공급</strong></td>\n<td>90~260 VAC 50/60 Hz 또는 24 VDC &plusmn;10%</td>\n</tr>\n<tr>\n<td><strong>출력</strong></td>\n<td>- 전류: 4~20 mA (Isolated), 최대 부하 600 &Omega;<br />\n- 펄스: Open Collector, 3~30VDC, 50mA</td>\n</tr>\n<tr>\n<td><strong>펄스 방식</strong></td>\n<td>- Scaled Pulse (mL/pulse 등)<br />\n- Frequency: 0~5000 Hz, Pulse Width: 50% BW</td>\n</tr>\n<tr>\n<td><strong>통신 기능</strong></td>\n<td>Bluetooth (Android), RS485 (MODBUS) Std<br />\nHART (Option)</td>\n</tr>\n<tr>\n<td><strong>데이터 저장</strong></td>\n<td>EEPROM (설정 및 총량값 10년 이상 저장)</td>\n</tr>\n<tr>\n<td><strong>알람 출력</strong></td>\n<td>High / Low 알람 (Open Collector)</td>\n</tr>\n<tr>\n<td><strong>자체 진단 기능</strong></td>\n<td>내부 이상, Overflow, Empty Pipe 등 경고 메시지 표시</td>\n</tr>\n<tr>\n<td><strong>절연 보호 기능</strong></td>\n<td>번개 보호 모듈 내장 (AC 및 RS485 사용 시), 서지 테스트 전압: 4kV</td>\n</tr>\n<tr>\n<td><strong>재질</strong></td>\n<td>알루미늄 합금 (Aluminum Alloy)</td>\n</tr>\n<tr>\n<td><strong>보호등급</strong></td>\n<td>IP65</td>\n</tr>\n<tr>\n<td><strong>사용 온도</strong></td>\n<td>-40 ~ +70℃</td>\n</tr>\n<tr>\n<td><strong>설치 방식</strong></td>\n<td>벽면 설치 (Wall Mounting), Compact/Remote 선택 가능</td>\n</tr>\n<tr>\n<td><strong>케이블 입구</strong></td>\n<td>M20 (기본), 1/2&quot; NPTF (옵션)</td>\n</tr>\n<tr>\n<td><strong>무게</strong></td>\n<td>약 1.4 kg</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 12
+  }
+ ],
+ "migrations": [
+  {
+   "id": "2026-10-hide-legacy-level",
+   "note": "레벨 카테고리의 자사 구형 제품(MUL-100, MRL-300)을 K-METER 제품으로 대체하면서 숨김 처리",
+   "hideProducts": [
+    {
+     "categorySlug": "level",
+     "slug": "mul-100"
+    },
+    {
+     "categorySlug": "level",
+     "slug": "mrl-300"
+    }
+   ]
+  },
+  {
+   "id": "2026-10-hide-legacy-magnetic",
+   "note": "전자기유량계 카테고리의 자사 구형 제품을 K-METER/ALIA 제품으로 대체하면서 숨김 처리",
+   "hideProducts": [
+    {
+     "categorySlug": "magnetic",
+     "slug": "mtm-200c"
+    },
+    {
+     "categorySlug": "magnetic",
+     "slug": "mtm-200r"
+    },
+    {
+     "categorySlug": "magnetic",
+     "slug": "mtm-200h"
+    },
+    {
+     "categorySlug": "magnetic",
+     "slug": "mtm-200in"
+    }
+   ]
   }
  ]
 }
