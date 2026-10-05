@@ -2276,9 +2276,209 @@
     }
    ],
    "sortOrder": 6
+  },
+  {
+   "categorySlug": "positive",
+   "slug": "kva-500",
+   "name": "KVA-500 Series",
+   "listName": "KVA-500 Series",
+   "subtitle": "K-METER · 면적식 유량계 KVA-500 Series\n\n면적식 유량계 KVA-500 Series는 저유량을 사용하는 액체 또는 가스 공정에 적합합니다.\n전체 금속 구조로 제작되었으며, 다양한 산업 분야의 유량 측정 및 공정 제어에 사용됩니다.",
+   "thumbnail": "/images/product/mnc/kva-500_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/kva-500_main.png\" alt=\"KVA-500 Series\"/> <img src=\"/images/product/mnc/kva-500_main2.png\" alt=\"KVA-500 Series\"/> <img src=\"/images/product/mnc/kva-500_main3.png\" alt=\"KVA-500 Series\"/> <img src=\"/images/product/mnc/kva-500_main4.png\" alt=\"KVA-500 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<h3><strong>[면적식 유량계] KVA-500 Series</strong></h3>\n<p>Variable Area Flowmeter (Rotameter)<br />\n금속관 로터미터는 관 내부에 있는 플로트 위치가 위아래로 이동하며 변화한 면적을 기반으로 유량을 측정하는 면적식 유량계입니다.<br />\n측정관 안에 플로트가 있어 유량이 증가하면 유체의 압력 및 속도에 의해 플로트가 위로 밀려 올라갑니다.<br />\n플로트가 상승할수록 측정관의 면적(단면적)이 넓어지며, 이동한 위치에 해당하는 면적은 유량에 비례합니다.<br />\n<img src=\"/images/product/mnc/kva-500_d73117.png\" alt=\"kva-500\"/><br />\nE = 유체 흐름의 힘<br />\nFf = 플로트의 무게<br />\nAl = 유체의 흐름으로 인한 가변&nbsp;면적</p>\n<p>*Al= Ao(교정된&nbsp;면적) - Af(플로트 면적)</p>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>전체 금속 구조로 제작되어 내구성이 뛰어남</li>\n<li>전도도, 유전율 등 매체 상태에 영향을 받지 않음</li>\n<li>밀도가 다른 두 매체의 계면 또는 레벨 측정 가능</li>\n<li>ANSI, DIN, KS 등 다양한 Connection 제공</li>\n<li>4~20mA 출력 및 HART, 경보 출력 옵션</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>하수, 오수 상하수도 수처리시설</li>\n<li>석유화학 및 기타 공업</li>\n<li>화학물질 모니터링</li>\n<li>식품 공정</li>\n<li>제지산업</li>\n<li>제약산업</li>\n<li>야금산업</li>\n<li>관개시설</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>모델 : KVA-500 Series</li>\n<li>지시부 타입 :&nbsp;포인터형 (Local-Pointer Type) / 디지털 디스플레이형 (Digital LCD Type)</li>\n<li>사이즈 : 15 ~ 150mm</li>\n<li>프로세스 연결 : Flange (DIN, ANSI, JIS), Tri-clamp, Thread (BSP, NPT)</li>\n<li>정확도&nbsp;: 2.5 (Special type 1.5% or 1.0%)</li>\n<li>유량 측정 범위 : Water (20℃) : 16 ~ 150000 l/h&nbsp;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Gas (0.1013 Mpa, &nbsp;20℃) : 0.5 ~ 4000 m3/h</li>\n<li>점도 : DN15: &le;30 mPa.s<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DN25: &le;250 mPa.s<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DN50 ~ DN150 : &le;300 mPa.s</li>\n<li>센서 소재 : SS304 SS316L, FEP, Hastelloy C, Titanium</li>\n<li>압력 : DN15 ~ DN50 1.6 MPa<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DN80 ~ DN150 1.0 MPa (Special type 1.6 MPa)<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Pressure rating of jacket 1.6MPa</li>\n<li>유체 온도 : Standard: -80℃ ~ +220℃ (Digital display with 4~20 mA)<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;High temperature: 300℃ (Mechanical with Indicator)<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FEP liner type 90℃</li>\n<li>주변온도 : -20℃ ～ +100℃ (remote type without LCD display &le;85℃ / remote type with LCD display &le;70℃)</li>\n<li>전원사양 :&nbsp; Standard: 24 VDC&plusmn;20%<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Customized: 220 VAC (85~265 VAC)<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Battery powered: 3.7@4.4~5.2 AH Lithium Battery, 12～36 months</li>\n<li>출력&nbsp;: Standard : Two-wire 4~20 mA (HART optional), Three-wire 0~10 mA, Pulse</li>\n<li>통신 :&nbsp;RS-485(Modbus RTU), HART</li>\n<li>케이블 길이 : 10m STD</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><u><a href=\"/pdf/mnc/kva-500.pdf\" target=\"_blank\" rel=\"noopener\">카다로그</a></u></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 2
+  },
+  {
+   "categorySlug": "valve",
+   "slug": "pm-s-actuator",
+   "name": "PM-S Actuator",
+   "listName": "PM-S Actuator",
+   "subtitle": "PM-S ACTUATOR\n\nPM-S 시리즈 액추에이터는 양방향 공기 구동(Double Acting) 또는 한쪽 방향 스프링 리턴(Single Acting) 방식으로 작동됩니다.\n견고한 설계와 구조, 경량화된 본체, 그리고 토크에 비례한 컴팩트한 디자인, 핸들 구성(옵션)으로 더욱 편리한 제어가 가능합니다.",
+   "thumbnail": "/images/product/mnc/pm-s-actuator_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/pm-s-actuator_main.png\" alt=\"PM-S Actuator\"/> <img src=\"/images/product/mnc/pm-s-actuator_main2.png\" alt=\"PM-S Actuator\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[밸브 액츄에이터 Valve Actuator]</strong> PM-S Series<br />\n1. 싱글 액팅(Single Acting)&nbsp;: 스프링 설계로 공압 1회 넣어 2회 움직임(상단 이미지)<br />\n2.&nbsp;더블 액팅(Double Acting) : 두 방향 모두 공압 전달(하단 이미지)<br />\n<img src=\"/images/product/mnc/pm-s-actuator_60bb4a.png\" alt=\"pm-s-actuator\"/><br />\n<strong>더블 액팅</strong>은 두 방향 모두에서 동력으로 작동하는 방식이고, <strong>싱글 액팅</strong>은 한 방향만 동력으로 작동하고 반대 방향은 스프링 또는 다른 힘으로 복귀하는 방식입니다.<br />\n더블 액팅은 더 정밀한 제어와 빠른 응답이 필요한 경우에 사용되고, 싱글 액팅은 전원 손실 시 밸브를 특정 위치로 안전하게 복귀시켜야 하는 애플리케이션에 적합합니다."
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>버터플라이 밸브, 볼 밸브, 플러그 밸브, 세그먼트 볼 밸브 등 제어 및 온&middot;오프 밸브 구동용으로 사용</li>\n<li>스카치 요크 (Scotch Yoke) 이중 실린더 &amp; 이중 피스톤 구조</li>\n<li>저마찰 소재는 알루미늄 사용 (빠른 응답성 확보)</li>\n<li>편리한 유지보수. 스프링 리턴형과 복동형 실린더 간 현장 교체 용이</li>\n<li>ISO 표준 적용</li>\n<li>NAMUR 표준 / VDI / VDE 3845 적용</li>\n<li>실린더 내부 표면 마감 처리 (마찰 최소화, 액추에이터 수명 증가)</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>화학 플랜트</li>\n<li>반도체 및 디스플레이 공정</li>\n<li>제약&middot;바이오 설비</li>\n<li>수처리 산업</li>\n<li>식품/음료 생산 라인</li>\n<li>일반 산업용 배관 시스템</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<ul>\n<li>주요 재질: 알루미늄(실린더, 커버)</li>\n<li>사용 온도 범위 :&nbsp;-20&deg;C ~ +80&deg;C</li>\n<li>최대 압력 :&nbsp;10 barG</li>\n<li>액추에이터 마운팅 패드&nbsp;ISO 5211 규격에 따라 제공</li>\n<li>구동축 키(Drive Shaft Key) : ISO 5211 / DIN 3337 규격 준수</li>\n<li>솔레노이드 밸브, 리미트 스위치 박스, 포지셔너를 직접 장착할 수 있는 NAMUR 표준 인터페이스 제공</li>\n</ul>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><a href=\"/pdf/mnc/pm-s-actuator.pdf\" target=\"_blank\" rel=\"noopener\"><u><strong>PNEU-MAX PM-S Valve Actuator 카탈로그&nbsp;다운로드</strong></u></a></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 4
+  },
+  {
+   "categorySlug": "valve",
+   "slug": "control-valve",
+   "name": "Control Valve",
+   "listName": "Control Valve",
+   "subtitle": "CONTROL VALVE\n\n[Control Valve] 압축공기를 이용하여 유량을 제어하는 공압 자동 컨트롤 밸브\n스마트 포지셔너 구성으로 밸브 개폐와 유량 제어",
+   "thumbnail": "/images/product/mnc/control-valve_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/control-valve_main.png\" alt=\"Control Valve\"/> <img src=\"/images/product/mnc/control-valve_main2.png\" alt=\"Control Valve\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "공압 자동 밸브 Pneumatic Automatic Valve\n<ul>\n<li>압축 공기의 압력을 이용해 배관을 쉽게 열고 닫아 유량 또는 유류의 흐름을 제어</li>\n<li>수동으로 번거롭게 작업하던 것을 자동으로 개폐하도록 설계</li>\n</ul>"
+    },
+    {
+     "title": "특징",
+     "html": "공압 자동 밸브는 공기의 압력(Air Pressure)을 이용한 공압식으로 자동 제어를 하는 밸브입니다.<br />\n밸브 개폐는 물론, 액체 또는 기체의 유량을 0~100%까지 조절 가능합니다.\n<ul>\n<li>높은 내구성</li>\n<li>액체, 기체, 스팀 등 다양한 유체 적용</li>\n<li>사용 유체, 유량, 온도의 범위가 넓음</li>\n<li>적용 산업군 별 다양한 밸브 액세서리 구성 가능<img src=\"/images/product/mnc/control-valve_4dbca0.png\" alt=\"control-valve\"/></li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>유틸리티</li>\n<li>식음료</li>\n<li>화학</li>\n<li>상수도</li>\n<li>액체 및 기체를 사용하는 모든 산업군</li>\n</ul>"
+    }
+   ],
+   "sortOrder": 5
+  },
+  {
+   "categorySlug": "valve",
+   "slug": "on-off-valve",
+   "name": "On/Off Valve",
+   "listName": "On/Off Valve",
+   "subtitle": "ON/OFF VALVE\n\n[On-Off Valve] 압축공기를 이용하여 유량을 제어하는 공압 자동 온오프 밸브\n리미트 스위치 박스 구성으로 밸브 자동 개폐",
+   "thumbnail": "/images/product/mnc/on-off-valve_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/on-off-valve_main.png\" alt=\"On/Off Valve\"/> <img src=\"/images/product/mnc/on-off-valve_main2.png\" alt=\"On/Off Valve\"/> <img src=\"/images/product/mnc/on-off-valve_main3.png\" alt=\"On/Off Valve\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "공압 자동 밸브 Pneumatic Automatic Valve \n<ul>\n<li>압축 공기의 압력을 이용해 배관을 쉽게 열고 닫아 유량 또는 유류의 흐름을 제어</li>\n<li>수동으로 번거롭게 작업하던 것을 자동으로 개폐하도록 설계</li>\n</ul>\n<ul>\n</ul>"
+    },
+    {
+     "title": "특징",
+     "html": "<p>공압 자동 밸브는 공기의 압력(Air Pressure)을 이용한 공압식으로 자동 제어를 하는 밸브입니다.</p>\n<div>공압자동밸브는 공압 밸브(뉴매틱 밸브 Pneumatic valve), 자동온오프밸브, 온오프밸브(On-Off Valve)로도 불립니다.\n<ul>\n<li>높은 내구성</li>\n<li>액체, 기체, 스팀 등 다양한 유체 적용</li>\n<li>사용 유체, 유량, 온도의 범위가 넓음</li>\n<li>적용 산업군 별 다양한 밸브 액세서리 구성 가능</li>\n</ul>\n</div>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>유틸리티</li>\n<li>식음료</li>\n<li>화학</li>\n<li>상수도</li>\n<li>액체 및 기체를 사용하는 모든 산업군</li>\n</ul>"
+    }
+   ],
+   "sortOrder": 6
+  },
+  {
+   "categorySlug": "turbine",
+   "slug": "kt-200",
+   "name": "KT-200 Series",
+   "listName": "KT-200 Series",
+   "subtitle": "K-METER · 터빈 유량계 KT-200 Series Turbine Flowmeter\n\nKT-200 Series는 액체 유량 측정용 산업용 터빈 유량계입니다.\nDN4~DN200의 다양한 배관 사이즈와 Flange, Thread, Sanitary 연결 방식을 지원하며,\n4-20mA, Pulse 출력 및 RS485 Modbus RTU 통신이 가능합니다.\n석유·화학, 식음료, HVAC 등 다양한 산업 현장의 액체 유량 측정에 적용할 수 있습니다.",
+   "thumbnail": "/images/product/mnc/kt-200_main.png",
+   "sections": [
+    {
+     "title": "제품 이미지",
+     "html": "<img src=\"/images/product/mnc/kt-200_main.png\" alt=\"KT-200 Series\"/> <img src=\"/images/product/mnc/kt-200_main2.png\" alt=\"KT-200 Series\"/> <img src=\"/images/product/mnc/kt-200_main3.png\" alt=\"KT-200 Series\"/> <img src=\"/images/product/mnc/kt-200_main4.png\" alt=\"KT-200 Series\"/> "
+    },
+    {
+     "title": "측정원리",
+     "html": "<strong>[액체용 터빈 유량계] K-METER KT-200 Series 측정 원리</strong><br />\nTurbine Flowmeter<br />\n<br />\n터빈 유량계는 유체의 흐름에 의해 회전하는 로터(Rotor)의 회전 속도를 이용하여 유량을 측정하는 방식​입니다.<br />\n유체가 유량계 내부를 통과하면 내부에 설치된 터빈 로터가 유체의 흐름에 비례하여 회전합니다. 로터의 회전 속도를 센서가 주파수를 측정합니다. 측정 된 주파수는 유량에 리니어성을 가집니다.<img src=\"/images/product/mnc/kt-200_7ba2ba.png\" alt=\"kt-200\"/><br />\n일반적으로 유체의 유속이 증가하면 로터의 회전 속도도 증가하고, 유속이 감소하면 로터의 회전 속도도 감소​합니다. 이렇게 감지된 회전 신호를 유량으로 환산하여 순간 유량 및 누적 유량을 표시하거나 외부 제어 시스템으로 전송할 수 있습니다.<br />\n<br />\n<strong>유체 흐름 &rarr; 터빈 로터 회전 &rarr; 회전 신호 감지 &rarr; 신호 변환 &rarr; 유량 계산 및 출력</strong>"
+    },
+    {
+     "title": "특징",
+     "html": "<ul>\n<li>높은&nbsp;정확도&nbsp;재현성</li>\n<li>심플한 디자인과 간단한 구조</li>\n<li>센서 소재 SS304 또는 SS316L</li>\n<li>DC24V or 배터리 타입 선택</li>\n<li>넓은&nbsp;압력과 온도 범위</li>\n<li>이물질이 있는 유체에 사용 불가</li>\n<li>4~200mm 까지 다양한 크기의 파이프</li>\n</ul>"
+    },
+    {
+     "title": "적용",
+     "html": "<ul>\n<li>화학 및 기타 공정 산업</li>\n<li>철 및 금속 가공 산업</li>\n<li>종이 및 펄프 산업</li>\n<li>유류 정제 관련 산업</li>\n<li>도시가스</li>\n<li>야금산업</li>\n<li>HVAC 시스템</li>\n</ul>"
+    },
+    {
+     "title": "공통사양",
+     "html": "<table class=\"rtable\">\n<tbody>\n<tr>\n<th colspan=\"2\"><strong>K-METER 터빈 유량계 KT-200 Series </strong></th>\n</tr>\n<tr>\n<td>제품명</td>\n<td>KT-200 Series</td>\n</tr>\n<tr>\n<td>제품 종류</td>\n<td>터빈 유량계 (Turbine Flowmeter)</td>\n</tr>\n<tr>\n<td>측정 유체</td>\n<td>액체</td>\n</tr>\n<tr>\n<td>타입</td>\n<td>Flange / Sanitary / Thread</td>\n</tr>\n<tr>\n<td>프로세스 연결</td>\n<td>ANSI / DIN / KS</td>\n</tr>\n<tr>\n<td>정확도</td>\n<td>&plusmn;0.5% of span (Option &plusmn;0.2% of span)</td>\n</tr>\n<tr>\n<td>측정비 (Turn Down Ratio)</td>\n<td>최소 10:1</td>\n</tr>\n<tr>\n<td>유체 온도</td>\n<td>-20 ~ 80&deg;C / -20 ~ 120&deg;C / -20 ~ 150&deg;C</td>\n</tr>\n<tr>\n<td>주변 온도</td>\n<td>-20 ~ 55&deg;C</td>\n</tr>\n<tr>\n<td>보관 온도</td>\n<td>-20 ~ 70&deg;C</td>\n</tr>\n<tr>\n<td>최대 압력</td>\n<td>최대 25 MPa</td>\n</tr>\n<tr>\n<td>센서 하우징</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>플랜지</td>\n<td>SS304 / SS316</td>\n</tr>\n<tr>\n<td>로터</td>\n<td>Standard: 2Cr13 / Option: CD4MCu</td>\n</tr>\n<tr>\n<td>전원</td>\n<td>24V DC / 3.6V Lithium Battery</td>\n</tr>\n<tr>\n<td>출력</td>\n<td>4-20mA DC / Pulse</td>\n</tr>\n<tr>\n<td>통신</td>\n<td>RS485 Modbus RTU</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "title": "Document File",
+     "html": "<ul>\n<li><a href=\"/pdf/mnc/kt-200.pdf\" target=\"_blank\" rel=\"noopener\"><strong><u>액체용 터빈 유량계 KM-200&nbsp;카탈로그&nbsp;다운로드</u></strong></a></li>\n</ul>"
+    }
+   ],
+   "sortOrder": 2
   }
  ],
  "migrations": [
+  {
+   "id": "2026-10-hide-legacy-positive",
+   "note": "PD유량계 카테고리의 자사 구형 제품(MTP-300)을 이관 제품(K-METER/ALIA)으로 대체하면서 숨김 처리",
+   "hideProducts": [
+    {
+     "categorySlug": "positive",
+     "slug": "mtp-300"
+    }
+   ],
+   "resyncProducts": []
+  },
+  {
+   "id": "2026-10-hide-legacy-valve",
+   "note": "밸브 카테고리의 자사 구형 제품(V-BALL, V-DIAPHRAGM, V-BUTTERFLY)을 이관 제품(K-METER/ALIA)으로 대체하면서 숨김 처리",
+   "hideProducts": [
+    {
+     "categorySlug": "valve",
+     "slug": "v-ball"
+    },
+    {
+     "categorySlug": "valve",
+     "slug": "v-diaphragm"
+    },
+    {
+     "categorySlug": "valve",
+     "slug": "v-butterfly"
+    }
+   ],
+   "resyncProducts": []
+  },
+  {
+   "id": "2026-10-hide-legacy-turbine",
+   "note": "터빈유량계 카테고리의 자사 구형 제품(MTT-200)을 이관 제품(K-METER/ALIA)으로 대체하면서 숨김 처리",
+   "hideProducts": [
+    {
+     "categorySlug": "turbine",
+     "slug": "mtt-200"
+    }
+   ],
+   "resyncProducts": []
+  },
   {
    "id": "2026-10-hide-legacy-level",
    "note": "레벨전송기 카테고리의 자사 구형 제품(MUL-100, MRL-300)을 이관 제품(K-METER/ALIA)으로 대체하면서 숨김 처리",
