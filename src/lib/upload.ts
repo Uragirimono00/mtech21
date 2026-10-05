@@ -32,6 +32,13 @@ export async function saveUpload(file: File, folder = "uploads"): Promise<string
     return blob.url;
   }
 
+  // Vercel 등 서버리스 환경은 파일 시스템이 읽기 전용이므로 Blob 저장소가 반드시 연결되어야 합니다.
+  if (process.env.VERCEL) {
+    throw new Error(
+      "파일 저장소가 연결되지 않았습니다. Vercel 프로젝트 → Storage 에서 Blob 을 생성해 연결(BLOB_READ_WRITE_TOKEN)한 뒤 다시 배포해주세요.",
+    );
+  }
+
   const stamp = Date.now().toString(36);
   const dir = path.join(process.cwd(), "public", "uploads", folder);
   await mkdir(dir, { recursive: true });
