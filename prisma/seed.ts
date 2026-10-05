@@ -99,7 +99,8 @@ async function main() {
     }
   }
 
-  // 1회성 데이터 마이그레이션 (seed-data.json의 migrations): 적용된 id는 Setting "seedMigrations"에 기록되어 다시 실행되지 않음
+  // 1회성 데이터 마이그레이션 (seed-data.json의 migrations: hideProducts = 숨김, resyncProducts = 시드 내용으로 섹션 재동기화)
+  //  적용된 id는 Setting "seedMigrations"에 기록되어 다시 실행되지 않음
   //  → 이후 관리자가 상품을 다시 공개로 바꿔도 다음 배포에서 되돌리지 않습니다.
   const MIG_KEY = "seedMigrations";
   const migRow = await prisma.setting.findUnique({ where: { key: MIG_KEY } });
@@ -111,6 +112,17 @@ async function main() {
       if (!categoryId) continue;
       const r = await prisma.product.updateMany({ where: { categoryId, slug: h.slug }, data: { visible: false } });
       if (r.count) console.log(`숨김 처리: ${h.categorySlug}/${h.slug}`);
+    }
+    for (const key of m.resyncProducts) {
+      const [categorySlug, slug] = key.split("/");
+      const src = data.products.find((p) => p.categorySlug === categorySlug && p.slug === slug);
+      const categoryId = catIds.get(categorySlug);
+      if (!src || !categoryId) continue;
+      const r = await prisma.product.updateMany({
+        where: { categoryId, slug },
+        data: { subtitle: src.subtitle, thumbnail: src.thumbnail, sections: src.sections },
+      });
+      if (r.count) console.log(`섹션 재동기화: ${key}`);
     }
     applied.add(m.id);
     console.log(`마이그레이션 적용: ${m.id}`);
