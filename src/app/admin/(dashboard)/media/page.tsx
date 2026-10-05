@@ -1,6 +1,7 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 import { FileField } from "@/components/admin/ui";
+import { hasBlobStorage } from "@/lib/upload";
 
 async function listDir(rel: string) {
   try {
@@ -19,7 +20,7 @@ export default async function MediaPage() {
       <div className="card mb-6 max-w-2xl">
         <p className="help mb-3">
           이미지나 PDF를 업로드하면 주소(URL)가 생성됩니다. 생성된 주소를 복사해 제품 섹션 HTML 등에 사용하세요.
-          {process.env.BLOB_READ_WRITE_TOKEN ? " (저장소: Vercel Blob)" : " (저장소: 로컬 public/uploads — 배포 시 Vercel Blob 토큰을 설정하세요)"}
+          {hasBlobStorage() ? " (저장소: Vercel Blob)" : " (저장소: 로컬 public/uploads — 배포 시 Vercel Blob 을 연결하세요)"}
         </p>
         <FileField name="url" label="파일 선택 후 생성된 URL" folder="uploads" />
       </div>

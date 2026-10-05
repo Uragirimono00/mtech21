@@ -12,7 +12,7 @@
 | 스타일 | 기존 사이트 CSS 이식(`src/app/globals.css`) + Tailwind v4 유틸리티(관리자 화면) |
 | DB / ORM | PostgreSQL + Prisma 6 |
 | 인증 | 관리자 전용 세션 쿠키(JWT, `jose`) + bcrypt 비밀번호 |
-| 파일 업로드 | Vercel Blob (`BLOB_READ_WRITE_TOKEN` 있을 때) / 로컬 `public/uploads` (개발) |
+| 파일 업로드 | Vercel Blob (프로젝트에 Blob 저장소가 연결되어 `BLOB_STORE_ID` 또는 `BLOB_READ_WRITE_TOKEN` 이 있을 때) / 로컬 `public/uploads` (개발) |
 | 배포 | Vercel |
 
 ## 폴더 구조
@@ -67,7 +67,7 @@ npm run dev               # http://localhost:3000
 
 1. GitHub 에 이 저장소를 올리고 Vercel 에서 **Import** 합니다.
 2. Vercel 프로젝트 → **Storage** 에서 Postgres(Neon) 와 **Blob** 을 생성해 연결합니다.
-   - 연결하면 `DATABASE_URL`, `BLOB_READ_WRITE_TOKEN` 환경변수가 자동으로 추가됩니다.
+   - 연결하면 `DATABASE_URL`, `BLOB_STORE_ID`(구형 저장소는 `BLOB_READ_WRITE_TOKEN`) 환경변수가 자동으로 추가됩니다.
    - Supabase 등 다른 Postgres 를 쓰려면 `DATABASE_URL` 만 직접 등록하면 됩니다.
 3. **Settings → Environment Variables** 에 다음을 추가합니다.
    - `AUTH_SECRET` : 32자 이상 임의 문자열 (예: `openssl rand -base64 32`)

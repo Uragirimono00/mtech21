@@ -17,9 +17,14 @@ function safeName(name: string) {
   return `${base}${ext}`;
 }
 
+/** Vercel Blob 저장소가 연결되어 있는지 (구형: BLOB_READ_WRITE_TOKEN, 신형: BLOB_STORE_ID + OIDC 자동 인증) */
+export function hasBlobStorage() {
+  return Boolean(process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID);
+}
+
 /**
  * 파일 저장 후 공개 URL 반환.
- * - BLOB_READ_WRITE_TOKEN 이 있으면 Vercel Blob 에 업로드 (배포 환경)
+ * - Vercel Blob 이 연결되어 있으면 Blob 에 업로드 (배포 환경). 인증은 @vercel/blob 이 환경변수에서 자동으로 찾습니다.
  * - 없으면 로컬 public/uploads 에 저장 (개발 환경)
  */
 export async function saveUpload(file: File, folder = "uploads"): Promise<string> {
@@ -27,7 +32,7 @@ export async function saveUpload(file: File, folder = "uploads"): Promise<string
   if (!ALLOWED.includes(file.type)) throw new Error("이미지(jpg, png, gif, webp, svg) 또는 PDF 파일만 업로드할 수 있습니다.");
   const name = safeName(file.name);
 
-  if (process.env.BLOB_READ_WRITE_TOKEN) {
+  if (hasBlobStorage()) {
     const blob = await put(`${folder}/${name}`, file, { access: "public", addRandomSuffix: true });
     return blob.url;
   }
@@ -35,7 +40,7 @@ export async function saveUpload(file: File, folder = "uploads"): Promise<string
   // Vercel 등 서버리스 환경은 파일 시스템이 읽기 전용이므로 Blob 저장소가 반드시 연결되어야 합니다.
   if (process.env.VERCEL) {
     throw new Error(
-      "파일 저장소가 연결되지 않았습니다. Vercel 프로젝트 → Storage 에서 Blob 을 생성해 연결(BLOB_READ_WRITE_TOKEN)한 뒤 다시 배포해주세요.",
+      "파일 저장소가 연결되지 않았습니다. Vercel 프로젝트 → Storage 에서 Blob 을 생성해 프로젝트에 연결한 뒤 다시 배포해주세요.",
     );
   }
 
