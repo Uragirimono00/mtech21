@@ -12,7 +12,7 @@
 | 스타일 | 기존 사이트 CSS 이식(`src/app/globals.css`) + Tailwind v4 유틸리티(관리자 화면) |
 | DB / ORM | PostgreSQL + Prisma 6 |
 | 인증 | 관리자 전용 세션 쿠키(JWT, `jose`) + bcrypt 비밀번호 |
-| 파일 업로드 | Vercel Blob (프로젝트에 Blob 저장소가 연결되어 `BLOB_STORE_ID` 또는 `BLOB_READ_WRITE_TOKEN` 이 있을 때) / 로컬 `public/uploads` (개발) |
+| 파일 업로드 | Vercel Blob (프로젝트에 Blob 저장소가 연결되어 `BLOB_STORE_ID` 또는 `BLOB_READ_WRITE_TOKEN` 이 있을 때, private 저장소에 올리고 `/files/...` 경로로 제공) / 로컬 `public/uploads` (개발) |
 | 배포 | Vercel |
 
 ## 폴더 구조
