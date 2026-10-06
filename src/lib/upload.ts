@@ -4,7 +4,8 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 export const MAX_UPLOAD_BYTES = 10 * 1024 * 1024; // 10MB
-const ALLOWED = ["image/jpeg", "image/png", "image/gif", "image/webp", "image/svg+xml", "application/pdf"];
+/** 업로드 허용 종류. /files route 에서 브라우저에 바로(inline) 열어주는 종류이기도 합니다. */
+export const ALLOWED_UPLOAD_TYPES = ["image/jpeg", "image/png", "image/gif", "image/webp", "image/svg+xml", "application/pdf"];
 
 /** 비공개(private) Blob 파일을 이 사이트를 통해 제공하는 경로 접두사 → src/app/files/[...path]/route.ts */
 export const BLOB_FILES_PREFIX = "/files";
@@ -39,7 +40,7 @@ export function blobFileUrl(pathname: string) {
  */
 export async function saveUpload(file: File, folder = "uploads"): Promise<string> {
   if (file.size > MAX_UPLOAD_BYTES) throw new Error("파일 크기는 10MB 이하여야 합니다.");
-  if (!ALLOWED.includes(file.type)) throw new Error("이미지(jpg, png, gif, webp, svg) 또는 PDF 파일만 업로드할 수 있습니다.");
+  if (!ALLOWED_UPLOAD_TYPES.includes(file.type)) throw new Error("이미지(jpg, png, gif, webp, svg) 또는 PDF 파일만 업로드할 수 있습니다.");
   const name = safeName(file.name);
 
   if (hasBlobStorage()) {
